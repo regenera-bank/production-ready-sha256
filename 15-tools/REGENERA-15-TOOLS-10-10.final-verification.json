@@ -1,0 +1,31 @@
+{
+  "artifact": "REGENERA-15-TOOLS-10-10.zip",
+  "cryptographic_signature": "PENDING",
+  "forbidden_entries": [],
+  "institutional_approval": "PENDING",
+  "make_all_exit_code": 0,
+  "payload_files_covered": 113,
+  "physical_files": 115,
+  "reproducible_builds_compared": 2,
+  "security_scan": "PASSED",
+  "security_scan_exclusions": {
+    "src/regenera_tools/secrets.py": "biblioteca contém as assinaturas das regras de detecção",
+    "tests/test_controls_cli.py": "fixture isolado valida o retorno não zero da CLI",
+    "tests/test_secrets_comments.py": "fixtures isolados exercitam cada assinatura de segredo",
+    "tools/security_scan.py": "implementação contém as assinaturas que o próprio scanner procura"
+  },
+  "source_and_extracted_trees_identical": true,
+  "status": "PASSED",
+  "tests": {
+    "passed": 134,
+    "status": "PASSED",
+    "total": 134
+  },
+  "tree_hash_sha256": "2308589211af8a24ecdd396ffe83c6a43117ca39b54e1f6be981f34e18363c33",
+  "validation": "PASSED",
+  "verified_at": "2026-06-26T00:00:00Z",
+  "zip_entries": 137,
+  "zip_integrity": "PASSED",
+  "zip_sha256": "15ca06bc9c72ca6fac5d509160544038ad1d059dae6d3b382ccae0faa0696f03",
+  "zip_size_bytes": 68120
+}

@@ -1,0 +1,49 @@
+{
+  "artifact": "REGENERA-01-DESIGN-SYSTEM-10-10.zip",
+  "sha256": "833477ca7a5b1201a6e89543faf790f7b1a9e55cfed25ea2f4dae5e34df390f5",
+  "zip_entries": 114,
+  "zip_test": "PASSED",
+  "forbidden_entries": [],
+  "manifest_files": 86,
+  "test_count": 33,
+  "test_passed": 33,
+  "test_failed": 0,
+  "platforms": [
+    "web",
+    "android",
+    "ios",
+    "windows"
+  ],
+  "commands": [
+    {
+      "name": "clean",
+      "exit_code": 0
+    },
+    {
+      "name": "validate",
+      "exit_code": 0
+    },
+    {
+      "name": "build",
+      "exit_code": 0
+    },
+    {
+      "name": "test",
+      "exit_code": 0
+    },
+    {
+      "name": "security",
+      "exit_code": 0
+    },
+    {
+      "name": "evidence",
+      "exit_code": 0
+    },
+    {
+      "name": "verify-release",
+      "exit_code": 0
+    }
+  ],
+  "institutional_approval": "PENDING_CRYPTOGRAPHIC_SIGNATURE",
+  "technical_verification": "PASSED"
+}

@@ -1,0 +1,4 @@
+pub   rsa4096 2026-06-26 [SC]
+      7308 34AB 4126 C341 A70F  6B96 9826 A3AC 0BF6 A90C
+uid         [   plena  ] Don Paulo Ricardo de Leao <finance@regenerabank.world>
+

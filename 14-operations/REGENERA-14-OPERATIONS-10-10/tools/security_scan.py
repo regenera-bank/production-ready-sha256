@@ -17,6 +17,7 @@ for p in ROOT.rglob("*"):
     text=p.read_text(encoding="utf-8",errors="ignore")
     for name,pattern in patterns.items():
         if pattern.search(text): findings.append({"file":rel,"rule":name})
+# Termos incompatíveis com a release são montados sem gravar a forma completa no scanner.
 terms=["".join(x) for x in [("A","s an ","AI"),("M","VP"),("place","holder"),("Generated ","by")]]
 for p in ROOT.rglob("*"):
     if not p.is_file() or p.suffix.lower() not in scan_ext: continue

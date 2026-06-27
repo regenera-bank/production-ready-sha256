@@ -1,0 +1,23 @@
+{
+  "artifact": "REGENERA-05-CORE-BANKING-10-10.zip",
+  "sha256": "1c660fec84adad0a943bfc5e05b816206bc62e6ef331fd0f5d6450c4eafa7d2a",
+  "zip_entries": 57,
+  "zip_size_bytes": 159626,
+  "make_all_exit_code": 0,
+  "tests": {
+    "passed": 47,
+    "failed": 0,
+    "total": 47
+  },
+  "validation": "PASS",
+  "security": "PASS",
+  "build": "PASS",
+  "verify_release": "PASS",
+  "source_and_clean_extract_identical": true,
+  "source_file_count": 57,
+  "verified_file_count": 57,
+  "system_artifacts": [],
+  "nested_archives": [],
+  "external_signature": "REQUIRED",
+  "production_activation": "BLOCKED_PENDING_EXTERNAL_EVIDENCE"
+}

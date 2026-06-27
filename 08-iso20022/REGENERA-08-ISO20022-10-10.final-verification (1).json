@@ -1,0 +1,15 @@
+{
+  "external_activation": "BLOCKED_UNTIL_OFFICIAL_XSD_AND_INSTITUTIONAL_APPROVAL",
+  "external_signature": "REQUIRED_NOT_PRESENT",
+  "extracted_make_all_exit_code": 0,
+  "official_xsd_included": false,
+  "package": "REGENERA-08-ISO20022-10-10.zip",
+  "security_status": "PASS",
+  "sha256": "59a1c11876784da8891e3fa2aea8b603a487f7b760b7b3393aa00b7487410eb5",
+  "tests_run": 48,
+  "tests_status": "PASS",
+  "tree_files_compared": 138,
+  "tree_identical_after_clean_extraction": true,
+  "validation_status": "PASS",
+  "zip_entries": 173
+}

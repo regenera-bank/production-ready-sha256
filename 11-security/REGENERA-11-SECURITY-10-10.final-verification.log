@@ -1,0 +1,117 @@
+python3 tools/clean.py
+CLEAN: PASS
+python3 tools/validate.py
+VALIDATION: PASS (54 files)
+PYTHONPATH=src python3 tools/run_tests.py
+test_approval_for_other_digest_blocks (test_security_controls.AppSecTests.test_approval_for_other_digest_blocks) ... ok
+test_critical_finding_blocks (test_security_controls.AppSecTests.test_critical_finding_blocks) ... ok
+test_expired_waiver_is_rejected (test_security_controls.AppSecTests.test_expired_waiver_is_rejected) ... ok
+test_fixed_vulnerability_is_not_overdue (test_security_controls.AppSecTests.test_fixed_vulnerability_is_not_overdue) ... ok
+test_invalid_digest_blocks (test_security_controls.AppSecTests.test_invalid_digest_blocks) ... ok
+test_invalid_severity_is_rejected (test_security_controls.AppSecTests.test_invalid_severity_is_rejected) ... ok
+test_missing_approval_blocks (test_security_controls.AppSecTests.test_missing_approval_blocks) ... ok
+test_missing_scans_blocks (test_security_controls.AppSecTests.test_missing_scans_blocks) ... ok
+test_negative_finding_count_is_rejected (test_security_controls.AppSecTests.test_negative_finding_count_is_rejected) ... ok
+test_open_critical_becomes_overdue (test_security_controls.AppSecTests.test_open_critical_becomes_overdue) ... ok
+test_overdue_vulnerability_blocks (test_security_controls.AppSecTests.test_overdue_vulnerability_blocks) ... ok
+test_scan_must_pass (test_security_controls.AppSecTests.test_scan_must_pass) ... ok
+test_self_approval_blocks (test_security_controls.AppSecTests.test_self_approval_blocks) ... ok
+test_self_approved_waiver_is_rejected (test_security_controls.AppSecTests.test_self_approved_waiver_is_rejected) ... ok
+test_signed_external_state_is_explicit (test_security_controls.AppSecTests.test_signed_external_state_is_explicit) ... ok
+test_technical_gate_passes (test_security_controls.AppSecTests.test_technical_gate_passes) ... ok
+test_unsigned_commit_blocks (test_security_controls.AppSecTests.test_unsigned_commit_blocks) ... ok
+test_unsigned_external_state_is_explicit (test_security_controls.AppSecTests.test_unsigned_external_state_is_explicit) ... ok
+test_valid_waiver (test_security_controls.AppSecTests.test_valid_waiver) ... ok
+test_valid_waiver_allows_overdue_vulnerability (test_security_controls.AppSecTests.test_valid_waiver_allows_overdue_vulnerability) ... ok
+test_vulnerability_due_date (test_security_controls.AppSecTests.test_vulnerability_due_date) ... ok
+test_waiver_requires_compensation (test_security_controls.AppSecTests.test_waiver_requires_compensation) ... ok
+test_append_creates_sequence (test_security_controls.AuditChainTests.test_append_creates_sequence) ... ok
+test_empty_chain_is_valid (test_security_controls.AuditChainTests.test_empty_chain_is_valid) ... ok
+test_hashes_are_chained (test_security_controls.AuditChainTests.test_hashes_are_chained) ... ok
+test_missing_subject_is_rejected (test_security_controls.AuditChainTests.test_missing_subject_is_rejected) ... ok
+test_naive_datetime_is_rejected (test_security_controls.AuditChainTests.test_naive_datetime_is_rejected) ... ok
+test_payload_change_changes_digest (test_security_controls.AuditChainTests.test_payload_change_changes_digest) ... ok
+test_payload_order_is_canonical (test_security_controls.AuditChainTests.test_payload_order_is_canonical) ... ok
+test_tampering_is_detected (test_security_controls.AuditChainTests.test_tampering_is_detected) ... ok
+test_alert_is_deduplicated (test_security_controls.DetectionTests.test_alert_is_deduplicated) ... ok
+test_critical_rule_alerts_on_first_event (test_security_controls.DetectionTests.test_critical_rule_alerts_on_first_event) ... ok
+test_degraded_telemetry_still_processes (test_security_controls.DetectionTests.test_degraded_telemetry_still_processes) ... ok
+test_different_principal_has_different_alert (test_security_controls.DetectionTests.test_different_principal_has_different_alert) ... ok
+test_empty_event_id_is_rejected (test_security_controls.DetectionTests.test_empty_event_id_is_rejected) ... ok
+test_event_id_collision_is_rejected (test_security_controls.DetectionTests.test_event_id_collision_is_rejected) ... ok
+test_first_event_below_threshold_does_not_alert (test_security_controls.DetectionTests.test_first_event_below_threshold_does_not_alert) ... ok
+test_future_event_is_rejected (test_security_controls.DetectionTests.test_future_event_is_rejected) ... ok
+test_identical_event_replay_is_idempotent (test_security_controls.DetectionTests.test_identical_event_replay_is_idempotent) ... ok
+test_invalid_telemetry_state_is_rejected (test_security_controls.DetectionTests.test_invalid_telemetry_state_is_rejected) ... ok
+test_naive_event_time_is_rejected (test_security_controls.DetectionTests.test_naive_event_time_is_rejected) ... ok
+test_old_event_outside_window_does_not_count (test_security_controls.DetectionTests.test_old_event_outside_window_does_not_count) ... ok
+test_sensitive_payload_field_is_removed (test_security_controls.DetectionTests.test_sensitive_payload_field_is_removed) ... ok
+test_telemetry_unavailable_becomes_unknown (test_security_controls.DetectionTests.test_telemetry_unavailable_becomes_unknown) ... ok
+test_threshold_raises_alert (test_security_controls.DetectionTests.test_threshold_raises_alert) ... ok
+test_control_without_evidence_is_ineffective (test_security_controls.GovernanceTests.test_control_without_evidence_is_ineffective) ... ok
+test_control_without_owner_is_ineffective (test_security_controls.GovernanceTests.test_control_without_owner_is_ineffective) ... ok
+test_effective_control (test_security_controls.GovernanceTests.test_effective_control) ... ok
+test_expired_exception_is_rejected (test_security_controls.GovernanceTests.test_expired_exception_is_rejected) ... ok
+test_expired_review_is_ineffective (test_security_controls.GovernanceTests.test_expired_review_is_ineffective) ... ok
+test_failed_result_is_ineffective (test_security_controls.GovernanceTests.test_failed_result_is_ineffective) ... ok
+test_incomplete_exception_is_rejected (test_security_controls.GovernanceTests.test_incomplete_exception_is_rejected) ... ok
+test_self_approved_exception_is_rejected (test_security_controls.GovernanceTests.test_self_approved_exception_is_rejected) ... ok
+test_valid_exception (test_security_controls.GovernanceTests.test_valid_exception) ... ok
+test_allowed_role (test_security_controls.IdentityTests.test_allowed_role) ... ok
+test_duration_above_limit_is_denied (test_security_controls.IdentityTests.test_duration_above_limit_is_denied) ... ok
+test_future_session_is_denied (test_security_controls.IdentityTests.test_future_session_is_denied) ... ok
+test_inactive_identity_is_denied (test_security_controls.IdentityTests.test_inactive_identity_is_denied) ... ok
+test_insufficient_role_is_denied (test_security_controls.IdentityTests.test_insufficient_role_is_denied) ... ok
+test_jit_grant_expires (test_security_controls.IdentityTests.test_jit_grant_expires) ... ok
+test_jit_grant_is_issued (test_security_controls.IdentityTests.test_jit_grant_is_issued) ... ok
+test_mfa_required_for_privileged_action (test_security_controls.IdentityTests.test_mfa_required_for_privileged_action) ... ok
+test_missing_ticket_is_denied (test_security_controls.IdentityTests.test_missing_ticket_is_denied) ... ok
+test_self_approval_is_denied (test_security_controls.IdentityTests.test_self_approval_is_denied) ... ok
+test_stale_session_is_denied (test_security_controls.IdentityTests.test_stale_session_is_denied) ... ok
+test_strong_session_required (test_security_controls.IdentityTests.test_strong_session_required) ... ok
+test_unknown_action_is_denied (test_security_controls.IdentityTests.test_unknown_action_is_denied) ... ok
+test_zero_duration_is_denied (test_security_controls.IdentityTests.test_zero_duration_is_denied) ... ok
+test_closed_incident_cannot_reopen (test_security_controls.IncidentTests.test_closed_incident_cannot_reopen) ... ok
+test_closure_requires_evidence (test_security_controls.IncidentTests.test_closure_requires_evidence) ... ok
+test_containment_is_required (test_security_controls.IncidentTests.test_containment_is_required) ... ok
+test_declaration_state (test_security_controls.IncidentTests.test_declaration_state) ... ok
+test_duplicate_evidence_is_idempotent (test_security_controls.IncidentTests.test_duplicate_evidence_is_idempotent) ... ok
+test_empty_evidence_is_rejected (test_security_controls.IncidentTests.test_empty_evidence_is_rejected) ... ok
+test_independent_closure_passes (test_security_controls.IncidentTests.test_independent_closure_passes) ... ok
+test_invalid_jump_is_rejected (test_security_controls.IncidentTests.test_invalid_jump_is_rejected) ... ok
+test_invalid_severity_is_rejected (test_security_controls.IncidentTests.test_invalid_severity_is_rejected) ... ok
+test_missing_owner_is_rejected (test_security_controls.IncidentTests.test_missing_owner_is_rejected) ... ok
+test_recovery_validation_is_required (test_security_controls.IncidentTests.test_recovery_validation_is_required) ... ok
+test_root_cause_is_required (test_security_controls.IncidentTests.test_root_cause_is_required) ... ok
+test_self_closure_is_rejected (test_security_controls.IncidentTests.test_self_closure_is_rejected) ... ok
+test_expired_key_is_denied (test_security_controls.SecretAndKeyTests.test_expired_key_is_denied) ... ok
+test_expired_secret_is_denied (test_security_controls.SecretAndKeyTests.test_expired_secret_is_denied) ... ok
+test_inactive_key_is_denied (test_security_controls.SecretAndKeyTests.test_inactive_key_is_denied) ... ok
+test_invalid_usage_is_denied (test_security_controls.SecretAndKeyTests.test_invalid_usage_is_denied) ... ok
+test_key_outside_hsm_or_kms_is_denied (test_security_controls.SecretAndKeyTests.test_key_outside_hsm_or_kms_is_denied) ... ok
+test_required_usage_is_enforced (test_security_controls.SecretAndKeyTests.test_required_usage_is_enforced) ... ok
+test_rotation_cannot_precede_creation (test_security_controls.SecretAndKeyTests.test_rotation_cannot_precede_creation) ... ok
+test_rotation_evidence_required (test_security_controls.SecretAndKeyTests.test_rotation_evidence_required) ... ok
+test_rotation_window_must_be_positive (test_security_controls.SecretAndKeyTests.test_rotation_window_must_be_positive) ... ok
+test_secret_requires_approved_vault (test_security_controls.SecretAndKeyTests.test_secret_requires_approved_vault) ... ok
+test_secret_requires_owner (test_security_controls.SecretAndKeyTests.test_secret_requires_owner) ... ok
+test_stale_rotation_is_denied (test_security_controls.SecretAndKeyTests.test_stale_rotation_is_denied) ... ok
+test_valid_key_metadata (test_security_controls.SecretAndKeyTests.test_valid_key_metadata) ... ok
+test_valid_secret_metadata (test_security_controls.SecretAndKeyTests.test_valid_secret_metadata) ... ok
+
+----------------------------------------------------------------------
+Ran 95 tests in 0.006s
+
+OK
+TESTS: PASS (95/95)
+python3 tools/security_scan.py
+SECURITY: PASS (0 high-confidence findings)
+python3 tools/build.py
+BUILD: PASS (56 payload files)
+python3 tools/verify_release.py
+VERIFY-RELEASE: PASS (56 payload files)
+
+CLEAN-EXTRACTION-MAKE-ALL-EXIT: 0
+
+TREE-COMPARISON: PASS
+ZIP-FORBIDDEN-ENTRIES: NONE

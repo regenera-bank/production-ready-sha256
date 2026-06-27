@@ -1,0 +1,2 @@
+origin	https://github.com/regenera-bank/production-ready-sha256.git (fetch)
+origin	https://github.com/regenera-bank/production-ready-sha256.git (push)

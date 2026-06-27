@@ -1,0 +1,25 @@
+{
+  "artifact": "REGENERA-13-QUALITY-10-10.zip",
+  "clean_extraction_make_all_exit_code": 0,
+  "cryptographic_signature": "PENDING",
+  "forbidden_entries": [],
+  "independent_review": "PENDING",
+  "institutional_approval": "PENDING",
+  "payload_manifest_files": 67,
+  "release_gate_decision": "APPROVED_FOR_LOCAL_TECHNICAL_SCOPE",
+  "security_exact_exclusions": [
+    "src/regenera_quality/security.py",
+    "tests/test_security.py",
+    "tools/security_scan.py"
+  ],
+  "security_status": "PASS",
+  "sha256": "4ea96899440c9bc22278afb1fc4b6a6aea45c703598555438b4dd5414e2d06b5",
+  "test_count": 106,
+  "test_status": "PASS",
+  "tree_reproducibility": "PASS",
+  "tree_sha256": "55928ec5565e1efb1d1a871ad0b287eb9c18e5e49bb830f0efcdde5898ec0521",
+  "zip_entries": 85,
+  "zip_files": 69,
+  "zip_integrity": "PASS",
+  "zip_reproducibility": "PASS"
+}

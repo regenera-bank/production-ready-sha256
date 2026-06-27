@@ -1,0 +1,34 @@
+commit 7336481c7062266b0bba39b6d43e4bf3c4cd0127
+gpg: Assinatura feita em sáb 27 jun 12:43:57 2026 -03
+gpg:        usando a chave RSA de 730834AB4126C341A70F6B969826A3AC0BF6A90C
+gpg: Assinatura válida de "Don Paulo Ricardo de Leao <finance@regenerabank.world>" [plena]
+Author:     Regenera Bank <finance@regenerabank.world>
+AuthorDate: Sat Jun 27 12:43:57 2026 -0300
+Commit:     Regenera Bank <finance@regenerabank.world>
+CommitDate: Sat Jun 27 12:43:57 2026 -0300
+
+    evidence: establish signed SHA-256 production baseline
+    
+    Repository: https://github.com/regenera-bank/production-ready-sha256.git
+    
+    Local repository: /Volumes/REGENERA FINALIZADO/Regenera Bank/production-ready
+    
+    Source parent commit: c9f47e545d0108f322c6b9ea81dfd53815105a09
+    
+    Source tree: 8b1e4194b7e8c867756bfe1fb46df6e49fa54970
+    
+    Signed top-level folders: 17
+    
+    README signature: generated and verified
+    
+    Source ZIP: production-ready.zip
+    
+    Source ZIP SHA-256: 95fe549d02cdc08910eb8224434ad03cb4172b0e063d0bd73bb4d8184b231076
+    
+    Institutional identity: Regenera Bank <finance@regenerabank.world>
+    
+    Signing-key fingerprint: 730834AB4126C341A70F6B969826A3AC0BF6A90C
+    
+    Attested at UTC: 2026-06-27T15:43:05Z
+    
+    Purpose: integrity, authorship, provenance and independent verification.

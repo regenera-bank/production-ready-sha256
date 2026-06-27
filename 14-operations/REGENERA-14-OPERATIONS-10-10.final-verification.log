@@ -1,0 +1,44 @@
+REGENERA-14-OPERATIONS-10-10 — FINAL VERIFICATION
+Date: 2026-06-26
+Status: PASSED
+
+SOURCE INVENTORY
+- original ZIP entries: 2328
+- macOS metadata entries: 1165
+- clean source files: 784
+- empty files: 266
+- declared repositories: 14
+- shell scripts: 70
+- Dockerfiles with sleep command: 14
+
+APPROVED PACKAGE
+- physical files: 120
+- payload files covered by SHA-256: 118
+- ZIP entries: 142
+- ZIP size: 74666 bytes
+- ZIP SHA-256: 718be96475df0f4223063318e95067d7942f5efec3eebdfd061d02326043f799
+- tree SHA-256: 4ae99d1281e353044c5856ef0ed7e754f7f877cd577e83de365c2b4c609110f4
+
+EXECUTION
+- validate: PASSED
+- tests: 111/111 PASSED
+- security scan: PASSED
+- build: PASSED
+- integrity verification: PASSED
+- make all in clean extraction: exit 0
+- extracted tree equals approved tree: YES
+- deterministic second build: YES
+- zip integrity test: PASSED
+
+HYGIENE
+- .DS_Store: 0
+- __MACOSX: 0
+- __pycache__: 0
+- .pyc: 0
+- nested ZIP: 0
+- embedded private key: 0
+
+EXTERNAL STATE
+- institutional approval: PENDING
+- cryptographic signature: PENDING
+- independent external review: PENDING

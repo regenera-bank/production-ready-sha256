@@ -1,0 +1,122 @@
+python3 tools/clean.py
+python3 tools/validate.py
+VALIDATION: PASS (48 files)
+PYTHONPATH=src python3 tools/run_tests.py
+test_chain_verifies (test_platform_controls.AuditTests.test_chain_verifies) ... ok
+test_tampering_detected (test_platform_controls.AuditTests.test_tampering_detected) ... ok
+test_control_effective (test_platform_controls.PlatformControlTests.test_control_effective) ... ok
+test_control_evidence_missing (test_platform_controls.PlatformControlTests.test_control_evidence_missing) ... ok
+test_control_expired (test_platform_controls.PlatformControlTests.test_control_expired) ... ok
+test_control_owner_missing (test_platform_controls.PlatformControlTests.test_control_owner_missing) ... ok
+test_exception_self_approval_rejected (test_platform_controls.PlatformControlTests.test_exception_self_approval_rejected) ... ok
+test_exception_valid (test_platform_controls.PlatformControlTests.test_exception_valid) ... ok
+test_expired_exception_rejected (test_platform_controls.PlatformControlTests.test_expired_exception_rejected) ... ok
+test_expired_identity_rejected (test_platform_controls.PlatformControlTests.test_expired_identity_rejected) ... ok
+test_idempotency_conflict (test_platform_controls.PlatformControlTests.test_idempotency_conflict) ... ok
+test_idempotent_replay (test_platform_controls.PlatformControlTests.test_idempotent_replay) ... ok
+test_invalid_issuer_rejected (test_platform_controls.PlatformControlTests.test_invalid_issuer_rejected) ... ok
+test_kubernetes_baseline_valid (test_platform_controls.PlatformControlTests.test_kubernetes_baseline_valid) ... ok
+test_kubernetes_latest_rejected (test_platform_controls.PlatformControlTests.test_kubernetes_latest_rejected) ... ok
+test_kubernetes_root_rejected (test_platform_controls.PlatformControlTests.test_kubernetes_root_rejected) ... ok
+test_kubernetes_token_automount_rejected (test_platform_controls.PlatformControlTests.test_kubernetes_token_automount_rejected) ... ok
+test_missing_rotation_evidence_rejected (test_platform_controls.PlatformControlTests.test_missing_rotation_evidence_rejected) ... ok
+test_mtls_required (test_platform_controls.PlatformControlTests.test_mtls_required) ... ok
+test_mutable_image_rejected (test_platform_controls.PlatformControlTests.test_mutable_image_rejected) ... ok
+test_plaintext_secret_rejected (test_platform_controls.PlatformControlTests.test_plaintext_secret_rejected) ... ok
+test_public_edge_allowed (test_platform_controls.PlatformControlTests.test_public_edge_allowed) ... ok
+test_public_network_rejected (test_platform_controls.PlatformControlTests.test_public_network_rejected) ... ok
+test_release_valid (test_platform_controls.PlatformControlTests.test_release_valid) ... ok
+test_secret_lease_valid (test_platform_controls.PlatformControlTests.test_secret_lease_valid) ... ok
+test_self_approval_rejected (test_platform_controls.PlatformControlTests.test_self_approval_rejected) ... ok
+test_stale_secret_rejected (test_platform_controls.PlatformControlTests.test_stale_secret_rejected) ... ok
+test_static_credential_rejected (test_platform_controls.PlatformControlTests.test_static_credential_rejected) ... ok
+test_unsigned_release_rejected (test_platform_controls.PlatformControlTests.test_unsigned_release_rejected) ... ok
+test_workload_identity_valid (test_platform_controls.PlatformControlTests.test_workload_identity_valid) ... ok
+test_wrong_artifact_approval_rejected (test_platform_controls.PlatformControlTests.test_wrong_artifact_approval_rejected) ... ok
+test_failover_authorized (test_platform_controls.RecoveryTests.test_failover_authorized) ... ok
+test_financial_break_blocks_restore (test_platform_controls.RecoveryTests.test_financial_break_blocks_restore) ... ok
+test_healthy_primary_no_failover (test_platform_controls.RecoveryTests.test_healthy_primary_no_failover) ... ok
+test_lag_blocks_failover (test_platform_controls.RecoveryTests.test_lag_blocks_failover) ... ok
+test_reconciliation_blocks_failover (test_platform_controls.RecoveryTests.test_reconciliation_blocks_failover) ... ok
+test_restore_hash_mismatch (test_platform_controls.RecoveryTests.test_restore_hash_mismatch) ... ok
+test_restore_valid (test_platform_controls.RecoveryTests.test_restore_valid) ... ok
+test_rpo_breach (test_platform_controls.RecoveryTests.test_rpo_breach) ... ok
+test_rto_breach (test_platform_controls.RecoveryTests.test_rto_breach) ... ok
+test_slo_breached (test_platform_controls.RecoveryTests.test_slo_breached) ... ok
+test_slo_healthy (test_platform_controls.RecoveryTests.test_slo_healthy) ... ok
+test_unencrypted_backup_rejected (test_platform_controls.RecoveryTests.test_unencrypted_backup_rejected) ... ok
+test_unknown_blocks_failover (test_platform_controls.RecoveryTests.test_unknown_blocks_failover) ... ok
+
+----------------------------------------------------------------------
+Ran 44 tests in 0.003s
+
+OK
+TESTS: PASS (44/44)
+python3 tools/security_scan.py
+SECURITY: PASS (0 high-confidence findings)
+python3 tools/build.py
+BUILD: PASS (50 payload files)
+python3 tools/verify_release.py
+VERIFY-RELEASE: PASS (50 payload files)
+python3 tools/clean.py
+python3 tools/validate.py
+VALIDATION: PASS (48 files)
+PYTHONPATH=src python3 tools/run_tests.py
+test_chain_verifies (test_platform_controls.AuditTests.test_chain_verifies) ... ok
+test_tampering_detected (test_platform_controls.AuditTests.test_tampering_detected) ... ok
+test_control_effective (test_platform_controls.PlatformControlTests.test_control_effective) ... ok
+test_control_evidence_missing (test_platform_controls.PlatformControlTests.test_control_evidence_missing) ... ok
+test_control_expired (test_platform_controls.PlatformControlTests.test_control_expired) ... ok
+test_control_owner_missing (test_platform_controls.PlatformControlTests.test_control_owner_missing) ... ok
+test_exception_self_approval_rejected (test_platform_controls.PlatformControlTests.test_exception_self_approval_rejected) ... ok
+test_exception_valid (test_platform_controls.PlatformControlTests.test_exception_valid) ... ok
+test_expired_exception_rejected (test_platform_controls.PlatformControlTests.test_expired_exception_rejected) ... ok
+test_expired_identity_rejected (test_platform_controls.PlatformControlTests.test_expired_identity_rejected) ... ok
+test_idempotency_conflict (test_platform_controls.PlatformControlTests.test_idempotency_conflict) ... ok
+test_idempotent_replay (test_platform_controls.PlatformControlTests.test_idempotent_replay) ... ok
+test_invalid_issuer_rejected (test_platform_controls.PlatformControlTests.test_invalid_issuer_rejected) ... ok
+test_kubernetes_baseline_valid (test_platform_controls.PlatformControlTests.test_kubernetes_baseline_valid) ... ok
+test_kubernetes_latest_rejected (test_platform_controls.PlatformControlTests.test_kubernetes_latest_rejected) ... ok
+test_kubernetes_root_rejected (test_platform_controls.PlatformControlTests.test_kubernetes_root_rejected) ... ok
+test_kubernetes_token_automount_rejected (test_platform_controls.PlatformControlTests.test_kubernetes_token_automount_rejected) ... ok
+test_missing_rotation_evidence_rejected (test_platform_controls.PlatformControlTests.test_missing_rotation_evidence_rejected) ... ok
+test_mtls_required (test_platform_controls.PlatformControlTests.test_mtls_required) ... ok
+test_mutable_image_rejected (test_platform_controls.PlatformControlTests.test_mutable_image_rejected) ... ok
+test_plaintext_secret_rejected (test_platform_controls.PlatformControlTests.test_plaintext_secret_rejected) ... ok
+test_public_edge_allowed (test_platform_controls.PlatformControlTests.test_public_edge_allowed) ... ok
+test_public_network_rejected (test_platform_controls.PlatformControlTests.test_public_network_rejected) ... ok
+test_release_valid (test_platform_controls.PlatformControlTests.test_release_valid) ... ok
+test_secret_lease_valid (test_platform_controls.PlatformControlTests.test_secret_lease_valid) ... ok
+test_self_approval_rejected (test_platform_controls.PlatformControlTests.test_self_approval_rejected) ... ok
+test_stale_secret_rejected (test_platform_controls.PlatformControlTests.test_stale_secret_rejected) ... ok
+test_static_credential_rejected (test_platform_controls.PlatformControlTests.test_static_credential_rejected) ... ok
+test_unsigned_release_rejected (test_platform_controls.PlatformControlTests.test_unsigned_release_rejected) ... ok
+test_workload_identity_valid (test_platform_controls.PlatformControlTests.test_workload_identity_valid) ... ok
+test_wrong_artifact_approval_rejected (test_platform_controls.PlatformControlTests.test_wrong_artifact_approval_rejected) ... ok
+test_failover_authorized (test_platform_controls.RecoveryTests.test_failover_authorized) ... ok
+test_financial_break_blocks_restore (test_platform_controls.RecoveryTests.test_financial_break_blocks_restore) ... ok
+test_healthy_primary_no_failover (test_platform_controls.RecoveryTests.test_healthy_primary_no_failover) ... ok
+test_lag_blocks_failover (test_platform_controls.RecoveryTests.test_lag_blocks_failover) ... ok
+test_reconciliation_blocks_failover (test_platform_controls.RecoveryTests.test_reconciliation_blocks_failover) ... ok
+test_restore_hash_mismatch (test_platform_controls.RecoveryTests.test_restore_hash_mismatch) ... ok
+test_restore_valid (test_platform_controls.RecoveryTests.test_restore_valid) ... ok
+test_rpo_breach (test_platform_controls.RecoveryTests.test_rpo_breach) ... ok
+test_rto_breach (test_platform_controls.RecoveryTests.test_rto_breach) ... ok
+test_slo_breached (test_platform_controls.RecoveryTests.test_slo_breached) ... ok
+test_slo_healthy (test_platform_controls.RecoveryTests.test_slo_healthy) ... ok
+test_unencrypted_backup_rejected (test_platform_controls.RecoveryTests.test_unencrypted_backup_rejected) ... ok
+test_unknown_blocks_failover (test_platform_controls.RecoveryTests.test_unknown_blocks_failover) ... ok
+
+----------------------------------------------------------------------
+Ran 44 tests in 0.003s
+
+OK
+TESTS: PASS (44/44)
+python3 tools/security_scan.py
+SECURITY: PASS (0 high-confidence findings)
+python3 tools/build.py
+BUILD: PASS (50 payload files)
+python3 tools/verify_release.py
+VERIFY-RELEASE: PASS (50 payload files)
+
+FINAL ZIP SHA-256: dfefb9977e286a94fa055b26573d4f2d5299d42e2c8ea4781643630f243bdf90

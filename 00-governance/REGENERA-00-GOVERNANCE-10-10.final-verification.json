@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "zip": "REGENERA-00-GOVERNANCE-10-10.zip",
+  "sha256": "720c9425a233e1c4cae8d022e6704c6ec212908c9b4a5547f2cb237770f31ee9",
+  "zip_entries": 72,
+  "forbidden_entries": [],
+  "tests": 24,
+  "commands": "make all on clean extraction",
+  "exit_code": 0,
+  "independent_approval": "PENDING_EXTERNAL_SIGNATURE",
+  "cryptographic_signature": "REQUIRED_FROM_REAL_KEY"
+}

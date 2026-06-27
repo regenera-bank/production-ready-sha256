@@ -3,19 +3,15 @@ import { getAnalytics, isSupported } from "firebase/analytics";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
-// Firebase Web Client Config (PUBLIC - required for browser SDK / Identity Toolkit)
-// This is the web app's apiKey (safe to bundle). 
-// The actual server-side Firebase config and GEMINI_API_KEY live in Secret Manager
-// and are injected into Cloud Run as FIREBASE_* and GEMINI_API_KEY env vars
-// via the gcloud --set-secrets command the user provided.
+// Firebase Web Client Config (Injected at build-time via Vite Env Vars)
 const firebaseConfig = {
-  apiKey: "AIzaSyAAA3VHk_0twNlbBgdJk--WTfPyE0zFDow",
-  authDomain: "project-93b8df04-72ab-4e44-8a6.firebaseapp.com",
-  projectId: "project-93b8df04-72ab-4e44-8a6",
-  storageBucket: "project-93b8df04-72ab-4e44-8a6.firebasestorage.app",
-  messagingSenderId: "520859662036",
-  appId: "1:520859662036:web:5a8dfa982f4d068447ed41",
-  measurementId: "G-PQK58EWL0H"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "",
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "",
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "",
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "",
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "",
+  appId: import.meta.env.VITE_FIREBASE_APP_ID || "",
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID || ""
 };
 
 // Initialize Firebase for Web (safe singleton)
@@ -25,7 +21,7 @@ export const auth = getAuth(app);
 export const db = getFirestore(app);
 
 export const initAnalytics = async () => {
-  if (typeof window !== 'undefined' && await isSupported()) {
+  if (typeof window !== 'undefined' && (await isSupported())) {
     return getAnalytics(app);
   }
   return null;

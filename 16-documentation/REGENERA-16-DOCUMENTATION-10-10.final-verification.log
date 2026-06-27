@@ -1,0 +1,161 @@
+REGENERA-16-DOCUMENTATION-10-10 — VERIFICAÇÃO FINAL
+=====================================================
+{
+  "artifact": "REGENERA-16-DOCUMENTATION-10-10.zip",
+  "clean_extraction_make_all_exit_code": 0,
+  "controls": 25,
+  "documents": 26,
+  "external_signature": "PENDING",
+  "extracted_tree_sha256": "de013d7e05c0854b83728f47105254e3a2832acbe86c03d0a884216421a17560",
+  "forbidden_entries": [],
+  "independent_review": "PENDING",
+  "institutional_approval": "PENDING",
+  "payload_files_covered": 87,
+  "release_verification_status": "PASS",
+  "security_status": "PASS",
+  "sha256": "4d0b3b9dc9792153ec3abc5808fa1f3801fa18990e4b3d3d232414539b8f11ba",
+  "source_tree_sha256": "de013d7e05c0854b83728f47105254e3a2832acbe86c03d0a884216421a17560",
+  "status": "PASS",
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "status": "PASS",
+    "tests_run": 113
+  },
+  "tree_differences": [],
+  "tree_file_count": 97,
+  "trees_identical": true,
+  "validation_status": "PASS",
+  "zip_bytes": 85689,
+  "zip_entries": 126,
+  "zip_files": 97,
+  "zip_test": "PASS"
+}
+
+EXECUÇÃO make all EM EXTRAÇÃO LIMPA
+=================================
+{"status": "PASS", "documents": 26, "errors": []}
+test_css_exists (test_build.BuildTests.test_css_exists) ... ok
+test_generated_links_resolve (test_build.BuildTests.test_generated_links_resolve) ... ok
+test_generated_site_exists (test_build.BuildTests.test_generated_site_exists) ... ok
+test_html_escapes_source (test_build.BuildTests.test_html_escapes_source) ... ok
+test_nested_css_links (test_build.BuildTests.test_nested_css_links) ... ok
+test_no_remote_assets (test_build.BuildTests.test_no_remote_assets) ... ok
+test_registry_copy_exists (test_build.BuildTests.test_registry_copy_exists) ... ok
+test_registry_copy_matches (test_build.BuildTests.test_registry_copy_matches) ... ok
+test_root_css_link (test_build.BuildTests.test_root_css_link) ... ok
+test_search_index_sorted (test_build.BuildTests.test_search_index_sorted) ... ok
+test_all_packages_catalogued (test_content.ContentTests.test_all_packages_catalogued) ... ok
+test_channels_not_authoritative (test_content.ContentTests.test_channels_not_authoritative) ... ok
+test_control_count (test_content.ContentTests.test_control_count) ... ok
+test_external_controls_not_effective (test_content.ContentTests.test_external_controls_not_effective) ... ok
+test_external_dependencies_explicit (test_content.ContentTests.test_external_dependencies_explicit) ... ok
+test_money_is_integer (test_content.ContentTests.test_money_is_integer) ... ok
+test_no_real_secret_examples (test_content.ContentTests.test_no_real_secret_examples) ... ok
+test_no_unverified_production_claim (test_content.ContentTests.test_no_unverified_production_claim) ... ok
+test_regulatory_pending (test_content.ContentTests.test_regulatory_pending) ... ok
+test_unknown_is_documented (test_content.ContentTests.test_unknown_is_documented) ... ok
+test_hash_architecture_channel_map_md (test_document_matrix.DocumentMatrixTests.test_hash_architecture_channel_map_md) ... ok
+test_hash_architecture_dependency_map_md (test_document_matrix.DocumentMatrixTests.test_hash_architecture_dependency_map_md) ... ok
+test_hash_architecture_deployment_map_md (test_document_matrix.DocumentMatrixTests.test_hash_architecture_deployment_map_md) ... ok
+test_hash_architecture_domain_map_md (test_document_matrix.DocumentMatrixTests.test_hash_architecture_domain_map_md) ... ok
+test_hash_architecture_environment_map_md (test_document_matrix.DocumentMatrixTests.test_hash_architecture_environment_map_md) ... ok
+test_hash_architecture_security_architecture_md (test_document_matrix.DocumentMatrixTests.test_hash_architecture_security_architecture_md) ... ok
+test_hash_architecture_system_context_md (test_document_matrix.DocumentMatrixTests.test_hash_architecture_system_context_md) ... ok
+test_hash_catalogs_api_catalog_md (test_document_matrix.DocumentMatrixTests.test_hash_catalogs_api_catalog_md) ... ok
+test_hash_catalogs_document_register_md (test_document_matrix.DocumentMatrixTests.test_hash_catalogs_document_register_md) ... ok
+test_hash_catalogs_error_catalog_md (test_document_matrix.DocumentMatrixTests.test_hash_catalogs_error_catalog_md) ... ok
+test_hash_catalogs_event_catalog_md (test_document_matrix.DocumentMatrixTests.test_hash_catalogs_event_catalog_md) ... ok
+test_hash_catalogs_service_catalog_md (test_document_matrix.DocumentMatrixTests.test_hash_catalogs_service_catalog_md) ... ok
+test_hash_data_data_classification_md (test_document_matrix.DocumentMatrixTests.test_hash_data_data_classification_md) ... ok
+test_hash_decision_records_adr_0001_document_authority_md (test_document_matrix.DocumentMatrixTests.test_hash_decision_records_adr_0001_document_authority_md) ... ok
+test_hash_decision_records_adr_0002_domain_delegation_md (test_document_matrix.DocumentMatrixTests.test_hash_decision_records_adr_0002_domain_delegation_md) ... ok
+test_hash_index_md (test_document_matrix.DocumentMatrixTests.test_hash_index_md) ... ok
+test_hash_onboarding_engineering_onboarding_md (test_document_matrix.DocumentMatrixTests.test_hash_onboarding_engineering_onboarding_md) ... ok
+test_hash_operations_document_lifecycle_md (test_document_matrix.DocumentMatrixTests.test_hash_operations_document_lifecycle_md) ... ok
+test_hash_operations_review_and_approval_md (test_document_matrix.DocumentMatrixTests.test_hash_operations_review_and_approval_md) ... ok
+test_hash_policies_document_governance_md (test_document_matrix.DocumentMatrixTests.test_hash_policies_document_governance_md) ... ok
+test_hash_policies_evidence_md (test_document_matrix.DocumentMatrixTests.test_hash_policies_evidence_md) ... ok
+test_hash_policies_versioning_md (test_document_matrix.DocumentMatrixTests.test_hash_policies_versioning_md) ... ok
+test_hash_regulatory_regulatory_matrix_md (test_document_matrix.DocumentMatrixTests.test_hash_regulatory_regulatory_matrix_md) ... ok
+test_hash_runbooks_broken_link_md (test_document_matrix.DocumentMatrixTests.test_hash_runbooks_broken_link_md) ... ok
+test_hash_runbooks_emergency_document_change_md (test_document_matrix.DocumentMatrixTests.test_hash_runbooks_emergency_document_change_md) ... ok
+test_hash_runbooks_stale_document_md (test_document_matrix.DocumentMatrixTests.test_hash_runbooks_stale_document_md) ... ok
+test_meta_architecture_channel_map_md (test_document_matrix.DocumentMatrixTests.test_meta_architecture_channel_map_md) ... ok
+test_meta_architecture_dependency_map_md (test_document_matrix.DocumentMatrixTests.test_meta_architecture_dependency_map_md) ... ok
+test_meta_architecture_deployment_map_md (test_document_matrix.DocumentMatrixTests.test_meta_architecture_deployment_map_md) ... ok
+test_meta_architecture_domain_map_md (test_document_matrix.DocumentMatrixTests.test_meta_architecture_domain_map_md) ... ok
+test_meta_architecture_environment_map_md (test_document_matrix.DocumentMatrixTests.test_meta_architecture_environment_map_md) ... ok
+test_meta_architecture_security_architecture_md (test_document_matrix.DocumentMatrixTests.test_meta_architecture_security_architecture_md) ... ok
+test_meta_architecture_system_context_md (test_document_matrix.DocumentMatrixTests.test_meta_architecture_system_context_md) ... ok
+test_meta_catalogs_api_catalog_md (test_document_matrix.DocumentMatrixTests.test_meta_catalogs_api_catalog_md) ... ok
+test_meta_catalogs_document_register_md (test_document_matrix.DocumentMatrixTests.test_meta_catalogs_document_register_md) ... ok
+test_meta_catalogs_error_catalog_md (test_document_matrix.DocumentMatrixTests.test_meta_catalogs_error_catalog_md) ... ok
+test_meta_catalogs_event_catalog_md (test_document_matrix.DocumentMatrixTests.test_meta_catalogs_event_catalog_md) ... ok
+test_meta_catalogs_service_catalog_md (test_document_matrix.DocumentMatrixTests.test_meta_catalogs_service_catalog_md) ... ok
+test_meta_data_data_classification_md (test_document_matrix.DocumentMatrixTests.test_meta_data_data_classification_md) ... ok
+test_meta_decision_records_adr_0001_document_authority_md (test_document_matrix.DocumentMatrixTests.test_meta_decision_records_adr_0001_document_authority_md) ... ok
+test_meta_decision_records_adr_0002_domain_delegation_md (test_document_matrix.DocumentMatrixTests.test_meta_decision_records_adr_0002_domain_delegation_md) ... ok
+test_meta_index_md (test_document_matrix.DocumentMatrixTests.test_meta_index_md) ... ok
+test_meta_onboarding_engineering_onboarding_md (test_document_matrix.DocumentMatrixTests.test_meta_onboarding_engineering_onboarding_md) ... ok
+test_meta_operations_document_lifecycle_md (test_document_matrix.DocumentMatrixTests.test_meta_operations_document_lifecycle_md) ... ok
+test_meta_operations_review_and_approval_md (test_document_matrix.DocumentMatrixTests.test_meta_operations_review_and_approval_md) ... ok
+test_meta_policies_document_governance_md (test_document_matrix.DocumentMatrixTests.test_meta_policies_document_governance_md) ... ok
+test_meta_policies_evidence_md (test_document_matrix.DocumentMatrixTests.test_meta_policies_evidence_md) ... ok
+test_meta_policies_versioning_md (test_document_matrix.DocumentMatrixTests.test_meta_policies_versioning_md) ... ok
+test_meta_regulatory_regulatory_matrix_md (test_document_matrix.DocumentMatrixTests.test_meta_regulatory_regulatory_matrix_md) ... ok
+test_meta_runbooks_broken_link_md (test_document_matrix.DocumentMatrixTests.test_meta_runbooks_broken_link_md) ... ok
+test_meta_runbooks_emergency_document_change_md (test_document_matrix.DocumentMatrixTests.test_meta_runbooks_emergency_document_change_md) ... ok
+test_meta_runbooks_stale_document_md (test_document_matrix.DocumentMatrixTests.test_meta_runbooks_stale_document_md) ... ok
+test_package_00 (test_document_matrix.PackageCatalogTests.test_package_00) ... ok
+test_package_01 (test_document_matrix.PackageCatalogTests.test_package_01) ... ok
+test_package_02 (test_document_matrix.PackageCatalogTests.test_package_02) ... ok
+test_package_03 (test_document_matrix.PackageCatalogTests.test_package_03) ... ok
+test_package_04 (test_document_matrix.PackageCatalogTests.test_package_04) ... ok
+test_package_05 (test_document_matrix.PackageCatalogTests.test_package_05) ... ok
+test_package_06 (test_document_matrix.PackageCatalogTests.test_package_06) ... ok
+test_package_07 (test_document_matrix.PackageCatalogTests.test_package_07) ... ok
+test_package_08 (test_document_matrix.PackageCatalogTests.test_package_08) ... ok
+test_package_09 (test_document_matrix.PackageCatalogTests.test_package_09) ... ok
+test_package_10 (test_document_matrix.PackageCatalogTests.test_package_10) ... ok
+test_package_11 (test_document_matrix.PackageCatalogTests.test_package_11) ... ok
+test_package_12 (test_document_matrix.PackageCatalogTests.test_package_12) ... ok
+test_package_13 (test_document_matrix.PackageCatalogTests.test_package_13) ... ok
+test_package_14 (test_document_matrix.PackageCatalogTests.test_package_14) ... ok
+test_package_15 (test_document_matrix.PackageCatalogTests.test_package_15) ... ok
+test_package_16 (test_document_matrix.PackageCatalogTests.test_package_16) ... ok
+test_index_has_major_sections (test_links.LinkTests.test_index_has_major_sections) ... ok
+test_local_links_exist (test_links.LinkTests.test_local_links_exist) ... ok
+test_no_absolute_local_paths (test_links.LinkTests.test_no_absolute_local_paths) ... ok
+test_active_not_stale (test_metadata.MetadataTests.test_active_not_stale) ... ok
+test_classification (test_metadata.MetadataTests.test_classification) ... ok
+test_documents_exist (test_metadata.MetadataTests.test_documents_exist) ... ok
+test_front_matter (test_metadata.MetadataTests.test_front_matter) ... ok
+test_h1 (test_metadata.MetadataTests.test_h1) ... ok
+test_owner_not_reviewer_only (test_metadata.MetadataTests.test_owner_not_reviewer_only) ... ok
+test_review_not_future (test_metadata.MetadataTests.test_review_not_future) ... ok
+test_status (test_metadata.MetadataTests.test_status) ... ok
+test_unique_ids (test_metadata.MetadataTests.test_unique_ids) ... ok
+test_versions (test_metadata.MetadataTests.test_versions) ... ok
+test_registry_exists (test_registry.RegistryTests.test_registry_exists) ... ok
+test_registry_hashes (test_registry.RegistryTests.test_registry_hashes) ... ok
+test_registry_matches_count (test_registry.RegistryTests.test_registry_matches_count) ... ok
+test_registry_sorted (test_registry.RegistryTests.test_registry_sorted) ... ok
+test_source_inventory_sha (test_registry.RegistryTests.test_source_inventory_sha) ... ok
+test_aws_fixture (test_security.SecurityTests.test_aws_fixture) ... ok
+test_no_binary_payload (test_security.SecurityTests.test_no_binary_payload) ... ok
+test_no_large_payload (test_security.SecurityTests.test_no_large_payload) ... ok
+test_no_macos_residue (test_security.SecurityTests.test_no_macos_residue) ... ok
+test_no_nested_zip (test_security.SecurityTests.test_no_nested_zip) ... ok
+test_private_key_fixture (test_security.SecurityTests.test_private_key_fixture) ... ok
+
+----------------------------------------------------------------------
+Ran 113 tests in 0.231s
+
+OK
+{"status": "PASS", "tests_run": 113, "failures": 0, "errors": 0, "skipped": 0}
+{"status": "PASS", "findings": [], "exact_exclusions": {"tools/security_scan.py": "implementação das assinaturas do scanner", "tests/test_security.py": "fixtures isolados de detecção"}}
+{"status": "PASS", "documents": 26}
+{"status": "PASS", "payload_files": 87}
+{"status": "PASS", "verified_payload_files": 87, "documents": 26, "errors": []}

@@ -31,6 +31,7 @@ for record in records:
 ET.ElementTree(testsuite).write(EVIDENCE/'test-results.xml',encoding='utf-8',xml_declaration=True)
 print(stream.getvalue(),end='')
 print(f"tests: {status} ({payload['passed']}/{payload['tests']})")
+# unittest pode criar cache se o ambiente ignorar a variável. não deixa resíduo virar release.
 for cache in ROOT.rglob('__pycache__'):
     import shutil; shutil.rmtree(cache,ignore_errors=True)
 for pyc in ROOT.rglob('*.pyc'): pyc.unlink(missing_ok=True)

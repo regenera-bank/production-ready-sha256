@@ -1,0 +1,34 @@
+{
+  "artifact": "REGENERA-12-REGULATORY-10-10.zip",
+  "artifact_sha256": "ef598237f39a7de6b1ff63d084192ca1065e05e0496925937ef8641164b143b8",
+  "artifact_size_bytes": 64886,
+  "clean_extraction_equal": true,
+  "control_count": 25,
+  "cryptographic_signature": "PENDING_EXTERNAL_KEY",
+  "deterministic_build": true,
+  "domain_count": 14,
+  "external_channels": "BLOCKED_UNTIL_HOMOLOGATION",
+  "extracted_tree_hash": "dd838f5ae3c874f69e1a347bc5c0d05d7efed338f619b17ddff0e72ff45102dd",
+  "forbidden_content_findings": [],
+  "forbidden_entries": [],
+  "institutional_approval": "PENDING",
+  "legal_mapping": "PENDING_INDEPENDENT_LEGAL_REVIEW",
+  "make_all_exit_code": 0,
+  "payload_files": 103,
+  "security": {
+    "high_confidence_findings": [],
+    "status": "PASS"
+  },
+  "source_tree_hash": "dd838f5ae3c874f69e1a347bc5c0d05d7efed338f619b17ddff0e72ff45102dd",
+  "technical_verification": "PASSED",
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "passed": 133,
+    "skipped": 0,
+    "status": "PASS",
+    "tests": 133
+  },
+  "zip_entries": 108,
+  "zip_test": "PASS"
+}

@@ -84,9 +84,11 @@ def validate_root(root: Path = ROOT):
         if relative.as_posix().startswith('policies/') and path.suffix=='.md':
             missing=REQUIRED_POLICY_SECTIONS-headings(body)
             if missing: errors.append(f'policy-sections:{relative.as_posix()}:{"|".join(sorted(missing))}')
+    # owner registry
     owners=(root/'OWNERS.yaml').read_text(encoding='utf-8') if (root/'OWNERS.yaml').exists() else ''
     owner_ids=set(re.findall(r'^\s*- owner_id:\s*(\S+)', owners, re.M))
     if len(owner_ids)<5: errors.append('owner-registry-too-small')
+    # controls
     try:
         with (root/'CONTROL-MATRIX.csv').open(encoding='utf-8',newline='') as f: rows=list(csv.DictReader(f))
         required_cols={'control_id','control','domain','document_id','expected_evidence','frequency','criticality','owner_id','control_type','effectiveness_rule'}
@@ -98,9 +100,11 @@ def validate_root(root: Path = ROOT):
             if row['owner_id'] not in owner_ids: errors.append(f'unknown-owner:{row["control_id"]}:{row["owner_id"]}')
             if not row['expected_evidence'].strip(): errors.append(f'missing-control-evidence:{row["control_id"]}')
     except Exception as e: errors.append(f'control-matrix-error:{e}')
+    # manifest self approval status must be blocked
     manifest=(root/'GOVERNANCE-MANIFEST.yaml').read_text(encoding='utf-8') if (root/'GOVERNANCE-MANIFEST.yaml').exists() else ''
     if 'status: pending-external-signature' not in manifest: errors.append('independent-approval-not-pending')
     if 'author-cannot-approve-own-release' not in manifest: errors.append('self-approval-rule-missing')
+    # workflow
     wf=(root/'.github/workflows/governance.yml').read_text(encoding='utf-8') if (root/'.github/workflows/governance.yml').exists() else ''
     if 'permissions:\n  contents: read' not in wf: errors.append('workflow-not-readonly')
     if 'actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683' not in wf: errors.append('checkout-not-pinned')

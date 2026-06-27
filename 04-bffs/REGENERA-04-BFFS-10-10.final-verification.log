@@ -1,0 +1,11 @@
+rm -rf dist evidence/*.tmp evidence/RELEASE-VERIFICATION.json
+python3 tools/validate.py
+{"status": "PASS", "problems": []}
+python3 tools/run_tests.py
+{"tests": 47, "pass": 47, "fail": 0, "cancelled": 0, "skipped": 0, "todo": 0, "exit_code": 0, "status": "PASS"}
+python3 tools/security_scan.py
+{"status": "PASS", "findings": []}
+python3 tools/build.py
+{"status": "PASS", "dist_files": 41}
+python3 tools/verify_release.py
+{"status": "PASS", "problems": [], "covered_files": 40}

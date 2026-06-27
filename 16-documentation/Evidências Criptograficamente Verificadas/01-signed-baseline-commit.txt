@@ -1,0 +1,26 @@
+commit 50ddff439c8fb54dfe8e576b1190c14bac853bbc
+gpg: Assinatura feita em sáb 27 jun 03:28:21 2026 -03
+gpg:        usando a chave RSA de 730834AB4126C341A70F6B969826A3AC0BF6A90C
+gpg: Assinatura válida de "Don Paulo Ricardo de Leao <finance@regenerabank.world>" [plena]
+Author:     Regenera Bank <finance@regenerabank.world>
+AuthorDate: Sat Jun 27 03:28:21 2026 -0300
+Commit:     Regenera Bank <finance@regenerabank.world>
+CommitDate: Sat Jun 27 03:28:21 2026 -0300
+
+    evidence: establish signed institutional source baseline
+    
+    Repository: https://github.com/regenera-bank/production-ready.git
+    
+    Local repository: /Volumes/Regenera Bank 1/production-ready
+    
+    Source parent commit: e7a02c743e47535b37e0b51211db74d79fa34d09
+    
+    Source tree: 980ee8c69cdfdaaa46b2b9da2a32b6ca849e9749
+    
+    Institutional identity: Regenera Bank <finance@regenerabank.world>
+    
+    Signing-key fingerprint: 730834AB4126C341A70F6B969826A3AC0BF6A90C
+    
+    Attested at UTC: 2026-06-27T06:28:20Z
+    
+    Purpose: institutional authorship, integrity and source provenance baseline.
