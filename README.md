@@ -8,6 +8,7 @@
 
 </div>
 ---
+## REGENERA BANK 
 
 **Estado técnico:** PRODUCT-READY para diligência, integração controlada e institucionalização  
 **Data de referência dos artefatos:** 27 de junho de 2026  
