@@ -1,0 +1,14 @@
+Evidence package: REGENERA-EVIDENCE-20260627T154305Z
+Repository: https://github.com/regenera-bank/production-ready-sha256.git
+Local repository: /Volumes/REGENERA FINALIZADO/Regenera Bank/production-ready
+Source parent commit: c9f47e545d0108f322c6b9ea81dfd53815105a09
+Baseline commit: 7336481c7062266b0bba39b6d43e4bf3c4cd0127
+Source tree: 8b1e4194b7e8c867756bfe1fb46df6e49fa54970
+Signed tag: source-baseline-signed-20260627T154305Z
+Signed top-level folders: 17
+README: README.md
+Source ZIP: /Volumes/REGENERA FINALIZADO/Regenera Bank/production-ready.zip
+Source ZIP SHA-256: 95fe549d02cdc08910eb8224434ad03cb4172b0e063d0bd73bb4d8184b231076
+Institutional identity: Regenera Bank <finance@regenerabank.world>
+Institutional fingerprint: 730834AB4126C341A70F6B969826A3AC0BF6A90C
+Generated at UTC: 2026-06-27T15:44:02Z

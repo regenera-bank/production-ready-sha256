@@ -1,0 +1,33 @@
+{
+  "artifact": "REGENERA-10-PLATFORM-10-10.zip",
+  "double_build_identical": true,
+  "external_dependencies_blocked": true,
+  "external_signature": "PENDING_REAL_PRIVATE_KEY",
+  "extracted_tree_identical": true,
+  "files_verified": 55,
+  "forbidden_system_entries": [],
+  "make_all_exit_code": 0,
+  "nested_archives": [],
+  "release_manifest": {
+    "document_id": "PLATFORM-RELEASE-MANIFEST-001",
+    "payload_files": 50,
+    "source_archive_sha256": "70ccaec0597d297e9e4e3ad9847f746933d810c22a2d84458762b8d67c68d3fa",
+    "state": "UNSIGNED_PENDING_EXTERNAL_APPROVAL"
+  },
+  "security": {
+    "findings": [],
+    "status": "PASS"
+  },
+  "sha256": "dfefb9977e286a94fa055b26573d4f2d5299d42e2c8ea4781643630f243bdf90",
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "passed": 44,
+    "skipped": 0,
+    "status": "PASS",
+    "tests": 44
+  },
+  "tree_sha256": "05fd1565efa5c1f77a46cbece9695bdf7cfefd47879b1e1df9c4f18acaf49619",
+  "validation": "PASS",
+  "zip_entries": 55
+}

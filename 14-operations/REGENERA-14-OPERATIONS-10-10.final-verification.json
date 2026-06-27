@@ -1,0 +1,30 @@
+{
+  "artifact": "REGENERA-14-OPERATIONS-10-10.zip",
+  "clean_extraction_identical": true,
+  "clean_extraction_make_all_exit_code": 0,
+  "cryptographic_signature": "PENDING",
+  "forbidden_entries": [],
+  "independent_external_review": "PENDING",
+  "institutional_approval": "PENDING",
+  "make_all_exit_code": 0,
+  "nested_zip_entries": [],
+  "payload_files_covered": 118,
+  "physical_files": 120,
+  "reproducible_build": true,
+  "security_scan": "PASSED",
+  "status": "PASSED",
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "passed": 111,
+    "status": "PASSED",
+    "total": 111
+  },
+  "tree_sha256": "4ae99d1281e353044c5856ef0ed7e754f7f877cd577e83de365c2b4c609110f4",
+  "validation": "PASSED",
+  "verified_at": "2026-06-26T00:00:00Z",
+  "zip_entries": 142,
+  "zip_integrity": true,
+  "zip_sha256": "718be96475df0f4223063318e95067d7942f5efec3eebdfd061d02326043f799",
+  "zip_size_bytes": 74666
+}

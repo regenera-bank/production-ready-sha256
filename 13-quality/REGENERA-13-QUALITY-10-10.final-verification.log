@@ -1,0 +1,138 @@
+ARTIFACT=REGENERA-13-QUALITY-10-10.zip
+SHA256=4ea96899440c9bc22278afb1fc4b6a6aea45c703598555438b4dd5414e2d06b5
+TREE_EXPECTED=55928ec5565e1efb1d1a871ad0b287eb9c18e5e49bb830f0efcdde5898ec0521
+ZIP_TEST=PASS
+CLEAN_EXTRACTION=PASS
+--- make all on extracted artifact ---
+python3 tools/clean.py
+CLEAN: PASS
+python3 tools/validate.py
+VALIDATION: PASS
+python3 tools/run_tests.py
+test_button_aria_allowed (test_accessibility.AccessibilityTests.test_button_aria_allowed) ... ok
+test_button_without_name (test_accessibility.AccessibilityTests.test_button_without_name) ... ok
+test_clean_html (test_accessibility.AccessibilityTests.test_clean_html) ... ok
+test_empty_alt_flagged (test_accessibility.AccessibilityTests.test_empty_alt_flagged) ... ok
+test_image_without_alt (test_accessibility.AccessibilityTests.test_image_without_alt) ... ok
+test_input_id_allowed (test_accessibility.AccessibilityTests.test_input_id_allowed) ... ok
+test_input_without_name (test_accessibility.AccessibilityTests.test_input_without_name) ... ok
+test_add_optional_compatible (test_contracts.ContractTests.test_add_optional_compatible) ... ok
+test_break_requires_major (test_contracts.ContractTests.test_break_requires_major) ... ok
+test_break_with_major_allowed (test_contracts.ContractTests.test_break_with_major_allowed) ... ok
+test_identity_required (test_contracts.ContractTests.test_identity_required) ... ok
+test_major_regression (test_contracts.ContractTests.test_major_regression) ... ok
+test_name_change_rejected (test_contracts.ContractTests.test_name_change_rejected) ... ok
+test_new_required_breaks (test_contracts.ContractTests.test_new_required_breaks) ... ok
+test_removed_field_breaks (test_contracts.ContractTests.test_removed_field_breaks) ... ok
+test_required_needs_type (test_contracts.ContractTests.test_required_needs_type) ... ok
+test_type_change_breaks (test_contracts.ContractTests.test_type_change_breaks) ... ok
+test_append_sequence (test_evidence.EvidenceTests.test_append_sequence) ... ok
+test_empty_chain_valid (test_evidence.EvidenceTests.test_empty_chain_valid) ... ok
+test_event_required (test_evidence.EvidenceTests.test_event_required) ... ok
+test_multiple_records_valid (test_evidence.EvidenceTests.test_multiple_records_valid) ... ok
+test_payload_is_canonical (test_evidence.EvidenceTests.test_payload_is_canonical) ... ok
+test_tampered_digest_detected (test_evidence.EvidenceTests.test_tampered_digest_detected) ... ok
+test_tampered_previous_detected (test_evidence.EvidenceTests.test_tampered_previous_detected) ... ok
+test_tampered_sequence_detected (test_evidence.EvidenceTests.test_tampered_sequence_detected) ... ok
+test_balance_validated (test_financial.FinancialTests.test_balance_validated) ... ok
+test_balanced (test_financial.FinancialTests.test_balanced) ... ok
+test_concurrent_single_effect (test_financial.FinancialTests.test_concurrent_single_effect) ... ok
+test_conflicting_replay (test_financial.FinancialTests.test_conflicting_replay) ... ok
+test_currency_validated (test_financial.FinancialTests.test_currency_validated) ... ok
+test_first_post (test_financial.FinancialTests.test_first_post) ... ok
+test_positive_required (test_financial.FinancialTests.test_positive_required) ... ok
+test_replay_returns_original (test_financial.FinancialTests.test_replay_returns_original) ... ok
+test_side_validated (test_financial.FinancialTests.test_side_validated) ... ok
+test_two_postings_required (test_financial.FinancialTests.test_two_postings_required) ... ok
+test_accessibility_critical (test_gates.GateTests.test_accessibility_critical) ... ok
+test_accessibility_serious (test_gates.GateTests.test_accessibility_serious) ... ok
+test_approved (test_gates.GateTests.test_approved) ... ok
+test_branch (test_gates.GateTests.test_branch) ... ok
+test_critical_mutant (test_gates.GateTests.test_critical_mutant) ... ok
+test_digest (test_gates.GateTests.test_digest) ... ok
+test_digest_mismatch (test_gates.GateTests.test_digest_mismatch) ... ok
+test_error_rate (test_gates.GateTests.test_error_rate) ... ok
+test_expired (test_gates.GateTests.test_expired) ... ok
+test_latency (test_gates.GateTests.test_latency) ... ok
+test_line (test_gates.GateTests.test_line) ... ok
+test_mutation (test_gates.GateTests.test_mutation) ... ok
+test_reconciliation (test_gates.GateTests.test_reconciliation) ... ok
+test_recovery (test_gates.GateTests.test_recovery) ... ok
+test_samples (test_gates.GateTests.test_samples) ... ok
+test_security_critical (test_gates.GateTests.test_security_critical) ... ok
+test_security_high (test_gates.GateTests.test_security_high) ... ok
+test_self_approval (test_gates.GateTests.test_self_approval) ... ok
+test_tests (test_gates.GateTests.test_tests) ... ok
+test_unsigned (test_gates.GateTests.test_unsigned) ... ok
+test_add (test_money.MoneyTests.test_add) ... ok
+test_bool_rejected (test_money.MoneyTests.test_bool_rejected) ... ok
+test_currency_mismatch (test_money.MoneyTests.test_currency_mismatch) ... ok
+test_currency_rejected (test_money.MoneyTests.test_currency_rejected) ... ok
+test_float_rejected (test_money.MoneyTests.test_float_rejected) ... ok
+test_integer_minor_units (test_money.MoneyTests.test_integer_minor_units) ... ok
+test_overflow_negative (test_money.MoneyTests.test_overflow_negative) ... ok
+test_overflow_positive (test_money.MoneyTests.test_overflow_positive) ... ok
+test_positive_required (test_money.MoneyTests.test_positive_required) ... ok
+test_subtract (test_money.MoneyTests.test_subtract) ... ok
+test_below_minimum (test_mutation.MutationTests.test_below_minimum) ... ok
+test_critical_survived (test_mutation.MutationTests.test_critical_survived) ... ok
+test_invalid_minimum (test_mutation.MutationTests.test_invalid_minimum) ... ok
+test_no_mutants (test_mutation.MutationTests.test_no_mutants) ... ok
+test_score (test_mutation.MutationTests.test_score) ... ok
+test_timeout_counts_detected (test_mutation.MutationTests.test_timeout_counts_detected) ... ok
+test_valid (test_mutation.MutationTests.test_valid) ... ok
+test_empty_rejected (test_performance.PerformanceTests.test_empty_rejected) ... ok
+test_evaluate (test_performance.PerformanceTests.test_evaluate) ... ok
+test_invalid_failures_above_samples (test_performance.PerformanceTests.test_invalid_failures_above_samples) ... ok
+test_invalid_failures_negative (test_performance.PerformanceTests.test_invalid_failures_negative) ... ok
+test_invalid_percentile (test_performance.PerformanceTests.test_invalid_percentile) ... ok
+test_negative_latency (test_performance.PerformanceTests.test_negative_latency) ... ok
+test_p95_order_independent (test_performance.PerformanceTests.test_p95_order_independent) ... ok
+test_p95_single (test_performance.PerformanceTests.test_p95_single) ... ok
+test_closed_allows (test_resilience.ResilienceTests.test_closed_allows) ... ok
+test_evidence_required (test_resilience.ResilienceTests.test_evidence_required) ... ok
+test_experiment_valid (test_resilience.ResilienceTests.test_experiment_valid) ... ok
+test_invalid_threshold (test_resilience.ResilienceTests.test_invalid_threshold) ... ok
+test_opens (test_resilience.ResilienceTests.test_opens) ... ok
+test_probe_requires_open (test_resilience.ResilienceTests.test_probe_requires_open) ... ok
+test_production_blocked (test_resilience.ResilienceTests.test_production_blocked) ... ok
+test_reconciliation_required (test_resilience.ResilienceTests.test_reconciliation_required) ... ok
+test_self_approval_blocked (test_resilience.ResilienceTests.test_self_approval_blocked) ... ok
+test_success_resets (test_resilience.ResilienceTests.test_success_resets) ... ok
+test_clean_text (test_security.SecurityTests.test_clean_text) ... ok
+test_cloud_secret (test_security.SecurityTests.test_cloud_secret) ... ok
+test_embedded_password (test_security.SecurityTests.test_embedded_password) ... ok
+test_latest_image (test_security.SecurityTests.test_latest_image) ... ok
+test_missing_permissions (test_security.SecurityTests.test_missing_permissions) ... ok
+test_private_key (test_security.SecurityTests.test_private_key) ... ok
+test_unpinned_action (test_security.SecurityTests.test_unpinned_action) ... ok
+test_unsafe_trigger (test_security.SecurityTests.test_unsafe_trigger) ... ok
+test_workflow_permissions (test_security.SecurityTests.test_workflow_permissions) ... ok
+test_deterministic (test_test_data.TestDataTests.test_deterministic) ... ok
+test_different_seed (test_test_data.TestDataTests.test_different_seed) ... ok
+test_invalid_domain (test_test_data.TestDataTests.test_invalid_domain) ... ok
+test_real_contact_detected (test_test_data.TestDataTests.test_real_contact_detected) ... ok
+test_short_seed_rejected (test_test_data.TestDataTests.test_short_seed_rejected) ... ok
+test_synthetic_contact_allowed (test_test_data.TestDataTests.test_synthetic_contact_allowed) ... ok
+test_token_not_seed (test_test_data.TestDataTests.test_token_not_seed) ... ok
+
+----------------------------------------------------------------------
+Ran 106 tests in 0.036s
+
+OK
+python3 tools/clean_runtime.py
+python3 tools/security_scan.py
+SECURITY: PASS
+python3 tools/clean_runtime.py
+python3 tools/build.py
+BUILD: PASS
+python3 tools/evidence.py
+EVIDENCE: PASS 67
+python3 tools/verify_release.py
+VERIFY-RELEASE: PASS 67
+TREE_EXPECTED=55928ec5565e1efb1d1a871ad0b287eb9c18e5e49bb830f0efcdde5898ec0521
+TREE_EXTRACTED=55928ec5565e1efb1d1a871ad0b287eb9c18e5e49bb830f0efcdde5898ec0521
+TREE_COMPARISON=PASS
+ZIP_REPEAT_SHA256=4ea96899440c9bc22278afb1fc4b6a6aea45c703598555438b4dd5414e2d06b5
+ZIP_REPRODUCIBILITY=PASS
+FINAL_VERDICT=PASS

@@ -1,0 +1,16 @@
+{
+  "artifact": "REGENERA-02-CONTRACTS-10-10.zip",
+  "sha256": "f288a266c7e41806c8cf9df016a2f24afc9e5b36e4b3bfd3de8e36bcda44d1ae",
+  "zipEntries": 103,
+  "systemArtifacts": [],
+  "cleanExtractionMakeAllExitCode": 0,
+  "testsExecuted": 33,
+  "testsPassed": 33,
+  "testsSkipped": 0,
+  "validation": "PASS",
+  "security": "PASS",
+  "build": "PASS",
+  "releaseVerification": "PASS",
+  "signatureStatus": "PENDING_EXTERNAL_GPG",
+  "promotionStatus": "BLOCKED_UNTIL_INDEPENDENT_REVIEW_AND_SIGNATURE"
+}

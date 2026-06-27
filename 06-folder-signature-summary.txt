@@ -1,0 +1,99 @@
+REGENERA BANK — SIGNED FOLDER MANIFESTS
+
+Repository: https://github.com/regenera-bank/production-ready-sha256.git
+Local repository: /Volumes/REGENERA FINALIZADO/Regenera Bank/production-ready
+Institutional identity: Regenera Bank <finance@regenerabank.world>
+Institutional fingerprint: 730834AB4126C341A70F6B969826A3AC0BF6A90C
+Generated at UTC: 2026-06-27T15:43:05Z
+Signed folders: 17
+
+Cada pasta é representada por um manifesto SHA-256 recursivo e por sua
+assinatura institucional destacada.
+
+Diretório não é fluxo de bytes. O manifesto assinado é a prova canônica
+dos arquivos existentes dentro de cada fronteira.
+
+00-governance
+Files: 72
+Manifest: 00-governance.sha256
+Signature: 00-governance.sha256.asc
+
+01-desing
+Files: 74
+Manifest: 01-desing.sha256
+Signature: 01-desing.sha256.asc
+
+02-contracts
+Files: 81
+Manifest: 02-contracts.sha256
+Signature: 02-contracts.sha256.asc
+
+03-channels
+Files: 523
+Manifest: 03-channels.sha256
+Signature: 03-channels.sha256.asc
+
+04-bffs
+Files: 55
+Manifest: 04-bffs.sha256
+Signature: 04-bffs.sha256.asc
+
+05-core-bank
+Files: 57
+Manifest: 05-core-bank.sha256
+Signature: 05-core-bank.sha256.asc
+
+06-risk-control
+Files: 59
+Manifest: 06-risk-control.sha256
+Signature: 06-risk-control.sha256.asc
+
+07-integrations
+Files: 95
+Manifest: 07-integrations.sha256
+Signature: 07-integrations.sha256.asc
+
+08-iso20022
+Files: 67
+Manifest: 08-iso20022.sha256
+Signature: 08-iso20022.sha256.asc
+
+09-data-platform
+Files: 131
+Manifest: 09-data-platform.sha256
+Signature: 09-data-platform.sha256.asc
+
+10-platform
+Files: 50
+Manifest: 10-platform.sha256
+Signature: 10-platform.sha256.asc
+
+11-security
+Files: 54
+Manifest: 11-security.sha256
+Signature: 11-security.sha256.asc
+
+12-regulatory
+Files: 103
+Manifest: 12-regulatory.sha256
+Signature: 12-regulatory.sha256.asc
+
+13-quality
+Files: 69
+Manifest: 13-quality.sha256
+Signature: 13-quality.sha256.asc
+
+14-operations
+Files: 120
+Manifest: 14-operations.sha256
+Signature: 14-operations.sha256.asc
+
+15-tools
+Files: 115
+Manifest: 15-tools.sha256
+Signature: 15-tools.sha256.asc
+
+16-documentation
+Files: 97
+Manifest: 16-documentation.sha256
+Signature: 16-documentation.sha256.asc

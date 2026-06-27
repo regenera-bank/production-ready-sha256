@@ -1,0 +1,22 @@
+{
+  "artifact": "REGENERA-09-DATA-PLATFORM-10-10.zip",
+  "external_signature": "PENDING_REAL_PRIVATE_KEY",
+  "extracted_files": 131,
+  "forbidden_entries": [],
+  "make_all_exit_code": 0,
+  "nested_zip_entries": [],
+  "release_verification": "PASS",
+  "security": "PASS",
+  "sha256": "f736a99806cc15fd416bc3372a021d9dd03a52074c3d2059b222e27ec5499b23",
+  "source_files": 131,
+  "status": "PASS",
+  "tests": {
+    "failed": 0,
+    "passed": 77,
+    "total": 77
+  },
+  "tree_differences": [],
+  "tree_sha256": "23eb84e2176e8ceaa6973785dc740ae3b1dc893483e5a497603f34964c8323ca",
+  "validation": "PASS",
+  "zip_entries": 161
+}

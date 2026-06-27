@@ -1,0 +1,80 @@
+REGENERA-07-INTEGRATIONS-10-10 — VERIFICAÇÃO FINAL
+zip_sha256=b6919d7718b5bf8926f4393aa545e2970a9caa2200a6ea57265bdc72007d2389
+verification_root=/tmp/regenera-07-verify.6mRpzS/REGENERA-07-INTEGRATIONS-10-10
+
+$ zip integrity
+Done testing
+
+$ forbidden artifacts
+none
+
+$ nested archives
+none
+
+$ make all
+{"errors": [], "passed": true, "schema": "regenera.validation.v1"}
+test_all_adapters_declare_external_evidence (test_adapters.AdapterTests.test_all_adapters_declare_external_evidence) ... ok
+test_empty_payload_is_rejected (test_adapters.AdapterTests.test_empty_payload_is_rejected) ... ok
+test_financial_boolean_is_rejected (test_adapters.AdapterTests.test_financial_boolean_is_rejected) ... ok
+test_financial_float_is_rejected (test_adapters.AdapterTests.test_financial_float_is_rejected) ... ok
+test_invalid_currency_is_rejected (test_adapters.AdapterTests.test_invalid_currency_is_rejected) ... ok
+test_notifications_accept_safe_payload (test_adapters.AdapterTests.test_notifications_accept_safe_payload) ... ok
+test_notifications_block_sensitive_fields (test_adapters.AdapterTests.test_notifications_block_sensitive_fields) ... ok
+test_open_finance_requires_authorised_consent (test_adapters.AdapterTests.test_open_finance_requires_authorised_consent) ... ok
+test_open_finance_requires_scope (test_adapters.AdapterTests.test_open_finance_requires_scope) ... ok
+test_registry_has_fourteen_adapters (test_adapters.AdapterTests.test_registry_has_fourteen_adapters) ... ok
+test_spi_financial_fields_are_required (test_adapters.AdapterTests.test_spi_financial_fields_are_required) ... ok
+test_spi_requires_valid_ispb (test_adapters.AdapterTests.test_spi_requires_valid_ispb) ... ok
+test_spi_valid_payload (test_adapters.AdapterTests.test_spi_valid_payload) ... ok
+test_unknown_adapter_is_rejected (test_adapters.AdapterTests.test_unknown_adapter_is_rejected) ... ok
+test_all_external_adapters_are_blocked (test_governance.GovernanceTests.test_all_external_adapters_are_blocked) ... ok
+test_build_provenance_declares_no_network (test_governance.GovernanceTests.test_build_provenance_declares_no_network) ... ok
+test_control_matrix_has_blocking_evidence (test_governance.GovernanceTests.test_control_matrix_has_blocking_evidence) ... ok
+test_exception_register_is_empty_and_blocking (test_governance.GovernanceTests.test_exception_register_is_empty_and_blocking) ... ok
+test_origin_claim_is_careful (test_governance.GovernanceTests.test_origin_claim_is_careful) ... ok
+test_policies_have_operational_sections (test_governance.GovernanceTests.test_policies_have_operational_sections) ... ok
+test_registry_matches_code (test_governance.GovernanceTests.test_registry_matches_code) ... ok
+test_release_has_no_nested_archive (test_governance.GovernanceTests.test_release_has_no_nested_archive) ... ok
+test_runbooks_have_decision_gates (test_governance.GovernanceTests.test_runbooks_have_decision_gates) ... ok
+test_self_approval_is_not_present (test_governance.GovernanceTests.test_self_approval_is_not_present) ... ok
+test_source_inventory_records_original_contamination (test_governance.GovernanceTests.test_source_inventory_records_original_contamination) ... ok
+test_standard_library_only (test_governance.GovernanceTests.test_standard_library_only) ... ok
+test_unsigned_release_is_blocked (test_governance.GovernanceTests.test_unsigned_release_is_blocked) ... ok
+test_ambiguous_financial_response_becomes_unknown (test_kernel.KernelTests.test_ambiguous_financial_response_becomes_unknown) ... ok
+test_circuit_opens (test_kernel.KernelTests.test_circuit_opens) ... ok
+test_fingerprint_is_order_independent (test_kernel.KernelTests.test_fingerprint_is_order_independent) ... ok
+test_non_financial_503_can_retry (test_kernel.KernelTests.test_non_financial_503_can_retry) ... ok
+test_non_retryable_failure_is_rejected (test_kernel.KernelTests.test_non_retryable_failure_is_rejected) ... ok
+test_operation_and_key_are_required (test_kernel.KernelTests.test_operation_and_key_are_required) ... ok
+test_payload_change_conflicts (test_kernel.KernelTests.test_payload_change_conflicts) ... ok
+test_retry_before_send_succeeds (test_kernel.KernelTests.test_retry_before_send_succeeds) ... ok
+test_retry_policy_limits_range (test_kernel.KernelTests.test_retry_policy_limits_range) ... ok
+test_success_is_stored_for_replay (test_kernel.KernelTests.test_success_is_stored_for_replay) ... ok
+test_success_resets_circuit (test_kernel.KernelTests.test_success_resets_circuit) ... ok
+test_timeout_after_send_becomes_unknown (test_kernel.KernelTests.test_timeout_after_send_becomes_unknown) ... ok
+test_unknown_is_replayed_without_second_send (test_kernel.KernelTests.test_unknown_is_replayed_without_second_send) ... ok
+test_amount_mismatch (test_reconciliation.ReconciliationTests.test_amount_mismatch) ... ok
+test_currency_mismatch (test_reconciliation.ReconciliationTests.test_currency_mismatch) ... ok
+test_duplicate_reference_is_rejected (test_reconciliation.ReconciliationTests.test_duplicate_reference_is_rejected) ... ok
+test_match (test_reconciliation.ReconciliationTests.test_match) ... ok
+test_missing_external (test_reconciliation.ReconciliationTests.test_missing_external) ... ok
+test_missing_internal (test_reconciliation.ReconciliationTests.test_missing_internal) ... ok
+test_non_unknown_cannot_be_resolved (test_reconciliation.ReconciliationTests.test_non_unknown_cannot_be_resolved) ... ok
+test_unknown_can_be_resolved (test_reconciliation.ReconciliationTests.test_unknown_can_be_resolved) ... ok
+test_credentials_in_url_are_rejected (test_security.SecurityTests.test_credentials_in_url_are_rejected) ... ok
+test_https_and_allowlist_are_required (test_security.SecurityTests.test_https_and_allowlist_are_required) ... ok
+test_mtls_fingerprint_is_validated (test_security.SecurityTests.test_mtls_fingerprint_is_validated) ... ok
+test_mtls_format_is_rejected (test_security.SecurityTests.test_mtls_format_is_rejected) ... ok
+test_redaction_uses_allowlist (test_security.SecurityTests.test_redaction_uses_allowlist) ... ok
+test_webhook_replay_window_is_enforced (test_security.SecurityTests.test_webhook_replay_window_is_enforced) ... ok
+test_webhook_signature_passes (test_security.SecurityTests.test_webhook_signature_passes) ... ok
+test_webhook_tamper_is_detected (test_security.SecurityTests.test_webhook_tamper_is_detected) ... ok
+
+----------------------------------------------------------------------
+Ran 56 tests in 0.005s
+
+OK
+{"errors": 0, "failures": 0, "schema": "regenera.test-results.v1", "skipped": 0, "successful": true, "tests_run": 56}
+{"high_confidence_findings": [], "passed": true, "schema": "regenera.security-scan.v1"}
+{"covered_files": 50, "release": "REGENERA-07-INTEGRATIONS-10-10"}
+{"covered_files": 50, "errors": [], "passed": true, "schema": "regenera.release-verification.v1"}

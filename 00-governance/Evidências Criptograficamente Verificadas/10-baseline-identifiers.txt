@@ -1,0 +1,9 @@
+Repository: https://github.com/regenera-bank/production-ready.git
+Local repository: /Volumes/Regenera Bank 1/production-ready
+Baseline commit: 50ddff439c8fb54dfe8e576b1190c14bac853bbc
+Source parent commit: e7a02c743e47535b37e0b51211db74d79fa34d09
+Source tree: 980ee8c69cdfdaaa46b2b9da2a32b6ca849e9749
+Signed tag: source-baseline-signed-2026-06-27-062820
+Institutional email: finance@regenerabank.world
+Institutional fingerprint: 730834AB4126C341A70F6B969826A3AC0BF6A90C
+Generated at UTC: 2026-06-27T06:28:27Z

@@ -1,0 +1,6 @@
+/Users/regeneracorporateltdacopyright/Desktop/REGENERA-EVIDENCE-20260627T154305Z/04-git-evidence/07-production-ready-source.bundle is okay
+The bundle contains these 2 refs:
+7336481c7062266b0bba39b6d43e4bf3c4cd0127 refs/heads/main
+39f27fcf409f10b9c658ab0058dd4c416dba6c69 refs/tags/source-baseline-signed-20260627T154305Z
+The bundle records a complete history.
+The bundle uses this hash algorithm: sha1

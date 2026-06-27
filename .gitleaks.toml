@@ -1,0 +1,9 @@
+title = "Regenera Bank Allowlist"
+
+[allowlist]
+description = "Ignora assinaturas GPG públicas e mocks de testes"
+paths = [
+    '''Evidências Criptograficamente Verificadas''',
+    '''\.test\.mjs''',
+    '''CoreBankingTestMain\.kt'''
+]

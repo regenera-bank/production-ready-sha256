@@ -1,0 +1,23 @@
+{
+  "clean_extraction_verified": true,
+  "external_integrations_production_active": 0,
+  "forbidden_artifacts": 0,
+  "gpg_signature": "PENDING_EXTERNAL_REAL_KEY",
+  "independent_approval": "PENDING",
+  "internal_files_covered_by_sha256": 50,
+  "make_all_exit_code": 0,
+  "nested_archives": 0,
+  "release": "REGENERA-07-INTEGRATIONS-10-10",
+  "release_verification_passed": true,
+  "reproducible_dist_tree": true,
+  "schema": "regenera.final-verification.v1",
+  "security_scan_passed": true,
+  "tests_passed": 56,
+  "tests_run": 56,
+  "validation_passed": true,
+  "verified_at": "2026-06-26",
+  "zip_entries": 95,
+  "zip_integrity": true,
+  "zip_sha256": "b6919d7718b5bf8926f4393aa545e2970a9caa2200a6ea57265bdc72007d2389",
+  "zip_size_bytes": 87462
+}

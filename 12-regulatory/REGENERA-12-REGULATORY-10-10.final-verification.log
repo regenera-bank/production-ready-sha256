@@ -1,0 +1,163 @@
+ARTIFACT: REGENERA-12-REGULATORY-10-10.zip
+SHA256: ef598237f39a7de6b1ff63d084192ca1065e05e0496925937ef8641164b143b8
+SOURCE_TREE_HASH: dd838f5ae3c874f69e1a347bc5c0d05d7efed338f619b17ddff0e72ff45102dd
+EXTRACTED_TREE_HASH: dd838f5ae3c874f69e1a347bc5c0d05d7efed338f619b17ddff0e72ff45102dd
+DETERMINISTIC_BUILD: PASS
+ZIP_INTEGRITY: PASS
+CLEAN_EXTRACTION_EQUAL: PASS
+----- CLEAN EXTRACTION MAKE ALL -----
+make: Entering directory '/mnt/data/work_regulatory/extracted_final/REGENERA-12-REGULATORY-10-10'
+python3 tools/clean.py
+CLEAN: PASS
+python3 tools/validate.py
+VALIDATION: PASS (101 files)
+PYTHONPATH=src python3 tools/run_tests.py
+test_approval_succeeds (test_approvals.ApprovalTests.test_approval_succeeds) ... ok
+test_expired_approval_is_blocked (test_approvals.ApprovalTests.test_expired_approval_is_blocked) ... ok
+test_fingerprint_is_required (test_approvals.ApprovalTests.test_fingerprint_is_required) ... ok
+test_invalid_digest (test_approvals.ApprovalTests.test_invalid_digest) ... ok
+test_mfa_is_required (test_approvals.ApprovalTests.test_mfa_is_required) ... ok
+test_naive_expiration_is_blocked (test_approvals.ApprovalTests.test_naive_expiration_is_blocked) ... ok
+test_rejection_by_maker_is_blocked (test_approvals.ApprovalTests.test_rejection_by_maker_is_blocked) ... ok
+test_rejection_changes_state (test_approvals.ApprovalTests.test_rejection_changes_state) ... ok
+test_rejection_requires_reason (test_approvals.ApprovalTests.test_rejection_requires_reason) ... ok
+test_second_decision_is_blocked (test_approvals.ApprovalTests.test_second_decision_is_blocked) ... ok
+test_self_approval_is_blocked (test_approvals.ApprovalTests.test_self_approval_is_blocked) ... ok
+test_append_creates_record (test_audit.AuditTests.test_append_creates_record) ... ok
+test_chain_links_records (test_audit.AuditTests.test_chain_links_records) ... ok
+test_duplicate_event_is_blocked (test_audit.AuditTests.test_duplicate_event_is_blocked) ... ok
+test_empty_chain_is_valid (test_audit.AuditTests.test_empty_chain_is_valid) ... ok
+test_invalid_identifier_is_blocked (test_audit.AuditTests.test_invalid_identifier_is_blocked) ... ok
+test_non_utc_timestamp_is_blocked (test_audit.AuditTests.test_non_utc_timestamp_is_blocked) ... ok
+test_payload_changes_digest (test_audit.AuditTests.test_payload_changes_digest) ... ok
+test_record_is_immutable (test_audit.AuditTests.test_record_is_immutable) ... ok
+test_records_are_exposed_as_tuple (test_audit.AuditTests.test_records_are_exposed_as_tuple) ... ok
+test_tampering_is_detected (test_audit.AuditTests.test_tampering_is_detected) ... ok
+test_add_negative_business_days (test_calendar.CalendarTests.test_add_negative_business_days) ... ok
+test_add_positive_business_days (test_calendar.CalendarTests.test_add_positive_business_days) ... ok
+test_completed_status (test_calendar.CalendarTests.test_completed_status) ... ok
+test_due_soon_status (test_calendar.CalendarTests.test_due_soon_status) ... ok
+test_due_today_status (test_calendar.CalendarTests.test_due_today_status) ... ok
+test_holiday_is_not_business_day (test_calendar.CalendarTests.test_holiday_is_not_business_day) ... ok
+test_invalid_count_is_blocked (test_calendar.CalendarTests.test_invalid_count_is_blocked) ... ok
+test_next_business_day_skips_weekend (test_calendar.CalendarTests.test_next_business_day_skips_weekend) ... ok
+test_overdue_status (test_calendar.CalendarTests.test_overdue_status) ... ok
+test_previous_business_day_skips_weekend (test_calendar.CalendarTests.test_previous_business_day_skips_weekend) ... ok
+test_unknown_date_status (test_calendar.CalendarTests.test_unknown_date_status) ... ok
+test_upcoming_status (test_calendar.CalendarTests.test_upcoming_status) ... ok
+test_weekday_is_business_day (test_calendar.CalendarTests.test_weekday_is_business_day) ... ok
+test_weekend_is_not_business_day (test_calendar.CalendarTests.test_weekend_is_not_business_day) ... ok
+test_add_evidence (test_evidence.EvidenceTests.test_add_evidence) ... ok
+test_complete_bundle_freezes (test_evidence.EvidenceTests.test_complete_bundle_freezes) ... ok
+test_duplicate_different_is_blocked (test_evidence.EvidenceTests.test_duplicate_different_is_blocked) ... ok
+test_duplicate_identical_is_idempotent (test_evidence.EvidenceTests.test_duplicate_identical_is_idempotent) ... ok
+test_empty_required_types (test_evidence.EvidenceTests.test_empty_required_types) ... ok
+test_frozen_bundle_is_immutable (test_evidence.EvidenceTests.test_frozen_bundle_is_immutable) ... ok
+test_incomplete_bundle_cannot_freeze (test_evidence.EvidenceTests.test_incomplete_bundle_cannot_freeze) ... ok
+test_invalid_classification (test_evidence.EvidenceTests.test_invalid_classification) ... ok
+test_invalid_hash (test_evidence.EvidenceTests.test_invalid_hash) ... ok
+test_mfa_is_required (test_evidence.EvidenceTests.test_mfa_is_required) ... ok
+test_naive_collection_time_is_blocked (test_evidence.EvidenceTests.test_naive_collection_time_is_blocked) ... ok
+test_self_approval_is_blocked (test_evidence.EvidenceTests.test_self_approval_is_blocked) ... ok
+test_valid_artifact (test_evidence.EvidenceTests.test_valid_artifact) ... ok
+test_change_approval_requires_assessment (test_governance.GovernanceTests.test_change_approval_requires_assessment) ... ok
+test_change_can_be_approved_independently (test_governance.GovernanceTests.test_change_can_be_approved_independently) ... ok
+test_change_impact_is_validated (test_governance.GovernanceTests.test_change_impact_is_validated) ... ok
+test_change_requires_valid_hash (test_governance.GovernanceTests.test_change_requires_valid_hash) ... ok
+test_change_self_assessment_is_blocked (test_governance.GovernanceTests.test_change_self_assessment_is_blocked) ... ok
+test_control_with_bad_hash_is_ineffective (test_governance.GovernanceTests.test_control_with_bad_hash_is_ineffective) ... ok
+test_control_with_evidence_is_effective (test_governance.GovernanceTests.test_control_with_evidence_is_effective) ... ok
+test_control_without_evidence_is_ineffective (test_governance.GovernanceTests.test_control_without_evidence_is_ineffective) ... ok
+test_control_without_owner_is_ineffective (test_governance.GovernanceTests.test_control_without_owner_is_ineffective) ... ok
+test_exception_invalid_after_expiration (test_governance.GovernanceTests.test_exception_invalid_after_expiration) ... ok
+test_exception_needs_reason (test_governance.GovernanceTests.test_exception_needs_reason) ... ok
+test_exception_self_approval_is_blocked (test_governance.GovernanceTests.test_exception_self_approval_is_blocked) ... ok
+test_exception_valid_before_expiration (test_governance.GovernanceTests.test_exception_valid_before_expiration) ... ok
+test_expired_control_is_ineffective (test_governance.GovernanceTests.test_expired_control_is_ineffective) ... ok
+test_external_dependency_blocks_effectiveness (test_governance.GovernanceTests.test_external_dependency_blocks_effectiveness) ... ok
+test_accepted_does_not_become_overdue (test_obligations.ObligationTests.test_accepted_does_not_become_overdue) ... ok
+test_accepted_requires_protocol (test_obligations.ObligationTests.test_accepted_requires_protocol) ... ok
+test_activation_ready (test_obligations.ObligationTests.test_activation_ready) ... ok
+test_approval_must_match_payload (test_obligations.ObligationTests.test_approval_must_match_payload) ... ok
+test_approval_transition (test_obligations.ObligationTests.test_approval_transition) ... ok
+test_bind_payload_creates_digest (test_obligations.ObligationTests.test_bind_payload_creates_digest) ... ok
+test_definition_requires_valid_source_hash (test_obligations.ObligationTests.test_definition_requires_valid_source_hash) ... ok
+test_local_protocol_is_blocked (test_obligations.ObligationTests.test_local_protocol_is_blocked) ... ok
+test_missing_source_blocks_activation (test_obligations.ObligationTests.test_missing_source_blocks_activation) ... ok
+test_overdue_transition (test_obligations.ObligationTests.test_overdue_transition) ... ok
+test_payload_cannot_change_after_ready (test_obligations.ObligationTests.test_payload_cannot_change_after_ready) ... ok
+test_ready_requires_external_configuration (test_obligations.ObligationTests.test_ready_requires_external_configuration) ... ok
+test_ready_requires_payload (test_obligations.ObligationTests.test_ready_requires_payload) ... ok
+test_ready_transition (test_obligations.ObligationTests.test_ready_transition) ... ok
+test_submitted_can_be_accepted (test_obligations.ObligationTests.test_submitted_can_be_accepted) ... ok
+test_submitted_requires_protocol (test_obligations.ObligationTests.test_submitted_requires_protocol) ... ok
+test_unapproved_layout_blocks_activation (test_obligations.ObligationTests.test_unapproved_layout_blocks_activation) ... ok
+test_unconfirmed_due_date_blocks_activation (test_obligations.ObligationTests.test_unconfirmed_due_date_blocks_activation) ... ok
+test_unhomologated_channel_blocks_activation (test_obligations.ObligationTests.test_unhomologated_channel_blocks_activation) ... ok
+test_unknown_reconciles_to_submitted (test_obligations.ObligationTests.test_unknown_reconciles_to_submitted) ... ok
+test_unknown_reconciliation_requires_protocol (test_obligations.ObligationTests.test_unknown_reconciliation_requires_protocol) ... ok
+test_unknown_submission (test_obligations.ObligationTests.test_unknown_submission) ... ok
+test_complete_before_identity_is_blocked (test_privacy.PrivacyTests.test_complete_before_identity_is_blocked) ... ok
+test_evidence_is_required (test_privacy.PrivacyTests.test_evidence_is_required) ... ok
+test_expired_grant_is_blocked (test_privacy.PrivacyTests.test_expired_grant_is_blocked) ... ok
+test_higher_classification_is_blocked (test_privacy.PrivacyTests.test_higher_classification_is_blocked) ... ok
+test_independent_review_is_required (test_privacy.PrivacyTests.test_independent_review_is_required) ... ok
+test_invalid_request_type (test_privacy.PrivacyTests.test_invalid_request_type) ... ok
+test_invalid_retention_date_is_blocked (test_privacy.PrivacyTests.test_invalid_retention_date_is_blocked) ... ok
+test_legal_hold_blocks_disposal (test_privacy.PrivacyTests.test_legal_hold_blocks_disposal) ... ok
+test_matching_purpose_is_allowed (test_privacy.PrivacyTests.test_matching_purpose_is_allowed) ... ok
+test_naive_grant_expiration_is_blocked (test_privacy.PrivacyTests.test_naive_grant_expiration_is_blocked) ... ok
+test_other_purpose_is_blocked (test_privacy.PrivacyTests.test_other_purpose_is_blocked) ... ok
+test_purpose_is_required (test_privacy.PrivacyTests.test_purpose_is_required) ... ok
+test_request_completes_with_digest (test_privacy.PrivacyTests.test_request_completes_with_digest) ... ok
+test_retention_allows_due_disposal (test_privacy.PrivacyTests.test_retention_allows_due_disposal) ... ok
+test_retention_blocks_early_disposal (test_privacy.PrivacyTests.test_retention_blocks_early_disposal) ... ok
+test_self_approved_grant_is_blocked (test_privacy.PrivacyTests.test_self_approved_grant_is_blocked) ... ok
+test_amount_mismatch_is_blocked (test_reporting.ReportingTests.test_amount_mismatch_is_blocked) ... ok
+test_count_mismatch_is_blocked (test_reporting.ReportingTests.test_count_mismatch_is_blocked) ... ok
+test_duplicate_reference_is_blocked (test_reporting.ReportingTests.test_duplicate_reference_is_blocked) ... ok
+test_extra_field_is_blocked (test_reporting.ReportingTests.test_extra_field_is_blocked) ... ok
+test_final_report_is_immutable (test_reporting.ReportingTests.test_final_report_is_immutable) ... ok
+test_finalize_is_deterministic (test_reporting.ReportingTests.test_finalize_is_deterministic) ... ok
+test_float_money_is_blocked (test_reporting.ReportingTests.test_float_money_is_blocked) ... ok
+test_invalid_currency (test_reporting.ReportingTests.test_invalid_currency) ... ok
+test_missing_field_is_blocked (test_reporting.ReportingTests.test_missing_field_is_blocked) ... ok
+test_negative_balance_is_supported (test_reporting.ReportingTests.test_negative_balance_is_supported) ... ok
+test_reconciliation_detects_amount (test_reporting.ReportingTests.test_reconciliation_detects_amount) ... ok
+test_reconciliation_detects_currency (test_reporting.ReportingTests.test_reconciliation_detects_currency) ... ok
+test_reconciliation_matches (test_reporting.ReportingTests.test_reconciliation_matches) ... ok
+test_reconciliation_unknown (test_reporting.ReportingTests.test_reconciliation_unknown) ... ok
+test_required_must_be_allowed (test_reporting.ReportingTests.test_required_must_be_allowed) ... ok
+test_row_must_be_dict (test_reporting.ReportingTests.test_row_must_be_dict) ... ok
+test_ack_requires_protocol (test_submissions.SubmissionTests.test_ack_requires_protocol) ... ok
+test_acknowledged_submission (test_submissions.SubmissionTests.test_acknowledged_submission) ... ok
+test_approval_must_cover_payload (test_submissions.SubmissionTests.test_approval_must_cover_payload) ... ok
+test_channel_must_be_homologated (test_submissions.SubmissionTests.test_channel_must_be_homologated) ... ok
+test_invalid_status_is_blocked (test_submissions.SubmissionTests.test_invalid_status_is_blocked) ... ok
+test_key_collision_is_blocked (test_submissions.SubmissionTests.test_key_collision_is_blocked) ... ok
+test_local_protocol_is_blocked (test_submissions.SubmissionTests.test_local_protocol_is_blocked) ... ok
+test_rejection_is_persisted (test_submissions.SubmissionTests.test_rejection_is_persisted) ... ok
+test_rejection_requires_reason (test_submissions.SubmissionTests.test_rejection_requires_reason) ... ok
+test_replay_does_not_call_transport_twice (test_submissions.SubmissionTests.test_replay_does_not_call_transport_twice) ... ok
+test_test_protocol_is_blocked (test_submissions.SubmissionTests.test_test_protocol_is_blocked) ... ok
+test_timeout_becomes_unknown (test_submissions.SubmissionTests.test_timeout_becomes_unknown) ... ok
+test_unavailable_becomes_unknown (test_submissions.SubmissionTests.test_unavailable_becomes_unknown) ... ok
+test_unknown_reconciles_to_rejected (test_submissions.SubmissionTests.test_unknown_reconciles_to_rejected) ... ok
+test_unknown_reconciles_to_submitted (test_submissions.SubmissionTests.test_unknown_reconciles_to_submitted) ... ok
+test_unknown_remains_when_lookup_is_ambiguous (test_submissions.SubmissionTests.test_unknown_remains_when_lookup_is_ambiguous) ... ok
+
+----------------------------------------------------------------------
+Ran 133 tests in 0.033s
+
+OK
+TESTS: PASS (133/133)
+python3 tools/security_scan.py
+SECURITY: PASS (0 high-confidence findings)
+python3 tools/build.py
+BUILD: PASS (103 payload files)
+python3 tools/verify_release.py
+VERIFY-RELEASE: PASS (103 payload files)
+make: Leaving directory '/mnt/data/work_regulatory/extracted_final/REGENERA-12-REGULATORY-10-10'
+real 17.86
+user 25.46
+sys 3.57

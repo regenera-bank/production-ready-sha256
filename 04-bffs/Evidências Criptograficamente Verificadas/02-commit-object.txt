@@ -1,0 +1,39 @@
+tree 980ee8c69cdfdaaa46b2b9da2a32b6ca849e9749
+parent e7a02c743e47535b37e0b51211db74d79fa34d09
+author Regenera Bank <finance@regenerabank.world> 1782541701 -0300
+committer Regenera Bank <finance@regenerabank.world> 1782541701 -0300
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ iQJPBAABCAA5FiEEcwg0q0Emw0GnD2uWmCajrAv2qQwFAmo/bYUbFIAAAAAABAAO
+ bWFudTIsMi41KzEuMTIsMCwzAAoJEJgmo6wL9qkMgbIQAIZVWaOxKxBVlV0FShax
+ j4NMTCyVE75YwIPhYTctr360297jeenhFOCRPBYSK/M40b2ufc1hgSVyUq5dcTQT
+ AkXdtc4tX0LUCEOH+fUL+tO04C/Pbc568GU3lJjnBr2jwSPXLatSIfpYtKlPktWY
+ HBZ0ziPwdpYfFw53pZuiLZ9U3CjLuUYEQ/zTqzeICjOdNNhHCMhmi8K3B6uCQXeN
+ 5UmFe4WmMT/KtbLKpDtRmsAg8ZFiOz3MN+nHmLsCU0MkJMy8UO6R3bxgxBSRp2+C
+ j7B7c5jYjrPWBZRh1zZuSnZB5I1JKTp14WcjEHVvySizfZ0XOGu2U0JRD2q4K0Mk
+ QgQ5Clvn6kVozmhNMtrTZnA+1/rl1tlvh1Cn17bG46bccZHF7JlWwU6lg3NnZ9/r
+ o9Z3aHIHToJQJhh4V7IxABaidba2rvpzKUPm+Eoqpf9tYW+3K6gYt5w5969ktX7m
+ vWH7daGkIgZQysjHgV47lDxDeaKbBZNZ5tRqYw2eNmnVcOV6zfK8R6QD/pnUnp3h
+ +gE7/+OzWAiPrw1oaytP5di2lOa4zNAMwwX1Fy9F2OWjnyRDKGWT772WdZUPT6B1
+ r5mlTgb2lhFb65Fpf/IQ/sZl3cXtS1mvAQojUJapQXLyYIorX4F98PB0yo8fKiyS
+ OeanqBGTLZg7GmoDVEMeixsQ
+ =fd1I
+ -----END PGP SIGNATURE-----
+
+evidence: establish signed institutional source baseline
+
+Repository: https://github.com/regenera-bank/production-ready.git
+
+Local repository: /Volumes/Regenera Bank 1/production-ready
+
+Source parent commit: e7a02c743e47535b37e0b51211db74d79fa34d09
+
+Source tree: 980ee8c69cdfdaaa46b2b9da2a32b6ca849e9749
+
+Institutional identity: Regenera Bank <finance@regenerabank.world>
+
+Signing-key fingerprint: 730834AB4126C341A70F6B969826A3AC0BF6A90C
+
+Attested at UTC: 2026-06-27T06:28:20Z
+
+Purpose: institutional authorship, integrity and source provenance baseline.

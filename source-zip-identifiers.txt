@@ -1,0 +1,6 @@
+Source ZIP: /Volumes/REGENERA FINALIZADO/Regenera Bank/production-ready.zip
+Source ZIP SHA-256: 95fe549d02cdc08910eb8224434ad03cb4172b0e063d0bd73bb4d8184b231076
+Source ZIP detached signature: /Volumes/REGENERA FINALIZADO/Regenera Bank/production-ready.zip.asc
+Source ZIP SHA-256 detached signature: /Volumes/REGENERA FINALIZADO/Regenera Bank/production-ready.zip.sha256.asc
+Generated from Git tree: 8b1e4194b7e8c867756bfe1fb46df6e49fa54970
+Generated at UTC: 2026-06-27T15:43:05Z

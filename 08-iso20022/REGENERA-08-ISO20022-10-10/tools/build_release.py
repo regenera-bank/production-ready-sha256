@@ -65,6 +65,7 @@ manifest = {
     'approval': 'PENDING_INDEPENDENT_REVIEW_AND_SIGNATURE',
 }
 (BUILD / 'RELEASE-MANIFEST.json').write_text(json.dumps(manifest, indent=2, sort_keys=True) + '\n', encoding='utf-8')
+# manifest changed the tree; refresh checksums once, still excluding checksum itself
 files = [p for p in BUILD.rglob('*') if p.is_file() and p != checksum_path]
 lines = [f'{sha(p)}  {p.relative_to(BUILD).as_posix()}' for p in sorted(files)]
 checksum_path.write_text('\n'.join(lines) + '\n', encoding='utf-8')

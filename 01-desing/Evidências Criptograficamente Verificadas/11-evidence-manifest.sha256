@@ -1,0 +1,10 @@
+9db88be290c3cf73a40e0eca2f9d08690b549edd23fc688caf737e87ea00d897  ./01-signed-baseline-commit.txt
+5611a3175cba3527c35827b1f4fd4242724325c5323a6be84d7757d0baad2cf1  ./02-commit-object.txt
+5c7171ad230442e69c1db978d1ba86183435e7cb115a3ef5e84cc1609caeff40  ./03-signed-tag-object.txt
+234cd75850e10c66a73fbded916a8e74726b26192f6902cdd32338a2e7b58e5b  ./04-commit-verification.txt
+234cd75850e10c66a73fbded916a8e74726b26192f6902cdd32338a2e7b58e5b  ./05-tag-verification.txt
+9db88be290c3cf73a40e0eca2f9d08690b549edd23fc688caf737e87ea00d897  ./06-git-log-signature.txt
+d324f74183529f12c08c5c0a631b27fc13f7e6e620ef418addea4f7f860d375e  ./07-production-ready-source.bundle
+8d276586578b1df260b992d3c20419e6717edf6f263925721ba9c7635754beb7  ./08-regenera-institutional-public-key.asc
+abdd6977fb276e81a39102ee65de59514b45541e46cd58b5cface0788109f05c  ./09-regenera-institutional-fingerprint.txt
+3fca74f832770619917be6c935011f6997f2f92544512dfb14f320492f222d19  ./10-baseline-identifiers.txt

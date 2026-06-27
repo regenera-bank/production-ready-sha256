@@ -1,0 +1,92 @@
+REGENERA-15-TOOLS-10-10 — FINAL VERIFICATION
+Date: 2026-06-26
+
+SOURCE INVENTORY
+- source: 15-tools(1).zip
+- source SHA-256: 82ded0390b852a0a4e3ade6d0a1c80f087a5596a20a77a1f06ff2233b7964fed
+- entries: 1322
+- macOS metadata entries: 662
+- clean files: 477
+- empty files: 90
+- declared tools: 13
+- executable Python files: 4
+
+BUILD 1
+python3 tools/clean.py
+CLEAN: PASS
+python3 tools/validate.py
+VALIDATION: PASSED
+python3 tools/test_runner.py
+......................................................................................................................................
+----------------------------------------------------------------------
+Ran 134 tests in 0.124s
+
+OK
+TESTS: 134/134 PASS
+python3 tools/security_scan.py
+SECURITY: PASSED
+python3 tools/clean.py
+CLEAN: PASS
+python3 tools/build.py
+BUILD: PASS (113 payload files)
+python3 tools/verify_release.py
+VERIFY: PASS
+python3 tools/clean.py
+CLEAN: PASS
+
+BUILD 2
+python3 tools/clean.py
+CLEAN: PASS
+python3 tools/validate.py
+VALIDATION: PASSED
+python3 tools/test_runner.py
+......................................................................................................................................
+----------------------------------------------------------------------
+Ran 134 tests in 0.121s
+
+OK
+TESTS: 134/134 PASS
+python3 tools/security_scan.py
+SECURITY: PASSED
+python3 tools/clean.py
+CLEAN: PASS
+python3 tools/build.py
+BUILD: PASS (113 payload files)
+python3 tools/verify_release.py
+VERIFY: PASS
+python3 tools/clean.py
+CLEAN: PASS
+
+CLEAN EXTRACTION
+python3 tools/clean.py
+CLEAN: PASS
+python3 tools/validate.py
+VALIDATION: PASSED
+python3 tools/test_runner.py
+......................................................................................................................................
+----------------------------------------------------------------------
+Ran 134 tests in 0.119s
+
+OK
+TESTS: 134/134 PASS
+python3 tools/security_scan.py
+SECURITY: PASSED
+python3 tools/clean.py
+CLEAN: PASS
+python3 tools/build.py
+BUILD: PASS (113 payload files)
+python3 tools/verify_release.py
+VERIFY: PASS
+python3 tools/clean.py
+CLEAN: PASS
+
+FINAL RESULT
+- status: PASSED
+- tests: 134/134
+- payload files covered: 113
+- physical files: 115
+- tree hash: 2308589211af8a24ecdd396ffe83c6a43117ca39b54e1f6be981f34e18363c33
+- ZIP SHA-256: 15ca06bc9c72ca6fac5d509160544038ad1d059dae6d3b382ccae0faa0696f03
+- source tree and extracted tree: IDENTICAL
+- institutional approval: PENDING
+- cryptographic signature: PENDING

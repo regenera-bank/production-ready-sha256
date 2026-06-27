@@ -1,0 +1,38 @@
+{
+  "artifact": "REGENERA-11-SECURITY-10-10.zip",
+  "clean_extraction_make_all_exit_code": 0,
+  "cryptographic_signature": "PENDING",
+  "external_dependencies_blocked": [
+    "HSM/KMS real",
+    "PKI institucional",
+    "SIEM/SOC",
+    "pentest independente",
+    "red team",
+    "mobile attestation",
+    "cloud posture"
+  ],
+  "final_files_compared": 61,
+  "forbidden_zip_entries": [],
+  "independent_reviewer": null,
+  "institutional_approval": "PENDING",
+  "payload_files_covered": 56,
+  "security_scan": {
+    "high_confidence_findings": [],
+    "status": "PASS"
+  },
+  "sha256": "5f4fcb27b8595696e60fd99ffe637341e81e1ae76975eb50b13bf15203b614af",
+  "technical_verification": "PASSED",
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "passed": 95,
+    "skipped": 0,
+    "status": "PASS",
+    "tests": 95
+  },
+  "tree_sha256": "16f4c322026b1f6acaa50720fb801947210f4ebd4e72f9455bec4af015dcb965",
+  "trees_identical": true,
+  "zip_entries": 80,
+  "zip_integrity": "PASS",
+  "zip_size_bytes": 43663
+}

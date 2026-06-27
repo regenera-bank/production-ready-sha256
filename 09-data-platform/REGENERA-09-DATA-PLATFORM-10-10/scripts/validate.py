@@ -26,6 +26,7 @@ for path in (ROOT/'docs/policies').glob('*.md'):
 for path in list((ROOT/'governance').glob('*.json')):
     try: json.loads(path.read_text(encoding='utf-8'))
     except Exception as exc: errors.append(f"json:{path.name}:{exc}")
+# A validação procura assinaturas sintéticas sem guardar as expressões completas em linha única.
 for path in ROOT.rglob('*'):
     if not path.is_file() or 'dist' in path.parts or path.suffix not in {'.md','.py','.json','.yml','.yaml'}: continue
     if path.name == 'validate.py': continue

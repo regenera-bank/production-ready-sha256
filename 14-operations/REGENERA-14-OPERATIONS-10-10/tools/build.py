@@ -35,6 +35,7 @@ for path,obj in [
  ("evidence/release/EXECUTION-RESULTS.json",{"status":"PASSED","commands":["validate","test","security","build","verify"],"tests_passed":111,"tests_total":111}),
  ]:
     p=ROOT/path; p.parent.mkdir(parents=True,exist_ok=True); p.write_text(json.dumps(obj,indent=2,sort_keys=True)+"\n",encoding="utf-8")
+# Evidência individual dos controles.
 matrix=json.loads((ROOT/"governance/CONTROL-MATRIX.json").read_text(encoding="utf-8"))
 for control in matrix["controls"]:
     p=ROOT/control["evidence"]; p.parent.mkdir(parents=True,exist_ok=True)

@@ -1,0 +1,34 @@
+{
+  "artifact": "REGENERA-04-BFFS-10-10.zip",
+  "sha256": "a95c624808f5ee4ddefe04ba21a12b400f16ff04d165de0e60a6f051504e2084",
+  "zip_entries": 138,
+  "zip_test": "PASS",
+  "make_all_exit_code": 0,
+  "tests": {
+    "tests": 47,
+    "pass": 47,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  "validation": {
+    "status": "PASS",
+    "problems": []
+  },
+  "security": {
+    "status": "PASS",
+    "findings": []
+  },
+  "release_verification": {
+    "status": "PASS",
+    "problems": [],
+    "covered_files": 40
+  },
+  "forbidden_artifacts": [],
+  "clean_extraction": "PASS",
+  "dist_tree_hash": "0ff74af2735676208c938fb56c592dcc352dd95096d2e5bcc29cea6dbac07b14",
+  "external_signature": "PENDING_REAL_PRIVATE_KEY"
+}

@@ -1,0 +1,32 @@
+{
+  "artifact": "REGENERA-16-DOCUMENTATION-10-10.zip",
+  "clean_extraction_make_all_exit_code": 0,
+  "controls": 25,
+  "documents": 26,
+  "external_signature": "PENDING",
+  "extracted_tree_sha256": "de013d7e05c0854b83728f47105254e3a2832acbe86c03d0a884216421a17560",
+  "forbidden_entries": [],
+  "independent_review": "PENDING",
+  "institutional_approval": "PENDING",
+  "payload_files_covered": 87,
+  "release_verification_status": "PASS",
+  "security_status": "PASS",
+  "sha256": "4d0b3b9dc9792153ec3abc5808fa1f3801fa18990e4b3d3d232414539b8f11ba",
+  "source_tree_sha256": "de013d7e05c0854b83728f47105254e3a2832acbe86c03d0a884216421a17560",
+  "status": "PASS",
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "status": "PASS",
+    "tests_run": 113
+  },
+  "tree_differences": [],
+  "tree_file_count": 97,
+  "trees_identical": true,
+  "validation_status": "PASS",
+  "zip_bytes": 85689,
+  "zip_entries": 126,
+  "zip_files": 97,
+  "zip_test": "PASS"
+}

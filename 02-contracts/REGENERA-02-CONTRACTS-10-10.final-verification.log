@@ -1,0 +1,43 @@
+doctor: PASS
+validate: PASS (8 operations)
+test_all_json_parses (test_contracts.ContractTests.test_all_json_parses) ... ok
+test_all_yaml_parses (test_contracts.ContractTests.test_all_yaml_parses) ... ok
+test_asyncapi_has_operations (test_contracts.ContractTests.test_asyncapi_has_operations) ... ok
+test_author_cannot_self_approve (test_contracts.ContractTests.test_author_cannot_self_approve) ... ok
+test_breaking_path_removal_detected (test_contracts.ContractTests.test_breaking_path_removal_detected) ... ok
+test_breaking_required_field_detected (test_contracts.ContractTests.test_breaking_required_field_detected) ... ok
+test_breaking_type_change_detected (test_contracts.ContractTests.test_breaking_type_change_detected) ... ok
+test_error_codes_unique_and_shaped (test_contracts.ContractTests.test_error_codes_unique_and_shaped) ... ok
+test_error_remediation_exists (test_contracts.ContractTests.test_error_remediation_exists) ... ok
+test_event_envelope_requires_correlation (test_contracts.ContractTests.test_event_envelope_requires_correlation) ... ok
+test_evidence_hashes_close (test_contracts.ContractTests.test_evidence_hashes_close) ... ok
+test_idempotency_has_unknown (test_contracts.ContractTests.test_idempotency_has_unknown) ... ok
+test_money_accepts_integer_string (test_contracts.ContractTests.test_money_accepts_integer_string) ... ok
+test_money_rejects_float_string (test_contracts.ContractTests.test_money_rejects_float_string) ... ok
+test_money_rejects_leading_zero (test_contracts.ContractTests.test_money_rejects_leading_zero) ... ok
+test_money_rejects_number (test_contracts.ContractTests.test_money_rejects_number) ... ok
+test_mutations_require_correlation_and_idempotency (test_contracts.ContractTests.test_mutations_require_correlation_and_idempotency) ... ok
+test_no_active_exceptions (test_contracts.ContractTests.test_no_active_exceptions) ... ok
+test_no_destructive_global_clean (test_contracts.ContractTests.test_no_destructive_global_clean) ... ok
+test_no_private_keys (test_contracts.ContractTests.test_no_private_keys) ... ok
+test_no_real_domains_in_contracts (test_contracts.ContractTests.test_no_real_domains_in_contracts) ... ok
+test_no_system_artifacts (test_contracts.ContractTests.test_no_system_artifacts) ... ok
+test_openapi_has_real_operations (test_contracts.ContractTests.test_openapi_has_real_operations) ... ok
+test_openapi_version (test_contracts.ContractTests.test_openapi_version) ... ok
+test_operation_ids_unique (test_contracts.ContractTests.test_operation_ids_unique) ... ok
+test_optional_field_is_compatible (test_contracts.ContractTests.test_optional_field_is_compatible) ... ok
+test_owner_declared_and_reviewer_pending (test_contracts.ContractTests.test_owner_declared_and_reviewer_pending) ... ok
+test_pix_has_unknown (test_contracts.ContractTests.test_pix_has_unknown) ... ok
+test_pix_rejects_fake_success_state (test_contracts.ContractTests.test_pix_rejects_fake_success_state) ... ok
+test_release_payload_hashes_close (test_contracts.ContractTests.test_release_payload_hashes_close) ... ok
+test_sign_script_does_not_contain_private_key (test_contracts.ContractTests.test_sign_script_does_not_contain_private_key) ... ok
+test_transaction_has_reconciliation_required (test_contracts.ContractTests.test_transaction_has_reconciliation_required) ... ok
+test_unknown_error_is_not_retryable (test_contracts.ContractTests.test_unknown_error_is_not_retryable) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 1.027s
+
+OK
+security: PASS
+build: PASS (15 contract files)
+verify-release: PASS

@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 EXCLUDED_PARTS = {"dist", ".build-tmp", ".git"}
 TEXT_SUFFIXES = {".py", ".md", ".json", ".toml", ".yaml", ".yml", ".sh", ""}
 
+# Os padrões são montados em partes. O scanner não pode acusar a própria regra.
 patterns = {
     "private-key": re.compile("BEGIN " + "PRIVATE KEY"),
     "aws-access-key": re.compile("AKIA" + r"[0-9A-Z]{16}"),

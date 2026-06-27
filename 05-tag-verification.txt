@@ -1,0 +1,3 @@
+gpg: Assinatura feita em sáb 27 jun 12:43:58 2026 -03
+gpg:        usando a chave RSA de 730834AB4126C341A70F6B969826A3AC0BF6A90C
+gpg: Assinatura válida de "Don Paulo Ricardo de Leao <finance@regenerabank.world>" [plena]

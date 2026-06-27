@@ -1,0 +1,71 @@
+PYTHONDONTWRITEBYTECODE=1 python3 tools/clean.py
+PYTHONDONTWRITEBYTECODE=1 python3 tools/validate_repo.py
+{
+  "status": "PASS",
+  "failures": [],
+  "exit_code": 0
+}
+PYTHONDONTWRITEBYTECODE=1 python3 tools/run_tests.py
+test_notification_rejects_indicator (test_camt.CamtTests.test_notification_rejects_indicator) ... ok
+test_notification_valid (test_camt.CamtTests.test_notification_valid) ... ok
+test_statement_accepts_negative_balances_when_arithmetic_closes (test_camt.CamtTests.test_statement_accepts_negative_balances_when_arithmetic_closes) ... ok
+test_statement_break_is_rejected (test_camt.CamtTests.test_statement_break_is_rejected) ... ok
+test_statement_reconciles (test_camt.CamtTests.test_statement_reconciles) ... ok
+test_attributes_are_sorted (test_canonical.CanonicalTests.test_attributes_are_sorted) ... ok
+test_content_changes_digest (test_canonical.CanonicalTests.test_content_changes_digest) ... ok
+test_whitespace_does_not_change_digest (test_canonical.CanonicalTests.test_whitespace_does_not_change_digest) ... ok
+test_approval_is_not_fabricated (test_governance.GovernanceTests.test_approval_is_not_fabricated) ... ok
+test_controls_have_owner_and_evidence (test_governance.GovernanceTests.test_controls_have_owner_and_evidence) ... ok
+test_external_activation_is_blocked (test_governance.GovernanceTests.test_external_activation_is_blocked) ... ok
+test_no_nested_zip (test_governance.GovernanceTests.test_no_nested_zip) ... ok
+test_balance_accepts_zero_and_negative (test_money_and_identifiers.MoneyAndIdentifiersTests.test_balance_accepts_zero_and_negative) ... ok
+test_balance_rejects_excessive_scale (test_money_and_identifiers.MoneyAndIdentifiersTests.test_balance_rejects_excessive_scale) ... ok
+test_bic_accepts_eight_or_eleven (test_money_and_identifiers.MoneyAndIdentifiersTests.test_bic_accepts_eight_or_eleven) ... ok
+test_bic_rejects_invalid (test_money_and_identifiers.MoneyAndIdentifiersTests.test_bic_rejects_invalid) ... ok
+test_identifier_rejects_too_long (test_money_and_identifiers.MoneyAndIdentifiersTests.test_identifier_rejects_too_long) ... ok
+test_money_accepts_brl_cents (test_money_and_identifiers.MoneyAndIdentifiersTests.test_money_accepts_brl_cents) ... ok
+test_money_rejects_float_scale (test_money_and_identifiers.MoneyAndIdentifiersTests.test_money_rejects_float_scale) ... ok
+test_money_rejects_negative (test_money_and_identifiers.MoneyAndIdentifiersTests.test_money_rejects_negative) ... ok
+test_money_rejects_unknown_currency (test_money_and_identifiers.MoneyAndIdentifiersTests.test_money_rejects_unknown_currency) ... ok
+test_money_rejects_zero (test_money_and_identifiers.MoneyAndIdentifiersTests.test_money_rejects_zero) ... ok
+test_accepts_settled (test_pacs002.Pacs002Tests.test_accepts_settled) ... ok
+test_reject_requires_reason (test_pacs002.Pacs002Tests.test_reject_requires_reason) ... ok
+test_reject_with_reason_is_valid (test_pacs002.Pacs002Tests.test_reject_with_reason_is_valid) ... ok
+test_rejects_unknown_status (test_pacs002.Pacs002Tests.test_rejects_unknown_status) ... ok
+test_builder_round_trip (test_pacs008.Pacs008Tests.test_builder_round_trip) ... ok
+test_rejects_control_sum_mismatch (test_pacs008.Pacs008Tests.test_rejects_control_sum_mismatch) ... ok
+test_rejects_excessive_decimal_scale (test_pacs008.Pacs008Tests.test_rejects_excessive_decimal_scale) ... ok
+test_rejects_invalid_bic (test_pacs008.Pacs008Tests.test_rejects_invalid_bic) ... ok
+test_rejects_wrong_count (test_pacs008.Pacs008Tests.test_rejects_wrong_count) ... ok
+test_rejects_wrong_namespace (test_pacs008.Pacs008Tests.test_rejects_wrong_namespace) ... ok
+test_valid_message (test_pacs008.Pacs008Tests.test_valid_message) ... ok
+test_pending_stays_pending (test_reconciliation.ReconciliationTests.test_pending_stays_pending) ... ok
+test_settled_closes_payment (test_reconciliation.ReconciliationTests.test_settled_closes_payment) ... ok
+test_unknown_transaction_is_rejected (test_reconciliation.ReconciliationTests.test_unknown_transaction_is_rejected) ... ok
+test_wrong_original_is_rejected (test_reconciliation.ReconciliationTests.test_wrong_original_is_rejected) ... ok
+test_invalid_transition_fails (test_registry.RegistryTests.test_invalid_transition_fails) ... ok
+test_same_id_different_payload_conflicts (test_registry.RegistryTests.test_same_id_different_payload_conflicts) ... ok
+test_same_message_replays (test_registry.RegistryTests.test_same_message_replays) ... ok
+test_unknown_blocks_resend (test_registry.RegistryTests.test_unknown_blocks_resend) ... ok
+test_unknown_can_reconcile (test_registry.RegistryTests.test_unknown_can_reconcile) ... ok
+test_accepts_small_safe_xml (test_xml_security.XmlSecurityTests.test_accepts_small_safe_xml) ... ok
+test_rejects_dtd_and_entity (test_xml_security.XmlSecurityTests.test_rejects_dtd_and_entity) ... ok
+test_rejects_element_flood (test_xml_security.XmlSecurityTests.test_rejects_element_flood) ... ok
+test_rejects_excessive_depth (test_xml_security.XmlSecurityTests.test_rejects_excessive_depth) ... ok
+test_rejects_large_payload (test_xml_security.XmlSecurityTests.test_rejects_large_payload) ... ok
+test_rejects_malformed_xml (test_xml_security.XmlSecurityTests.test_rejects_malformed_xml) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 0.008s
+
+OK
+PYTHONDONTWRITEBYTECODE=1 python3 tools/security_scan.py
+{
+  "status": "PASS",
+  "findings": [],
+  "exit_code": 0
+}
+PYTHONDONTWRITEBYTECODE=1 python3 tools/build_release.py
+build: PASS (70 arquivos cobertos)
+PYTHONDONTWRITEBYTECODE=1 python3 tools/verify_release.py
+verify-release: PASS (70 arquivos)
