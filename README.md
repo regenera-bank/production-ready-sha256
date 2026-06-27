@@ -1,3 +1,14 @@
+<div align="center">
+
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/regenera-bank/production-ready-sha256/secops.yml?style=for-the-badge&logo=githubactions&label=DevSecOps%20Pipeline)
+![Gitleaks](https://img.shields.io/badge/Secret_Scanning-Gitleaks_Active-success?style=for-the-badge&logo=shield)
+![Trivy SCA](https://img.shields.io/badge/SCA_%26_IaC_Scan-Trivy_Secured-success?style=for-the-badge&logo=aquasecurity)
+![GPG Signed](https://img.shields.io/badge/Commits-100%25_GPG_Signed-blue?style=for-the-badge&logo=gnuprivacyguard)
+![ISO 20022](https://img.shields.io/badge/Compliance-ISO_20022_Ready-purple?style=for-the-badge&logo=bank)
+
+</div>
+
+---
 # Regenera Bank
 
 **Estado técnico:** PRODUCT-READY para diligência, integração controlada e institucionalização  
