@@ -1,0 +1,26 @@
+control_id,control,owner,frequency,evidence,state
+REG-001,Catálogo de obrigações,Regulatory Affairs,CONTINUOUS,evidence/control/REG-001.json or approved external record,VERIFIED_LOCAL_CONTROL
+REG-002,Fonte normativa aprovada,Institutional Control Owner,BEFORE_ACTIVATION,evidence/control/REG-002.json or approved external record,BLOCKED_EXTERNAL_EVIDENCE
+REG-003,Owner por obrigação,Regulatory Affairs,CONTINUOUS,evidence/control/REG-003.json or approved external record,VERIFIED_LOCAL_CONTROL
+REG-004,Calendário confirmado,Institutional Control Owner,BEFORE_ACTIVATION,evidence/control/REG-004.json or approved external record,BLOCKED_EXTERNAL_EVIDENCE
+REG-005,Alertas de prazo,Regulatory Affairs,CONTINUOUS,evidence/control/REG-005.json or approved external record,VERIFIED_LOCAL_CONTROL
+REG-006,Evidência por hash,Regulatory Affairs,CONTINUOUS,evidence/control/REG-006.json or approved external record,VERIFIED_LOCAL_CONTROL
+REG-007,Imutabilidade pós-aprovação,Regulatory Affairs,CONTINUOUS,evidence/control/REG-007.json or approved external record,VERIFIED_LOCAL_CONTROL
+REG-008,Maker-checker,Regulatory Affairs,CONTINUOUS,evidence/control/REG-008.json or approved external record,VERIFIED_LOCAL_CONTROL
+REG-009,Aprovação vinculada ao digest,Regulatory Affairs,CONTINUOUS,evidence/control/REG-009.json or approved external record,VERIFIED_LOCAL_CONTROL
+REG-010,Reconciliação de dados,Regulatory Affairs,CONTINUOUS,evidence/control/REG-010.json or approved external record,VERIFIED_LOCAL_CONTROL
+REG-011,Idempotência de submissão,Regulatory Affairs,CONTINUOUS,evidence/control/REG-011.json or approved external record,VERIFIED_LOCAL_CONTROL
+REG-012,Estado UNKNOWN,Regulatory Affairs,CONTINUOUS,evidence/control/REG-012.json or approved external record,VERIFIED_LOCAL_CONTROL
+REG-013,Protocolo externo,Institutional Control Owner,BEFORE_ACTIVATION,evidence/control/REG-013.json or approved external record,BLOCKED_EXTERNAL_EVIDENCE
+REG-014,Retenção,Regulatory Affairs,CONTINUOUS,evidence/control/REG-014.json or approved external record,VERIFIED_LOCAL_CONTROL
+REG-015,Legal hold,Regulatory Affairs,CONTINUOUS,evidence/control/REG-015.json or approved external record,VERIFIED_LOCAL_CONTROL
+REG-016,Finalidade de acesso,Regulatory Affairs,CONTINUOUS,evidence/control/REG-016.json or approved external record,VERIFIED_LOCAL_CONTROL
+REG-017,Atendimento a titular,Regulatory Affairs,CONTINUOUS,evidence/control/REG-017.json or approved external record,VERIFIED_LOCAL_CONTROL
+REG-018,Mudança regulatória,Regulatory Affairs,CONTINUOUS,evidence/control/REG-018.json or approved external record,VERIFIED_LOCAL_CONTROL
+REG-019,Exceção com validade,Regulatory Affairs,CONTINUOUS,evidence/control/REG-019.json or approved external record,VERIFIED_LOCAL_CONTROL
+REG-020,Trilha SHA-256,Regulatory Affairs,CONTINUOUS,evidence/control/REG-020.json or approved external record,VERIFIED_LOCAL_CONTROL
+REG-021,Canal homologado,Institutional Control Owner,BEFORE_ACTIVATION,evidence/control/REG-021.json or approved external record,BLOCKED_EXTERNAL_EVIDENCE
+REG-022,Leiaute oficial,Institutional Control Owner,BEFORE_ACTIVATION,evidence/control/REG-022.json or approved external record,BLOCKED_EXTERNAL_EVIDENCE
+REG-023,Assinatura institucional,Institutional Control Owner,BEFORE_ACTIVATION,evidence/control/REG-023.json or approved external record,BLOCKED_EXTERNAL_EVIDENCE
+REG-024,Revisão independente,Institutional Control Owner,BEFORE_ACTIVATION,evidence/control/REG-024.json or approved external record,BLOCKED_EXTERNAL_EVIDENCE
+REG-025,Continuidade de submissão,Institutional Control Owner,BEFORE_ACTIVATION,evidence/control/REG-025.json or approved external record,BLOCKED_EXTERNAL_EVIDENCE

@@ -1,0 +1,109 @@
+{
+  "modules": [
+    {
+      "criticality": "CRITICAL",
+      "evidence_required": true,
+      "name": "cloud-foundation",
+      "owner_group": "platform-cloud-foundation",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "criticality": "CRITICAL",
+      "evidence_required": false,
+      "name": "terraform",
+      "owner_group": "platform-terraform",
+      "state": "CONTROLLED_SOURCE"
+    },
+    {
+      "criticality": "CRITICAL",
+      "evidence_required": false,
+      "name": "kubernetes",
+      "owner_group": "platform-kubernetes",
+      "state": "CONTROLLED_SOURCE"
+    },
+    {
+      "criticality": "CRITICAL",
+      "evidence_required": true,
+      "name": "secrets",
+      "owner_group": "platform-secrets",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "criticality": "CRITICAL",
+      "evidence_required": true,
+      "name": "kms-hsm",
+      "owner_group": "platform-kms-hsm",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "criticality": "CRITICAL",
+      "evidence_required": true,
+      "name": "databases",
+      "owner_group": "platform-databases",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "criticality": "HIGH",
+      "evidence_required": true,
+      "name": "cache",
+      "owner_group": "platform-cache",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "criticality": "CRITICAL",
+      "evidence_required": true,
+      "name": "event-bus",
+      "owner_group": "platform-event-bus",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "criticality": "HIGH",
+      "evidence_required": true,
+      "name": "object-storage",
+      "owner_group": "platform-object-storage",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "criticality": "CRITICAL",
+      "evidence_required": true,
+      "name": "observability",
+      "owner_group": "platform-observability",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "criticality": "CRITICAL",
+      "evidence_required": true,
+      "name": "siem",
+      "owner_group": "platform-siem",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "criticality": "CRITICAL",
+      "evidence_required": true,
+      "name": "backups",
+      "owner_group": "platform-backups",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "criticality": "CRITICAL",
+      "evidence_required": true,
+      "name": "disaster-recovery",
+      "owner_group": "platform-disaster-recovery",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "criticality": "CRITICAL",
+      "evidence_required": false,
+      "name": "ci-cd",
+      "owner_group": "platform-ci-cd",
+      "state": "CONTROLLED_SOURCE"
+    },
+    {
+      "criticality": "MEDIUM",
+      "evidence_required": true,
+      "name": "developer-portal",
+      "owner_group": "platform-developer-portal",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    }
+  ]
+}

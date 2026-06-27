@@ -1,0 +1,192 @@
+{
+  "artifact": "build/core-banking-domain.jar",
+  "artifact_sha256": "2fb2bac20728788eadd31240dee5755e09abe68156e1c567db9fe0d146e8248d",
+  "artifact_size": 96400,
+  "build_command": "kotlinc src/main/kotlin -d core-banking-domain.jar; normalized zip entries",
+  "network_access": "not_required",
+  "release_date": "2026-06-26",
+  "release_version": "1.0.0",
+  "source_components": [
+    {
+      "path": "db/migrations/V001__core_banking_foundation.sql",
+      "sha256": "be49950abb4401b8e02caf1e16b0db8ae17cf58f155a581b8dd90c6f29484f43",
+      "size": 13828
+    },
+    {
+      "path": "db/migrations/V002__operational_views.sql",
+      "sha256": "d480566e92f72fa9f4be9fe0e5b09180aa37a4fb6cc2127bbd9e0c733a544978",
+      "size": 1897
+    },
+    {
+      "path": "docs/adr/ADR-001-LEDGER-RELACIONAL-APPEND-ONLY.md",
+      "sha256": "2025422e85f34260514be67242e1803986fdb60c0f0a0ff810ad60e9ef59b991",
+      "size": 1741
+    },
+    {
+      "path": "docs/adr/ADR-002-IDEMPOTENCIA-DURAVEL.md",
+      "sha256": "64146b78d9d14abbc77a5b7b090ef2e46ae0192b48299c1485b2c3c12be463ce",
+      "size": 1145
+    },
+    {
+      "path": "docs/adr/ADR-003-ESTADO-UNKNOWN.md",
+      "sha256": "11045e1b30174347e776c7dd21b227dcad46bf5ff12465e752be54b447ee924d",
+      "size": 900
+    },
+    {
+      "path": "docs/architecture/CORE-BANKING-ARCHITECTURE.md",
+      "sha256": "c730747a294e7cb0d43b22ea54113efeebb3c6e05e66dbd5ff5e05db69c08f87",
+      "size": 3856
+    },
+    {
+      "path": "docs/policies/POL-CORE-001-INTEGRIDADE-FINANCEIRA.md",
+      "sha256": "d50d2162155c6cc491edcfe371349d5f201eb74b0b6df33b9e639af3ec74bac4",
+      "size": 1699
+    },
+    {
+      "path": "docs/policies/POL-CORE-002-RELEASE.md",
+      "sha256": "1ebb400ec2989f68bc894ca84dd149855f108de93f35aac3f022c80264044c41",
+      "size": 1111
+    },
+    {
+      "path": "docs/policies/POL-CORE-003-DADOS-E-SEGREDOS.md",
+      "sha256": "bc0f20173969d8acaea56303e0b1e758a2587858a02e867c61b524f1be650578",
+      "size": 875
+    },
+    {
+      "path": "docs/policies/POL-CORE-004-RECONCILIACAO.md",
+      "sha256": "42af7bbd3f027e136ec0dd8240b41404d0982ff7d0368de73fc1df742a1dd3b9",
+      "size": 851
+    },
+    {
+      "path": "docs/runbooks/RUNBOOK-CORE-001-UNKNOWN.md",
+      "sha256": "328075af044a149dfa7f0a0c57eac813648d75df0afc154ae52c13afc1ab7883",
+      "size": 1592
+    },
+    {
+      "path": "docs/runbooks/RUNBOOK-CORE-002-LEDGER-IMBALANCE.md",
+      "sha256": "a116dc9ce1e12b95eb31378d4172c375f221c18e5c6296540e0694be53c4e429",
+      "size": 988
+    },
+    {
+      "path": "docs/runbooks/RUNBOOK-CORE-003-IDEMPOTENCY.md",
+      "sha256": "714c6d1f23893998a5986c1e7df9d76b54b2ee0e0938a40fb71087115f3174c8",
+      "size": 926
+    },
+    {
+      "path": "docs/runbooks/RUNBOOK-CORE-004-RESTORE.md",
+      "sha256": "09c0accc2ec6caf09dfe8f0a894e74c379db1057cfad31bf8a4f0e9fe92a40b8",
+      "size": 1022
+    },
+    {
+      "path": "governance/ORIGIN-INVENTORY.json",
+      "sha256": "003c885aefcc420927554ecdb5f1e22a70c3f9c64503e6525076198c2988edaa",
+      "size": 580
+    },
+    {
+      "path": "governance/OWNERS.json",
+      "sha256": "d4acdee583e4506ff7906b834aa3819bb2438d4f3d36b4e274c01a7fb5568420",
+      "size": 364
+    },
+    {
+      "path": "governance/authorship/AUTHORSHIP-DECLARATION.md",
+      "sha256": "68476a8f9db817a079c71ecfbd8ce9239023d3c63dc25c5642bdcd016acd3d53",
+      "size": 734
+    },
+    {
+      "path": "governance/authorship/INCREMENTAL-HISTORY.md",
+      "sha256": "b92d1f3c632fe6ee53c7aebb83eaf55f088f3cc18ce9c7404e09add47d09e509",
+      "size": 856
+    },
+    {
+      "path": "governance/authorship/PROVENANCE.md",
+      "sha256": "fcb5955b022b7476737f32437837fc21ccee76554b30a5b87a4fd3a9d2bbf310",
+      "size": 1038
+    },
+    {
+      "path": "governance/controls/CONTROL-MATRIX.csv",
+      "sha256": "2cfa3a8d4b6b71d637b0e9d88e15fcce9f0169a30f2f48df31b1406394e55563",
+      "size": 4012
+    },
+    {
+      "path": "governance/reviews/MEETING-MINUTES-001.md",
+      "sha256": "445c7cf5fc8318d7d513a642586f1fa5c11cd5b6390366a4140564055dc6b779",
+      "size": 799
+    },
+    {
+      "path": "governance/reviews/REVIEW-RECORD-001.md",
+      "sha256": "4e71ccc481d6ab75e79fa481e7b9bb50b7cf99773d69aefe9d7b8063bae4ad89",
+      "size": 951
+    },
+    {
+      "path": "governance/reviews/SIGNED-COMMIT-REQUIREMENT.md",
+      "sha256": "5af12de4e2d675dd17a1b1884489631218996ba90ec85a3f9f4c920b394ae75b",
+      "size": 396
+    },
+    {
+      "path": "src/main/kotlin/com/regenera/core/Accounts.kt",
+      "sha256": "4efd7e27f2f5455e00a291496b4413e4bc9806853b4ab5b25f920d680b2350b9",
+      "size": 2803
+    },
+    {
+      "path": "src/main/kotlin/com/regenera/core/AuditChain.kt",
+      "sha256": "598b0612c9996933dffd3ddba745a171121d4700897463dac98ba55ff57b1034",
+      "size": 3133
+    },
+    {
+      "path": "src/main/kotlin/com/regenera/core/CoreBank.kt",
+      "sha256": "c2d05e11c0afe6b3e372be9ac9005549399807272cca46b032da00339aa75965",
+      "size": 459
+    },
+    {
+      "path": "src/main/kotlin/com/regenera/core/CoreErrors.kt",
+      "sha256": "166ddd2742fd68e2d345da681f0950a67d0b30e8dea2b0be37f76124fcc34ec9",
+      "size": 534
+    },
+    {
+      "path": "src/main/kotlin/com/regenera/core/Crypto.kt",
+      "sha256": "cfcddf9b59a64a94b1fee01a96c88cb0719dd42949543beb38b5b3975fd99a4b",
+      "size": 979
+    },
+    {
+      "path": "src/main/kotlin/com/regenera/core/Holds.kt",
+      "sha256": "3f939770dbbd0ee810394d3ccbbb525d7ed75e2cb9839f29843a0c6c1e60c2f5",
+      "size": 3652
+    },
+    {
+      "path": "src/main/kotlin/com/regenera/core/Idempotency.kt",
+      "sha256": "737cb0180ea5fd0268f24ec9cc73d4f8ce947aaa0df689c3097551290ce7516b",
+      "size": 6003
+    },
+    {
+      "path": "src/main/kotlin/com/regenera/core/Ledger.kt",
+      "sha256": "b25f31614ff1320cbad0cf7fd4c50febe98f076f601f29d07bd9ba57b411e86f",
+      "size": 10446
+    },
+    {
+      "path": "src/main/kotlin/com/regenera/core/Money.kt",
+      "sha256": "44ad275ac8ca21a0185833f09ba919b61fed33f61cd31895d77ab81bad0e6ccd",
+      "size": 2579
+    },
+    {
+      "path": "src/main/kotlin/com/regenera/core/Outbox.kt",
+      "sha256": "7dfa39856dca3c868d8e02a7238a5c82d0e2c332c989d0e4414ed45f0d4e6733",
+      "size": 1644
+    },
+    {
+      "path": "src/main/kotlin/com/regenera/core/Payments.kt",
+      "sha256": "6e842a6abd26563cc57e73ea6bda92b9a1a7718f4b30fa890616dae08c36ea90",
+      "size": 12110
+    },
+    {
+      "path": "src/main/kotlin/com/regenera/core/Pix.kt",
+      "sha256": "13ae940690252ad4dcc3b8b026f338899904d345a36eba686b962e388feae05a",
+      "size": 2789
+    },
+    {
+      "path": "src/test/kotlin/com/regenera/core/CoreBankingTestMain.kt",
+      "sha256": "74e27d23316a5fd4f9259872d774548785a0dbc1f5e97530d4e6d6202234e973",
+      "size": 25119
+    }
+  ],
+  "source_tree_sha256": "1b88de8cbcbba4f099861212f42c01821d07e616282d901f5954e11198ffb0b2"
+}

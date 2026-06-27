@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>MSG-20260626-0001</MsgId>
+      <CreDtTm>2026-06-26T12:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <CtrlSum>125.40</CtrlSum>
+      <SttlmInf><SttlmMtd>CLRG</SttlmMtd></SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId><InstrId>INS-0001</InstrId><EndToEndId>E2E-0001</EndToEndId><TxId>TX-0001</TxId></PmtId>
+      <IntrBkSttlmAmt Ccy="BRL">125.40</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-06-26</IntrBkSttlmDt>
+      <DbtrAgt><FinInstnId><BICFI>AAAABRSP</BICFI></FinInstnId></DbtrAgt>
+      <CdtrAgt><FinInstnId><BICFI>BBBBBRSP</BICFI></FinInstnId></CdtrAgt>
+      <Dbtr><Nm>Parte Devedora</Nm></Dbtr>
+      <Cdtr><Nm>Parte Credora</Nm></Cdtr>
+      <DbtrAcct><Id><Othr><Id>ACC-DEBIT-01</Id></Othr></Id></DbtrAcct>
+      <CdtrAcct><Id><Othr><Id>ACC-CREDIT-01</Id></Othr></Id></CdtrAcct>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

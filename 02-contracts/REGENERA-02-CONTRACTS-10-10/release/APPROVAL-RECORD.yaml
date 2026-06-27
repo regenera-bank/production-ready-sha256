@@ -1,0 +1,15 @@
+release: REGENERA-02-CONTRACTS-1.0.0
+status: READY_FOR_INDEPENDENT_REVIEW
+author:
+  name: Don Paulo Ricardo
+  declared: true
+independentReviewer:
+  name: null
+  status: PENDING
+changeTicket: null
+artifactSignature: null
+promotionBlocked: true
+blockingReasons:
+- independent review pending
+- cryptographic signature pending
+- change ticket pending

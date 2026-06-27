@@ -1,0 +1,155 @@
+{
+  "document_id": "SECURITY-REGISTRY-001",
+  "modules": [
+    {
+      "evidence_required": [
+        "local tests",
+        "control matrix"
+      ],
+      "name": "iam",
+      "state": "IMPLEMENTED_TESTED"
+    },
+    {
+      "evidence_required": [
+        "local tests",
+        "policy"
+      ],
+      "name": "pam-jit",
+      "state": "IMPLEMENTED_TESTED"
+    },
+    {
+      "evidence_required": [
+        "local tests",
+        "policy"
+      ],
+      "name": "secrets",
+      "state": "IMPLEMENTED_TESTED"
+    },
+    {
+      "evidence_required": [
+        "local tests",
+        "policy"
+      ],
+      "name": "key-metadata",
+      "state": "IMPLEMENTED_TESTED"
+    },
+    {
+      "evidence_required": [
+        "local tests",
+        "release policy"
+      ],
+      "name": "appsec-gate",
+      "state": "IMPLEMENTED_TESTED"
+    },
+    {
+      "evidence_required": [
+        "local tests",
+        "SLA policy"
+      ],
+      "name": "vulnerability-management",
+      "state": "IMPLEMENTED_TESTED"
+    },
+    {
+      "evidence_required": [
+        "checksums",
+        "provenance"
+      ],
+      "name": "artifact-integrity",
+      "state": "IMPLEMENTED_TESTED"
+    },
+    {
+      "evidence_required": [
+        "local tests",
+        "rules"
+      ],
+      "name": "detection-engine",
+      "state": "IMPLEMENTED_TESTED"
+    },
+    {
+      "evidence_required": [
+        "local tests",
+        "runbooks"
+      ],
+      "name": "incident-response",
+      "state": "IMPLEMENTED_TESTED"
+    },
+    {
+      "evidence_required": [
+        "local tests",
+        "hash chain"
+      ],
+      "name": "audit-chain",
+      "state": "IMPLEMENTED_TESTED"
+    },
+    {
+      "evidence_required": [
+        "HSM inventory",
+        "key ceremony",
+        "attestation"
+      ],
+      "name": "hsm-kms",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "evidence_required": [
+        "CA policy",
+        "certificate inventory",
+        "revocation test"
+      ],
+      "name": "institutional-pki",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "evidence_required": [
+        "SIEM connector",
+        "alert evidence",
+        "SOC roster"
+      ],
+      "name": "siem-soc",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "evidence_required": [
+        "signed report",
+        "scope",
+        "remediation evidence"
+      ],
+      "name": "penetration-test",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "evidence_required": [
+        "signed exercise report",
+        "rules of engagement"
+      ],
+      "name": "red-team",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "evidence_required": [
+        "provider contract",
+        "feed health",
+        "license"
+      ],
+      "name": "threat-intelligence-feeds",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "evidence_required": [
+        "platform attestation",
+        "device telemetry"
+      ],
+      "name": "mobile-attestation",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "evidence_required": [
+        "cloud account",
+        "CSPM evidence",
+        "organization policy"
+      ],
+      "name": "cloud-security-posture",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    }
+  ]
+}

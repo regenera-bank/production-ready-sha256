@@ -1,0 +1,27 @@
+{
+  "baseline": "2026-06-26",
+  "external_activation": "BLOCKED_UNTIL_OFFICIAL_XSD_AND_INSTITUTIONAL_APPROVAL",
+  "profiles": [
+    {
+      "message_id": "pacs.008.001.08",
+      "purpose": "FI credit transfer",
+      "xsd": "REQUIRED_NOT_INCLUDED"
+    },
+    {
+      "message_id": "pacs.002.001.10",
+      "purpose": "payment status",
+      "xsd": "REQUIRED_NOT_INCLUDED"
+    },
+    {
+      "message_id": "camt.053.001.08",
+      "purpose": "statement",
+      "xsd": "REQUIRED_NOT_INCLUDED"
+    },
+    {
+      "message_id": "camt.054.001.08",
+      "purpose": "debit credit notification",
+      "xsd": "REQUIRED_NOT_INCLUDED"
+    }
+  ],
+  "status": "INTERNAL_SEMANTIC_PROFILE"
+}

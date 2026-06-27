@@ -1,0 +1,12 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ciclo de Vida Documental</title><link rel="stylesheet" href="../assets/site.css"></head><body><main>
+<h1>Ciclo de Vida Documental</h1>
+
+<pre data-language="mermaid"><code>stateDiagram-v2
+  [*] --&gt; DRAFT
+  DRAFT --&gt; ACTIVE: revisão independente
+  ACTIVE --&gt; SUPERSEDED: nova versão
+  ACTIVE --&gt; RETIRED: decisão formal
+  DRAFT --&gt; EXTERNAL_PENDING: dependência externa
+  EXTERNAL_PENDING --&gt; ACTIVE: evidência incorporada</code></pre>
+
+<p>Transição exige registro de motivo, ator e data. Documento `ACTIVE` com revisão vencida é inválido até nova revisão.</p></main></body></html>

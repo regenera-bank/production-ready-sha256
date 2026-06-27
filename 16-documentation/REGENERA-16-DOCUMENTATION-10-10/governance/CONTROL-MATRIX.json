@@ -1,0 +1,177 @@
+[
+  {
+    "id": "DOC-001",
+    "owner": "Documentation Governance",
+    "control": "ID único por documento",
+    "evidence": "registry/documents.json",
+    "status": "EFFECTIVE_LOCAL"
+  },
+  {
+    "id": "DOC-002",
+    "owner": "Documentation Governance",
+    "control": "Owner obrigatório",
+    "evidence": "registry/documents.json",
+    "status": "EFFECTIVE_LOCAL"
+  },
+  {
+    "id": "DOC-003",
+    "owner": "Documentation Governance",
+    "control": "Versão semântica",
+    "evidence": "registry/documents.json",
+    "status": "EFFECTIVE_LOCAL"
+  },
+  {
+    "id": "DOC-004",
+    "owner": "Documentation Governance",
+    "control": "Prazo de revisão",
+    "evidence": "registry/documents.json",
+    "status": "EFFECTIVE_LOCAL"
+  },
+  {
+    "id": "DOC-005",
+    "owner": "Documentation Governance",
+    "control": "Links internos válidos",
+    "evidence": "evidence/VALIDATION-REPORT.json",
+    "status": "EFFECTIVE_LOCAL"
+  },
+  {
+    "id": "DOC-006",
+    "owner": "Documentation Governance",
+    "control": "Documento órfão bloqueado",
+    "evidence": "evidence/VALIDATION-REPORT.json",
+    "status": "EFFECTIVE_LOCAL"
+  },
+  {
+    "id": "DOC-007",
+    "owner": "Security",
+    "control": "Segredo incorporado bloqueado",
+    "evidence": "evidence/SECURITY-REPORT.json",
+    "status": "EFFECTIVE_LOCAL"
+  },
+  {
+    "id": "DOC-008",
+    "owner": "Security",
+    "control": "Chave privada bloqueada",
+    "evidence": "evidence/SECURITY-REPORT.json",
+    "status": "EFFECTIVE_LOCAL"
+  },
+  {
+    "id": "DOC-009",
+    "owner": "Governance",
+    "control": "Aprovação externa não simulada",
+    "evidence": "ASSINATURA-EXTERNA-REQUERIDA.md",
+    "status": "EFFECTIVE_LOCAL"
+  },
+  {
+    "id": "DOC-010",
+    "owner": "Release Engineering",
+    "control": "Payload coberto por SHA-256",
+    "evidence": "evidence/PAYLOAD-CHECKSUMS.sha256",
+    "status": "EFFECTIVE_LOCAL"
+  },
+  {
+    "id": "DOC-011",
+    "owner": "Release Engineering",
+    "control": "Build determinístico",
+    "evidence": "evidence/BUILD-PROVENANCE.json",
+    "status": "EFFECTIVE_LOCAL"
+  },
+  {
+    "id": "DOC-012",
+    "owner": "Documentation Governance",
+    "control": "Fonte de verdade única",
+    "evidence": "registry/documents.json",
+    "status": "EFFECTIVE_LOCAL"
+  },
+  {
+    "id": "DOC-013",
+    "owner": "Documentation Governance",
+    "control": "Documento vencido bloqueado",
+    "evidence": "evidence/VALIDATION-REPORT.json",
+    "status": "EFFECTIVE_LOCAL"
+  },
+  {
+    "id": "DOC-014",
+    "owner": "Documentation Governance",
+    "control": "Status permitido",
+    "evidence": "schemas/document.schema.json",
+    "status": "EFFECTIVE_LOCAL"
+  },
+  {
+    "id": "DOC-015",
+    "owner": "Data Governance",
+    "control": "Classificação obrigatória",
+    "evidence": "docs/data/data-classification.md",
+    "status": "EFFECTIVE_LOCAL"
+  },
+  {
+    "id": "DOC-016",
+    "owner": "Architecture",
+    "control": "Diagramas textuais versionáveis",
+    "evidence": "docs/architecture/system-context.md",
+    "status": "EFFECTIVE_LOCAL"
+  },
+  {
+    "id": "DOC-017",
+    "owner": "API Governance",
+    "control": "Catálogo de APIs",
+    "evidence": "docs/catalogs/api-catalog.md",
+    "status": "EFFECTIVE_LOCAL"
+  },
+  {
+    "id": "DOC-018",
+    "owner": "Event Governance",
+    "control": "Catálogo de eventos",
+    "evidence": "docs/catalogs/event-catalog.md",
+    "status": "EFFECTIVE_LOCAL"
+  },
+  {
+    "id": "DOC-019",
+    "owner": "API Governance",
+    "control": "Catálogo de erros",
+    "evidence": "docs/catalogs/error-catalog.md",
+    "status": "EFFECTIVE_LOCAL"
+  },
+  {
+    "id": "DOC-020",
+    "owner": "Regulatory",
+    "control": "Fonte normativa externa",
+    "evidence": "docs/regulatory/regulatory-matrix.md",
+    "status": "EXTERNAL_PENDING"
+  },
+  {
+    "id": "DOC-021",
+    "owner": "Security",
+    "control": "Parecer de segurança independente",
+    "evidence": "ASSINATURA-EXTERNA-REQUERIDA.md",
+    "status": "EXTERNAL_PENDING"
+  },
+  {
+    "id": "DOC-022",
+    "owner": "Legal",
+    "control": "Parecer jurídico",
+    "evidence": "docs/regulatory/regulatory-matrix.md",
+    "status": "EXTERNAL_PENDING"
+  },
+  {
+    "id": "DOC-023",
+    "owner": "Release Engineering",
+    "control": "Commit assinado",
+    "evidence": "ASSINATURA-EXTERNA-REQUERIDA.md",
+    "status": "EXTERNAL_PENDING"
+  },
+  {
+    "id": "DOC-024",
+    "owner": "Governance",
+    "control": "Aprovação institucional",
+    "evidence": "ASSINATURA-EXTERNA-REQUERIDA.md",
+    "status": "EXTERNAL_PENDING"
+  },
+  {
+    "id": "DOC-025",
+    "owner": "Documentation Operations",
+    "control": "Runbooks documentais",
+    "evidence": "docs/runbooks/broken-link.md",
+    "status": "EFFECTIVE_LOCAL"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "release_id": "DS-2026-001",
+  "version": "1.0.0",
+  "source_date_epoch": "2026-06-26T00:00:00Z",
+  "technical_status": "VERIFIED",
+  "institutional_approval": "PENDING_CRYPTOGRAPHIC_SIGNATURE",
+  "author_responsible": "Don Paulo Ricardo",
+  "scope": "design tokens, component contracts, platform outputs and design-system governance"
+}

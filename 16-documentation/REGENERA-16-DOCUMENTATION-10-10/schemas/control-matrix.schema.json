@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:regenera:documentation:controls:1",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "owner",
+      "control",
+      "evidence",
+      "status"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "owner": {
+        "type": "string"
+      },
+      "control": {
+        "type": "string"
+      },
+      "evidence": {
+        "type": "string"
+      },
+      "status": {
+        "enum": [
+          "EFFECTIVE_LOCAL",
+          "EXTERNAL_PENDING",
+          "NOT_APPLICABLE"
+        ]
+      }
+    }
+  }
+}

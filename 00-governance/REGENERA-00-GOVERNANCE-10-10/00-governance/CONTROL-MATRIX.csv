@@ -1,0 +1,31 @@
+control_id,control,domain,document_id,expected_evidence,frequency,criticality,owner_id,control_type,effectiveness_rule
+GOV-001,Segregação de autoria e aprovação,Governança,POL-GOV-001,pull request; approval record,per-change,critical,engineering-governance,preventive,author != approver
+GOV-002,Owner verificável,Governança,STD-EVID-001,owner registry record,quarterly,high,governance-corporate,preventive,owner exists and active
+GOV-003,Revisão documental vigente,Governança,POL-GOV-001,document register,daily,high,governance-corporate,detective,next_review >= current date
+GOV-004,Exceção com validade limitada,Governança,POL-EXC-001,exception record,per-exception,critical,governance-corporate,preventive,expires_at in future
+REL-001,Release aprovada de forma independente,Release,POL-REL-001,approval record; signed commit,per-release,critical,engineering-governance,preventive,independent approval present
+REL-002,Manifesto e hash do payload,Release,STD-REL-001,payload manifest; checksums,per-release,critical,engineering-governance,preventive,all hashes match
+REL-003,SBOM do payload,Release,STD-REL-001,CycloneDX SBOM,per-release,high,engineering-governance,detective,SBOM parses and covers payload
+REL-004,Rollback ensaiado,Release,RUN-ROLLBACK-001,rollback exercise report,quarterly,critical,engineering-governance,detective,restore hash equals source
+SEC-001,Segredo fora do código,Segurança,POL-SEC-001,secret scan report,per-change,critical,security-governance,preventive,zero high-confidence findings
+SEC-002,Acesso privilegiado temporário,Segurança,POL-ACCESS-001,grant and expiry record,per-access,critical,security-governance,preventive,expiry mandatory
+SEC-003,Revisão de acesso crítico,Segurança,POL-ACCESS-001,review evidence,30d,critical,security-governance,detective,review age <= 30d
+SEC-004,Resposta a incidente cibernético,Segurança,RUN-INC-001,incident timeline,per-incident,critical,security-governance,corrective,SEV1 ack <= 5m
+FIN-001,Partida dobrada fecha em zero,Financeiro,ADR-LEDGER-001,ledger invariant test,per-change,critical,engineering-governance,preventive,sum debit == sum credit
+FIN-002,Lançamento postado é imutável,Financeiro,ADR-LEDGER-001,immutability test,per-change,critical,engineering-governance,preventive,posted entries reject mutation
+FIN-003,Reversão é compensatória,Financeiro,ADR-LEDGER-001,reversal test,per-change,critical,engineering-governance,preventive,original preserved
+FIN-004,Idempotência devolve resultado original,Financeiro,ADR-IDEMP-001,duplicate request test,per-change,critical,engineering-governance,preventive,same key and fingerprint => same result
+FIN-005,UNKNOWN bloqueia repetição cega,Financeiro,ADR-UNKNOWN-001,unknown state test,per-change,critical,engineering-governance,preventive,blind retry rejected
+FIN-006,Moedas não se misturam,Financeiro,ADR-LEDGER-001,currency mismatch test,per-change,critical,engineering-governance,preventive,currency mismatch rejected
+BCM-001,Backup restaurado e comparado,Continuidade,RUN-DR-001,restore exercise report,quarterly,critical,continuity-management,detective,restored hash equals source
+BCM-002,RTO medido,Continuidade,RUN-DR-001,timing evidence,quarterly,critical,continuity-management,detective,observed_rto <= 60m
+BCM-003,RPO medido,Continuidade,RUN-DR-001,recovery point evidence,quarterly,critical,continuity-management,detective,observed_rpo <= 5m
+BCM-004,Reconciliação após recuperação,Continuidade,RUN-DR-001,reconciliation report,per-exercise,critical,continuity-management,corrective,financial_breaks == 0
+BCM-005,Indisponibilidade de fornecedor,Continuidade,RUN-VENDOR-001,supplier outage exercise,semiannual,high,continuity-management,detective,fallback or controlled stop
+PRV-001,Tratamento de dado com finalidade,Privacidade,POL-PRIV-001,processing inventory,quarterly,critical,privacy-governance,preventive,purpose and legal basis recorded
+PRV-002,Evidência de acesso a dado,Privacidade,POL-PRIV-001,access log sample,monthly,high,privacy-governance,detective,actor and purpose recorded
+OPS-001,Mudança emergencial revisada,Operações,POL-CHANGE-001,retrospective record,per-change,high,engineering-governance,detective,retrospective <= 24h
+OPS-002,Incidente encerrado com reconciliação,Operações,RUN-INC-001,closure record,per-incident,critical,continuity-management,corrective,closure gates complete
+OBS-001,SLO financeiro medido,Observabilidade,STD-METRICS-001,SLO report,monthly,high,engineering-governance,detective,availability >= 99.99%
+OBS-002,Latência de posting medida,Observabilidade,STD-METRICS-001,latency report,daily,high,engineering-governance,detective,p99 <= 300ms
+OBS-003,Quebra de reconciliação,Observabilidade,STD-METRICS-001,break report,intraday,critical,engineering-governance,detective,break tolerance == 0

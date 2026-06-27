@@ -1,0 +1,8 @@
+[project]
+name = "regenera-tools"
+version = "1.0.0"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+regenera-tools = "regenera_tools.cli:main"

@@ -1,0 +1,148 @@
+{
+  "author": "Don Paulo Ricardo",
+  "integrations": [
+    {
+      "code": "spi",
+      "external_evidence_required": [
+        "homologação SPI",
+        "certificado ICP-Brasil",
+        "conectividade RSFN"
+      ],
+      "financial_effect": true,
+      "responsibility": "liquidação Pix",
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "code": "dict",
+      "external_evidence_required": [
+        "homologação DICT",
+        "certificado mTLS"
+      ],
+      "financial_effect": false,
+      "responsibility": "diretório de identificadores Pix",
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "code": "open-finance",
+      "external_evidence_required": [
+        "registro de participante",
+        "certificados de transporte e assinatura"
+      ],
+      "financial_effect": false,
+      "responsibility": "consentimento e compartilhamento de dados",
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "code": "bacen",
+      "external_evidence_required": [
+        "credenciamento do canal",
+        "layout vigente aprovado"
+      ],
+      "financial_effect": false,
+      "responsibility": "remessas e protocolos regulatórios",
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "code": "b3",
+      "external_evidence_required": [
+        "contrato B3",
+        "homologação de mensageria"
+      ],
+      "financial_effect": true,
+      "responsibility": "custódia e eventos de mercado",
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "code": "susep",
+      "external_evidence_required": [
+        "credenciamento SUSEP",
+        "layout vigente aprovado"
+      ],
+      "financial_effect": false,
+      "responsibility": "reportes e consultas securitárias",
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "code": "swift",
+      "external_evidence_required": [
+        "BIC ativo",
+        "HSM",
+        "homologação SWIFT"
+      ],
+      "financial_effect": true,
+      "responsibility": "mensageria financeira internacional",
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "code": "card-networks",
+      "external_evidence_required": [
+        "certificação de bandeira",
+        "chaves de rede"
+      ],
+      "financial_effect": true,
+      "responsibility": "mensagens de bandeira",
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "code": "card-processor",
+      "external_evidence_required": [
+        "contrato de processamento",
+        "homologação financeira"
+      ],
+      "financial_effect": true,
+      "responsibility": "autorização e liquidação de cartões",
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "code": "custody",
+      "external_evidence_required": [
+        "contrato de custódia",
+        "contas homologadas"
+      ],
+      "financial_effect": true,
+      "responsibility": "posição e movimentação de ativos",
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "code": "bureaus",
+      "external_evidence_required": [
+        "contrato de bureau",
+        "base legal e consentimento"
+      ],
+      "financial_effect": false,
+      "responsibility": "consulta de crédito",
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "code": "correspondents",
+      "external_evidence_required": [
+        "credenciamento",
+        "limites operacionais"
+      ],
+      "financial_effect": true,
+      "responsibility": "operações de correspondentes",
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "code": "kyc-providers",
+      "external_evidence_required": [
+        "contrato de tratamento",
+        "homologação antifraude"
+      ],
+      "financial_effect": false,
+      "responsibility": "validação cadastral e biométrica",
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "code": "notifications",
+      "external_evidence_required": [
+        "provedor aprovado",
+        "domínios e remetentes validados"
+      ],
+      "financial_effect": false,
+      "responsibility": "entrega de notificações",
+      "status": "READY_REFERENCE"
+    }
+  ],
+  "schema": "regenera.integration-registry.v1"
+}

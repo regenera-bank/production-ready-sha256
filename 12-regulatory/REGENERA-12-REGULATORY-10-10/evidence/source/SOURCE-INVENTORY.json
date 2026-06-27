@@ -1,0 +1,38 @@
+{
+  "clean_files": 797,
+  "empty_files": 252,
+  "gitkeep_files": 252,
+  "macos_metadata_entries": 1174,
+  "markdown_files": 210,
+  "notable_findings": [
+    "arquivo com extensão .sql contendo definição YAML de CI",
+    "código executável concentrado em source-material",
+    "estruturas quase idênticas repetidas por domínio"
+  ],
+  "promotion_decision": "REBUILT_NO_SOURCE_MATERIAL_PROMOTED_DIRECTLY",
+  "repositories": [
+    "regenera-regulatory-aml",
+    "regenera-regulatory-card-pci",
+    "regenera-regulatory-cloud-outsourcing",
+    "regenera-regulatory-cosif",
+    "regenera-regulatory-cvm",
+    "regenera-regulatory-cybersecurity",
+    "regenera-regulatory-lgpd",
+    "regenera-regulatory-open-finance",
+    "regenera-regulatory-pix",
+    "regenera-regulatory-reporting",
+    "regenera-regulatory-sisbacen",
+    "regenera-regulatory-sisorf",
+    "regenera-regulatory-susep",
+    "regenera-regulatory-unicad"
+  ],
+  "repository_count": 14,
+  "shell_files": 70,
+  "source_archive": "12-regulatory.zip",
+  "source_material_files": 11,
+  "source_sha256": "a808820ee3c1ac7219c3393956e24463c89a03a565d71bd34e7268bad4ebd48e",
+  "sql_files": 4,
+  "typescript_files": 6,
+  "yaml_files": 126,
+  "zip_entries": 2346
+}

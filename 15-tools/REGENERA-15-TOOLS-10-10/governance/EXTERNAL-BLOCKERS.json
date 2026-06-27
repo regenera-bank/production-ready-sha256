@@ -1,0 +1,9 @@
+{
+  "blockers": [
+    "institutional code-signing key",
+    "independent release approver",
+    "central CI identity",
+    "approved container registry",
+    "HSM or signing service"
+  ]
+}

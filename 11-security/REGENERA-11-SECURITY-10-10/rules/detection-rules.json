@@ -1,0 +1,28 @@
+{
+  "rules": [
+    {
+      "event_type": "privilege_granted",
+      "id": "DET-001",
+      "severity": "HIGH",
+      "threshold": 1
+    },
+    {
+      "event_type": "secret_read_denied",
+      "id": "DET-002",
+      "severity": "MEDIUM",
+      "threshold": 3
+    },
+    {
+      "event_type": "artifact_signature_invalid",
+      "id": "DET-003",
+      "severity": "CRITICAL",
+      "threshold": 1
+    },
+    {
+      "event_type": "audit_chain_broken",
+      "id": "DET-004",
+      "severity": "CRITICAL",
+      "threshold": 1
+    }
+  ]
+}

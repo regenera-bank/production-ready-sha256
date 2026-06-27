@@ -1,0 +1,9 @@
+{
+  "artifact": "REGENERA-15-TOOLS-10-10",
+  "build_date": "2026-06-26",
+  "builder": "controlled-local-build",
+  "institutional_approval": "PENDING",
+  "signature": "PENDING",
+  "source_archive_sha256": "82ded0390b852a0a4e3ade6d0a1c80f087a5596a20a77a1f06ff2233b7964fed",
+  "version": "1.0.0"
+}

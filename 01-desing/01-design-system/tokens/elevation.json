@@ -1,0 +1,6 @@
+{
+  "none": "none",
+  "card": "0 18px 44px rgba(0,0,0,0.34)",
+  "dialog": "0 28px 80px rgba(0,0,0,0.52)",
+  "focus": "0 0 0 3px rgba(103,232,249,0.32)"
+}

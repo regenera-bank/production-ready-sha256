@@ -1,0 +1,10 @@
+{
+  "exact_exclusions": [
+    "src/regenera_quality/security.py",
+    "tests/test_security.py",
+    "tools/security_scan.py"
+  ],
+  "exclusion_reason": "scanner implementation and dedicated detection fixtures contain rule signatures",
+  "findings": [],
+  "status": "PASS"
+}

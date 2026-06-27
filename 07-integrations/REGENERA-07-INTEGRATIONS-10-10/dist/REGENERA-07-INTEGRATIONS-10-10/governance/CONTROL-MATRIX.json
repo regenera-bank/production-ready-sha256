@@ -1,0 +1,255 @@
+{
+  "controls": [
+    {
+      "blocking": true,
+      "control_id": "INT-001",
+      "evidence": "validation.json",
+      "frequency": "por alteração",
+      "name": "HTTPS e allowlist de destino",
+      "owner": "Integration Platform",
+      "status": "TESTED",
+      "test_reference": "test_https_and_allowlist_are_required"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-002",
+      "evidence": "security.json",
+      "frequency": "por conexão",
+      "name": "mTLS com fingerprint autorizada",
+      "owner": "Security Engineering",
+      "status": "TESTED",
+      "test_reference": "test_mtls_fingerprint_is_validated"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-003",
+      "evidence": "security.json",
+      "frequency": "contínua",
+      "name": "Credencial fora de URL e código",
+      "owner": "Security Engineering",
+      "status": "TESTED",
+      "test_reference": "test_credentials_in_url_are_rejected"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-004",
+      "evidence": "test-results.json",
+      "frequency": "por requisição",
+      "name": "Idempotência por operação e payload",
+      "owner": "Core Banking",
+      "status": "TESTED",
+      "test_reference": "test_success_is_stored_for_replay"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-005",
+      "evidence": "test-results.json",
+      "frequency": "por requisição",
+      "name": "Conflito de chave com payload divergente",
+      "owner": "Core Banking",
+      "status": "TESTED",
+      "test_reference": "test_payload_change_conflicts"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-006",
+      "evidence": "test-results.json",
+      "frequency": "por falha",
+      "name": "UNKNOWN após falha pós-envio",
+      "owner": "Integration Platform",
+      "status": "TESTED",
+      "test_reference": "test_timeout_after_send_becomes_unknown"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-007",
+      "evidence": "test-results.json",
+      "frequency": "por falha",
+      "name": "Bloqueio de repetição cega",
+      "owner": "Integration Platform",
+      "status": "TESTED",
+      "test_reference": "test_unknown_is_replayed_without_second_send"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-008",
+      "evidence": "test-results.json",
+      "frequency": "por tentativa",
+      "name": "Retry apenas antes do envio confirmado",
+      "owner": "Integration Platform",
+      "status": "TESTED",
+      "test_reference": "test_retry_before_send_succeeds"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-009",
+      "evidence": "test-results.json",
+      "frequency": "contínua",
+      "name": "Circuit breaker por provedor",
+      "owner": "SRE",
+      "status": "TESTED",
+      "test_reference": "test_circuit_opens"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-010",
+      "evidence": "test-results.json",
+      "frequency": "por evento",
+      "name": "Webhook HMAC e janela temporal",
+      "owner": "Security Engineering",
+      "status": "TESTED",
+      "test_reference": "test_webhook_signature_passes"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-011",
+      "evidence": "test-results.json",
+      "frequency": "por log",
+      "name": "Redação por allowlist",
+      "owner": "Privacy Engineering",
+      "status": "TESTED",
+      "test_reference": "test_redaction_uses_allowlist"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-012",
+      "evidence": "test-results.json",
+      "frequency": "intradiária",
+      "name": "Reconciliação de ausência e divergência",
+      "owner": "Finance Operations",
+      "status": "TESTED",
+      "test_reference": "test_amount_mismatch"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-013",
+      "evidence": "test-results.json",
+      "frequency": "por lote",
+      "name": "Referência única na reconciliação",
+      "owner": "Finance Operations",
+      "status": "TESTED",
+      "test_reference": "test_duplicate_reference_is_rejected"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-014",
+      "evidence": "test-results.json",
+      "frequency": "por operação",
+      "name": "Valor em unidade mínima inteira",
+      "owner": "Core Banking",
+      "status": "TESTED",
+      "test_reference": "test_financial_float_is_rejected"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-015",
+      "evidence": "test-results.json",
+      "frequency": "por operação",
+      "name": "Moeda explícita e permitida",
+      "owner": "Core Banking",
+      "status": "TESTED",
+      "test_reference": "test_invalid_currency_is_rejected"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-016",
+      "evidence": "test-results.json",
+      "frequency": "por chamada",
+      "name": "Consentimento Open Finance ativo",
+      "owner": "Open Finance",
+      "status": "TESTED",
+      "test_reference": "test_open_finance_requires_authorised_consent"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-017",
+      "evidence": "test-results.json",
+      "frequency": "por mensagem",
+      "name": "Dados sensíveis proibidos em notificação",
+      "owner": "Notifications",
+      "status": "TESTED",
+      "test_reference": "test_notifications_block_sensitive_fields"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-018",
+      "evidence": "INTEGRATION-REGISTRY.json",
+      "frequency": "por ativação",
+      "name": "Homologação externa obrigatória",
+      "owner": "Integration Governance",
+      "status": "BLOCKED_EXTERNAL",
+      "test_reference": "test_all_adapters_declare_external_evidence"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-019",
+      "evidence": "APPROVAL-RECORD.json",
+      "frequency": "por release",
+      "name": "Owner e aprovador segregados",
+      "owner": "Engineering Governance",
+      "status": "TESTED",
+      "test_reference": "test_self_approval_is_not_present"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-020",
+      "evidence": "ASSINATURA-EXTERNA-REQUERIDA.md",
+      "frequency": "por release",
+      "name": "Assinatura criptográfica externa",
+      "owner": "Release Engineering",
+      "status": "BLOCKED_EXTERNAL",
+      "test_reference": "test_unsigned_release_is_blocked"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-021",
+      "evidence": "PAYLOAD-CHECKSUMS.sha256",
+      "frequency": "por release",
+      "name": "Manifesto e checksums integrais",
+      "owner": "Release Engineering",
+      "status": "TESTED",
+      "test_reference": "test_release_has_no_nested_archive"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-022",
+      "evidence": "SBOM.cdx.json",
+      "frequency": "por release",
+      "name": "SBOM sem dependência oculta",
+      "owner": "Release Engineering",
+      "status": "TESTED",
+      "test_reference": "test_standard_library_only"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-023",
+      "evidence": "BUILD-PROVENANCE.json",
+      "frequency": "por release",
+      "name": "Proveniência do build",
+      "owner": "Release Engineering",
+      "status": "TESTED",
+      "test_reference": "test_build_provenance_declares_no_network"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-024",
+      "evidence": "PROVIDER-OUTAGE.md",
+      "frequency": "semestral",
+      "name": "Runbook de indisponibilidade",
+      "owner": "SRE",
+      "status": "TESTED",
+      "test_reference": "test_runbooks_have_decision_gates"
+    },
+    {
+      "blocking": true,
+      "control_id": "INT-025",
+      "evidence": "UNKNOWN-OUTCOME.md",
+      "frequency": "trimestral",
+      "name": "Runbook de resultado desconhecido",
+      "owner": "Finance Operations",
+      "status": "TESTED",
+      "test_reference": "test_runbooks_have_decision_gates"
+    }
+  ],
+  "schema": "regenera.control-matrix.v1"
+}

@@ -1,0 +1,20 @@
+{
+  "source_file": "16-documentation(1).zip",
+  "source_sha256": "b7427ff675069b155890df1d912d35312c101b0c98a6a49ddfd25f927e9023f0",
+  "zip_entries": 158,
+  "zip_files": 132,
+  "macos_metadata_entries": 79,
+  "clean_files": 52,
+  "clean_bytes": 97382065,
+  "empty_gitkeep_files": 12,
+  "source_material_files": 19,
+  "pdf_files": 4,
+  "png_files": 3,
+  "observations": [
+    "Doze documentos-mestre tinham três linhas.",
+    "Quatro PDFs grandes não possuíam procedência técnica incorporada.",
+    "Um inventário textual de aproximadamente 23 MB não era adequado ao payload canônico.",
+    "README histórico declarava Gold Master e produção sem evidência externa.",
+    "ROADMAP marcado como concluído não continha vínculos verificáveis com artefatos."
+  ]
+}

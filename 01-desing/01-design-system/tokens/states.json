@@ -1,0 +1,30 @@
+{
+  "interaction": [
+    "default",
+    "hover",
+    "focus",
+    "pressed",
+    "disabled",
+    "loading"
+  ],
+  "transaction": [
+    "received",
+    "processing",
+    "settled",
+    "reconciled",
+    "reversed",
+    "failed",
+    "unknown",
+    "manual-review"
+  ],
+  "surface": [
+    "loading",
+    "partial-loading",
+    "empty",
+    "offline",
+    "timeout",
+    "business-error",
+    "technical-error",
+    "maintenance"
+  ]
+}

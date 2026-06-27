@@ -1,0 +1,17 @@
+{
+  "schema": "regenera.owners.v1",
+  "author_declared": {
+    "name": "Don Paulo Ricardo",
+    "role": "Responsável técnico declarado",
+    "signature_status": "PENDING_EXTERNAL_GPG"
+  },
+  "operational_roles": [
+    "Compliance Risk",
+    "Fraud Risk",
+    "Credit Risk",
+    "Financial Control",
+    "Control Assurance",
+    "Release Engineering"
+  ],
+  "independent_approval": "REQUIRED_BEFORE_PRODUCTION"
+}

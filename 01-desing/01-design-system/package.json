@@ -1,0 +1,20 @@
+{
+  "name": "@regenera/design-system",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Fonte canônica de tokens, contratos visuais e adaptadores multiplataforma do Regenera Bank.",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "clean": "node tools/clean.mjs",
+    "validate": "node tools/validate.mjs",
+    "build": "node tools/build.mjs",
+    "test": "node --test --test-reporter=tap tests/*.test.mjs",
+    "security": "node tools/security.mjs",
+    "evidence": "node tools/evidence.mjs",
+    "verify-release": "node tools/verify-release.mjs",
+    "all": "node tools/all.mjs"
+  }
+}

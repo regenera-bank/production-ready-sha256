@@ -1,0 +1,11 @@
+{
+  "control": "Leiaute oficial",
+  "control_id": "REG-022",
+  "evidence_type": "EXTERNAL_EVIDENCE_REQUIRED",
+  "institutional_approval": "PENDING",
+  "owner": "Institutional Control Owner",
+  "state": "BLOCKED_EXTERNAL_EVIDENCE",
+  "verification_references": [
+    "docs/EXTERNAL-BLOCKERS.md"
+  ]
+}

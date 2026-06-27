@@ -1,0 +1,12 @@
+{
+  "subject": "REGENERA-02-CONTRACTS-1.0.0",
+  "builder": "local-reproducible-python-toolchain",
+  "sourceDate": "2026-06-26",
+  "materials": [
+    "contracts/",
+    "governance/",
+    "tools/",
+    "tests/"
+  ],
+  "signatureStatus": "PENDING_EXTERNAL_GPG"
+}

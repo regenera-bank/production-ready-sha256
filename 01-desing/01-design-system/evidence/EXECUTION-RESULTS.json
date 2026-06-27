@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "source_date_epoch": "2026-06-26T00:00:00Z",
+  "results": [
+    {
+      "name": "clean",
+      "command": "node tools/clean.mjs",
+      "exit_code": 0,
+      "stdout_bytes": 10,
+      "stderr_bytes": 0
+    },
+    {
+      "name": "validate",
+      "command": "node tools/validate.mjs",
+      "exit_code": 0,
+      "stdout_bytes": 50,
+      "stderr_bytes": 0
+    },
+    {
+      "name": "build",
+      "command": "node tools/build.mjs",
+      "exit_code": 0,
+      "stdout_bytes": 90,
+      "stderr_bytes": 0
+    },
+    {
+      "name": "test",
+      "command": "node --test --test-reporter=tap tests/governance.test.mjs tests/release.test.mjs tests/tokens.test.mjs tests/web.test.mjs",
+      "exit_code": 0,
+      "stdout_bytes": 4951,
+      "stderr_bytes": 0
+    },
+    {
+      "name": "security",
+      "command": "node tools/security.mjs",
+      "exit_code": 0,
+      "stdout_bytes": 25,
+      "stderr_bytes": 0
+    },
+    {
+      "name": "evidence",
+      "command": "node tools/evidence.mjs",
+      "exit_code": 0,
+      "stdout_bytes": 19,
+      "stderr_bytes": 0
+    },
+    {
+      "name": "verify-release",
+      "command": "node tools/verify-release.mjs",
+      "exit_code": 0,
+      "stdout_bytes": 29,
+      "stderr_bytes": 0
+    }
+  ]
+}

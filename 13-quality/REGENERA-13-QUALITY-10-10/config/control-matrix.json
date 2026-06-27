@@ -1,0 +1,12 @@
+[
+  {"id":"QLT-001","name":"Testes unitários","owner":"Quality Engineering","evidence":"TEST-RESULTS.json"},
+  {"id":"QLT-002","name":"Compatibilidade de contratos","owner":"Architecture","evidence":"TEST-RESULTS.json"},
+  {"id":"QLT-003","name":"Invariantes financeiras","owner":"Core Banking","evidence":"TEST-RESULTS.json"},
+  {"id":"QLT-004","name":"Segurança de pipeline","owner":"Security","evidence":"SECURITY-REPORT.json"},
+  {"id":"QLT-005","name":"Gate de release","owner":"Release Engineering","evidence":"RELEASE-GATE.json"},
+  {"id":"QLT-006","name":"Integridade do payload","owner":"Release Engineering","evidence":"PAYLOAD-CHECKSUMS.sha256"},
+  {"id":"QLT-007","name":"Acessibilidade","owner":"Channels","evidence":"TEST-RESULTS.json"},
+  {"id":"QLT-008","name":"Desempenho","owner":"Platform","evidence":"TEST-RESULTS.json"},
+  {"id":"QLT-009","name":"Resiliência","owner":"Operations","evidence":"TEST-RESULTS.json"},
+  {"id":"QLT-010","name":"Dados sintéticos","owner":"Data Governance","evidence":"TEST-RESULTS.json"}
+]

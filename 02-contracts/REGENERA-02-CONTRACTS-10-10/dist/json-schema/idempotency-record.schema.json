@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:regenera:schema:idempotency-record:1",
+  "title": "IdempotencyRecord",
+  "type": "object",
+  "required": [
+    "scope",
+    "key",
+    "requestHash",
+    "status",
+    "createdAt"
+  ],
+  "properties": {
+    "scope": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9:_-]{2,79}$"
+    },
+    "key": {
+      "type": "string",
+      "minLength": 16,
+      "maxLength": 128
+    },
+    "requestHash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "RECEIVED",
+        "PROCESSING",
+        "COMPLETED",
+        "FAILED_RETRYABLE",
+        "FAILED_FINAL",
+        "UNKNOWN",
+        "EXPIRED"
+      ]
+    },
+    "responseStatus": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 100,
+      "maximum": 599
+    },
+    "responseHash": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

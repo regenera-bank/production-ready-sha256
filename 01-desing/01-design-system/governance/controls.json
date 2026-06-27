@@ -1,0 +1,121 @@
+{
+  "document_id": "DS-CTRL-001",
+  "controls": [
+    {
+      "id": "DS-001",
+      "name": "Fonte única de tokens",
+      "owner": "Don Paulo Ricardo",
+      "type": "preventive",
+      "frequency": "per_change",
+      "blocking": true,
+      "evidence": [
+        "token manifest",
+        "platform parity test"
+      ],
+      "metric": "parity_failures",
+      "threshold": 0,
+      "exception_max_days": 7
+    },
+    {
+      "id": "DS-002",
+      "name": "Contraste mínimo",
+      "owner": "Don Paulo Ricardo",
+      "type": "preventive",
+      "frequency": "per_change",
+      "blocking": true,
+      "evidence": [
+        "contrast test"
+      ],
+      "metric": "contrast_violations",
+      "threshold": 0,
+      "exception_max_days": 0
+    },
+    {
+      "id": "DS-003",
+      "name": "Alvo mínimo de toque",
+      "owner": "Don Paulo Ricardo",
+      "type": "preventive",
+      "frequency": "per_change",
+      "blocking": true,
+      "evidence": [
+        "accessibility token test"
+      ],
+      "metric": "touch_target_violations",
+      "threshold": 0,
+      "exception_max_days": 0
+    },
+    {
+      "id": "DS-004",
+      "name": "Paridade multiplataforma",
+      "owner": "Don Paulo Ricardo",
+      "type": "detective",
+      "frequency": "per_release",
+      "blocking": true,
+      "evidence": [
+        "generated manifest",
+        "platform output hashes"
+      ],
+      "metric": "missing_platform_outputs",
+      "threshold": 0,
+      "exception_max_days": 3
+    },
+    {
+      "id": "DS-005",
+      "name": "Mudança segregada",
+      "owner": "Don Paulo Ricardo",
+      "type": "preventive",
+      "frequency": "per_release",
+      "blocking": true,
+      "evidence": [
+        "nominal review",
+        "cryptographic signature"
+      ],
+      "metric": "self_approved_releases",
+      "threshold": 0,
+      "exception_max_days": 0
+    },
+    {
+      "id": "DS-006",
+      "name": "Artefato reproduzível",
+      "owner": "Don Paulo Ricardo",
+      "type": "detective",
+      "frequency": "per_release",
+      "blocking": true,
+      "evidence": [
+        "deterministic build test",
+        "package checksums"
+      ],
+      "metric": "reproducibility_mismatches",
+      "threshold": 0,
+      "exception_max_days": 0
+    },
+    {
+      "id": "DS-007",
+      "name": "Dependência externa em runtime",
+      "owner": "Don Paulo Ricardo",
+      "type": "preventive",
+      "frequency": "per_change",
+      "blocking": true,
+      "evidence": [
+        "security scan"
+      ],
+      "metric": "runtime_external_dependencies",
+      "threshold": 0,
+      "exception_max_days": 0
+    },
+    {
+      "id": "DS-008",
+      "name": "Estado financeiro desconhecido",
+      "owner": "Don Paulo Ricardo",
+      "type": "preventive",
+      "frequency": "per_change",
+      "blocking": true,
+      "evidence": [
+        "unknown-state component test"
+      ],
+      "metric": "blind_retry_actions",
+      "threshold": 0,
+      "exception_max_days": 0
+    }
+  ]
+}

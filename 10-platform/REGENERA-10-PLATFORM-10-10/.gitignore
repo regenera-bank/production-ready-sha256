@@ -1,0 +1,10 @@
+.DS_Store
+__MACOSX/
+__pycache__/
+*.pyc
+release/
+*.asc
+*.zip
+.terraform/
+*.tfstate
+*.tfstate.*

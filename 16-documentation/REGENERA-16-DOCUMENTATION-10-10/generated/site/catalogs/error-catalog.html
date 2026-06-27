@@ -1,0 +1,14 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Catálogo de Erros</title><link rel="stylesheet" href="../assets/site.css"></head><body><main>
+<h1>Catálogo de Erros</h1>
+
+<pre class="table">| Código | HTTP | Significado | Ação segura |</pre>
+<pre class="table">|---|---:|---|---|</pre>
+<pre class="table">| AUTH_REQUIRED | 401 | autenticação ausente ou inválida | autenticar novamente |</pre>
+<pre class="table">| FORBIDDEN | 403 | permissão insuficiente | solicitar acesso formal |</pre>
+<pre class="table">| IDEMPOTENCY_CONFLICT | 409 | mesma chave, outro payload | não repetir; investigar |</pre>
+<pre class="table">| INSUFFICIENT_FUNDS | 422 | saldo disponível insuficiente | corrigir valor ou aguardar |</pre>
+<pre class="table">| RESULT_UNKNOWN | 409 | resultado financeiro ambíguo | bloquear repetição e reconciliar |</pre>
+<pre class="table">| RATE_LIMITED | 429 | quota excedida | respeitar `Retry-After` |</pre>
+<pre class="table">| DEPENDENCY_UNAVAILABLE | 503 | dependência indisponível | retry apenas quando comprovadamente seguro |</pre>
+
+<p>Payload detalhado e schemas pertencem ao pacote `02-contracts`.</p></main></body></html>

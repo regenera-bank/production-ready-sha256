@@ -1,0 +1,28 @@
+{
+  "document_id": "DS-OWN-001",
+  "primary": {
+    "name": "Don Paulo Ricardo",
+    "role": "Design System Technical Owner",
+    "responsibilities": [
+      "token source of truth",
+      "component contracts",
+      "release evidence"
+    ]
+  },
+  "independent_reviews": [
+    {
+      "role": "Accessibility Reviewer",
+      "status": "REQUIRED_BEFORE_INSTITUTIONAL_ADOPTION"
+    },
+    {
+      "role": "Security Reviewer",
+      "status": "REQUIRED_BEFORE_INSTITUTIONAL_ADOPTION"
+    },
+    {
+      "role": "Change Authority",
+      "status": "REQUIRED_BEFORE_INSTITUTIONAL_ADOPTION"
+    }
+  ],
+  "self_approval_allowed": false,
+  "review_frequency_days": 90
+}

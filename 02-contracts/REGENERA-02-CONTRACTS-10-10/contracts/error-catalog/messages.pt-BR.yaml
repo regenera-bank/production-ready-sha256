@@ -1,0 +1,7 @@
+messages:
+  contract.invalid: Os dados enviados não atendem ao contrato.
+  idempotency.conflict: A chave já foi usada com conteúdo diferente.
+  transaction.unknown: Operação em confirmação. Não repita o envio.
+  funds.insufficient: Saldo disponível insuficiente.
+  dependency.unavailable: Serviço temporariamente indisponível.
+  security.step_up: Confirmação adicional necessária.

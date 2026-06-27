@@ -1,0 +1,213 @@
+openapi: 3.1.0
+info:
+  title: Regenera Pix API
+  version: 1.0.0
+  description: Inicia Pix, consulta estado e registra confirmação externa. A rede
+    pode falhar depois do débito; o contrato preserva UNKNOWN e reconciliação.
+servers:
+- url: https://api.regenera.invalid/v1
+  description: Valor deliberadamente não roteável. O ambiente define o endpoint real.
+security:
+- oauth2: []
+paths:
+  /pix/payments:
+    post:
+      operationId: createPixPayment
+      security:
+      - oauth2:
+        - banking:write
+      summary: Cria uma intenção Pix.
+      parameters:
+      - $ref: '#/components/parameters/CorrelationId'
+      - $ref: '#/components/parameters/IdempotencyKey'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreatePixRequest'
+      responses:
+        '201':
+          description: Pix aceito.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PixPayment'
+        '202':
+          $ref: '#/components/responses/Unknown'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '409':
+          $ref: '#/components/responses/Conflict'
+  /pix/payments/{paymentId}:
+    get:
+      operationId: getPixPayment
+      security:
+      - oauth2:
+        - banking:read
+      parameters:
+      - name: paymentId
+        in: path
+        required: true
+        schema:
+          type: string
+          format: uuid
+      - $ref: '#/components/parameters/CorrelationId'
+      responses:
+        '200':
+          description: Estado atual do Pix.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PixPayment'
+        '404':
+          description: Pix não encontrado.
+components:
+  securitySchemes:
+    oauth2:
+      type: oauth2
+      flows:
+        authorizationCode:
+          authorizationUrl: https://identity.regenera.invalid/oauth2/authorize
+          tokenUrl: https://identity.regenera.invalid/oauth2/token
+          scopes:
+            banking:read: Consulta dados financeiros.
+            banking:write: Inicia operações financeiras.
+  parameters:
+    CorrelationId:
+      name: X-Correlation-ID
+      in: header
+      required: true
+      schema:
+        type: string
+        format: uuid
+      description: Rastro único da operação.
+    IdempotencyKey:
+      name: Idempotency-Key
+      in: header
+      required: true
+      schema:
+        type: string
+        minLength: 16
+        maxLength: 128
+      description: Mesma intenção, mesma chave. Conteúdo diferente com a mesma chave
+        é conflito.
+  schemas:
+    Problem:
+      type: object
+      required:
+      - code
+      - message
+      - correlationId
+      - retryable
+      properties:
+        code:
+          type: string
+          pattern: ^RG-[A-Z0-9-]{3,64}$
+        message:
+          type: string
+          minLength: 1
+          maxLength: 300
+        correlationId:
+          type: string
+          format: uuid
+        retryable:
+          type: boolean
+        details:
+          type: object
+          additionalProperties: true
+      additionalProperties: false
+    Money:
+      $schema: https://json-schema.org/draft/2020-12/schema
+      $id: urn:regenera:schema:money:1
+      title: Money
+      type: object
+      required:
+      - currency
+      - amountCents
+      properties:
+        currency:
+          type: string
+          const: BRL
+        amountCents:
+          type: string
+          pattern: ^-?(0|[1-9][0-9]{0,18})$
+      additionalProperties: false
+    CreatePixRequest:
+      type: object
+      required:
+      - senderAccountId
+      - receiverKey
+      - amount
+      properties:
+        senderAccountId:
+          type: string
+          format: uuid
+        receiverKey:
+          type: string
+          minLength: 1
+          maxLength: 140
+        receiverIspb:
+          type:
+          - string
+          - 'null'
+          pattern: ^[0-9]{8}$
+        amount:
+          $ref: '#/components/schemas/Money'
+      additionalProperties: false
+    PixPayment:
+      type: object
+      required:
+      - paymentId
+      - internalEndToEndId
+      - status
+      - amount
+      - createdAt
+      properties:
+        paymentId:
+          type: string
+          format: uuid
+        internalEndToEndId:
+          type: string
+          pattern: ^E[0-9]{8}[0-9]{12}[a-z0-9]{11}$
+        externalEndToEndId:
+          type:
+          - string
+          - 'null'
+          maxLength: 64
+        status:
+          enum:
+          - RECEIVED
+          - AUTHORIZED
+          - DEBITED
+          - SENT
+          - SETTLED
+          - FAILED
+          - REVERSED
+          - UNKNOWN
+          - RECONCILIATION_REQUIRED
+        amount:
+          $ref: '#/components/schemas/Money'
+        createdAt:
+          type: string
+          format: date-time
+      additionalProperties: false
+  responses:
+    BadRequest:
+      description: Contrato inválido.
+      content:
+        application/problem+json:
+          schema:
+            $ref: '#/components/schemas/Problem'
+    Conflict:
+      description: Conflito de idempotência ou estado.
+      content:
+        application/problem+json:
+          schema:
+            $ref: '#/components/schemas/Problem'
+    Unknown:
+      description: Resultado ainda não confirmado. Não repetir cegamente.
+      content:
+        application/problem+json:
+          schema:
+            $ref: '#/components/schemas/Problem'

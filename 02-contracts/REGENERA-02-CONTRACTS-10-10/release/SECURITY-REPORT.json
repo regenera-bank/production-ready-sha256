@@ -1,0 +1,7 @@
+{
+  "command": "make security",
+  "exitCode": 0,
+  "result": "PASS",
+  "highConfidenceFindings": 0,
+  "source": "release/logs/security.log"
+}

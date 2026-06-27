@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "evidence": {
+      "minLength": 3,
+      "type": "string"
+    },
+    "id": {
+      "pattern": "TOOL-[0-9]{3}",
+      "type": "string"
+    },
+    "owner": {
+      "minLength": 3,
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "IMPLEMENTED",
+        "SPECIFIED",
+        "BLOCKED"
+      ],
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "owner",
+    "status",
+    "evidence"
+  ],
+  "type": "object"
+}

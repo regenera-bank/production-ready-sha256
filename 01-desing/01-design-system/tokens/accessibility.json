@@ -1,0 +1,7 @@
+{
+  "minimumTouchTarget": 44,
+  "focusRingWidth": 2,
+  "minimumTextContrast": 4.5,
+  "minimumLargeTextContrast": 3,
+  "reducedMotionRequired": true
+}

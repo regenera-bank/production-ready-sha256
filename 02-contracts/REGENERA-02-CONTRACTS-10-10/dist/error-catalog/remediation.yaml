@@ -1,0 +1,21 @@
+actions:
+  FIX_REQUEST:
+    automatic: false
+    description: Corrigir o corpo antes de reenviar.
+  NEW_KEY_AFTER_REVIEW:
+    automatic: false
+    description: Nova chave somente após confirmar que é uma nova intenção.
+  RECONCILE:
+    automatic: false
+    description: Consultar a fonte externa e o ledger antes de qualquer repetição.
+  REJECT:
+    automatic: false
+    description: Encerrar sem efeito financeiro.
+  RETRY_WITH_BACKOFF:
+    automatic: true
+    maxAttempts: 5
+    baseDelayMs: 500
+    jitter: true
+  STEP_UP:
+    automatic: false
+    description: Exigir autenticação reforçada.

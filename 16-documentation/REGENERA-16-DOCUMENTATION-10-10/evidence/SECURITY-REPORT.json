@@ -1,0 +1,8 @@
+{
+  "exact_exclusions": {
+    "tests/test_security.py": "fixtures isolados de detecção",
+    "tools/security_scan.py": "implementação das assinaturas do scanner"
+  },
+  "findings": [],
+  "status": "PASS"
+}

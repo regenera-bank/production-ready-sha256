@@ -1,0 +1,244 @@
+{
+  "controls": [
+    {
+      "evidence": "evidence/controls/TOOL-001.json",
+      "id": "TOOL-001",
+      "name": "Comando sem shell",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-002.json",
+      "id": "TOOL-002",
+      "name": "Allowlist de executáveis",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-003.json",
+      "id": "TOOL-003",
+      "name": "Dry-run destrutivo",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-004.json",
+      "id": "TOOL-004",
+      "name": "Aprovação destrutiva",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-005.json",
+      "id": "TOOL-005",
+      "name": "Timeout limitado",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-006.json",
+      "id": "TOOL-006",
+      "name": "Path confinado",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-007.json",
+      "id": "TOOL-007",
+      "name": "Symlink bloqueado",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-008.json",
+      "id": "TOOL-008",
+      "name": "Escrita atômica",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-009.json",
+      "id": "TOOL-009",
+      "name": "JSON estrito",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-010.json",
+      "id": "TOOL-010",
+      "name": "Schema versionado",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-011.json",
+      "id": "TOOL-011",
+      "name": "OpenAPI idempotente",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-012.json",
+      "id": "TOOL-012",
+      "name": "AsyncAPI validado",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-013.json",
+      "id": "TOOL-013",
+      "name": "Migration sequencial",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-014.json",
+      "id": "TOOL-014",
+      "name": "Migration imutável",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-015.json",
+      "id": "TOOL-015",
+      "name": "DDL destrutivo aprovado",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-016.json",
+      "id": "TOOL-016",
+      "name": "Segredo detectado",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-017.json",
+      "id": "TOOL-017",
+      "name": "Exclusão justificada",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-018.json",
+      "id": "TOOL-018",
+      "name": "Dados sintéticos",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-019.json",
+      "id": "TOOL-019",
+      "name": "Manifesto SHA-256",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-020.json",
+      "id": "TOOL-020",
+      "name": "ZIP interno bloqueado",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-021.json",
+      "id": "TOOL-021",
+      "name": "SBOM determinístico",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-022.json",
+      "id": "TOOL-022",
+      "name": "Workflow com pin",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-023.json",
+      "id": "TOOL-023",
+      "name": "Permissão mínima CI",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-024.json",
+      "id": "TOOL-024",
+      "name": "Cadeia de auditoria",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-025.json",
+      "id": "TOOL-025",
+      "name": "Controle com owner",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-026.json",
+      "id": "TOOL-026",
+      "name": "Evidência por controle",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-027.json",
+      "id": "TOOL-027",
+      "name": "Build reproduzível",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-028.json",
+      "id": "TOOL-028",
+      "name": "Assinatura externa",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "BLOCKED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-029.json",
+      "id": "TOOL-029",
+      "name": "Sem segredo incorporado",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "evidence": "evidence/controls/TOOL-030.json",
+      "id": "TOOL-030",
+      "name": "Aprovação independente",
+      "owner": "engineering-governance",
+      "reviewed_at": "2026-06-26T00:00:00Z",
+      "status": "BLOCKED"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+document: CONTRACT-OWNERS-001
+version: 1.0.0
+owner:
+  name: Don Paulo Ricardo
+  role: technical-accountable
+  approvalStatus: DECLARED
+independentReviewer:
+  name: null
+  role: contract-reviewer
+  approvalStatus: PENDING
+domains:
+- path: contracts/openapi/accounts-v1.yaml
+  accountableRole: accounts-owner
+- path: contracts/openapi/payments-v1.yaml
+  accountableRole: payments-owner
+- path: contracts/openapi/pix-v1.yaml
+  accountableRole: pix-owner
+- path: contracts/openapi/identity-v1.yaml
+  accountableRole: identity-owner
+- path: contracts/asyncapi/financial-events-v1.yaml
+  accountableRole: event-governance-owner

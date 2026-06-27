@@ -1,0 +1,7 @@
+{
+  "command": "make build",
+  "exitCode": 0,
+  "result": "PASS",
+  "contractFiles": 15,
+  "source": "release/logs/build.log"
+}

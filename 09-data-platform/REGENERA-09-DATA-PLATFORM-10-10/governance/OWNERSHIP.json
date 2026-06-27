@@ -1,0 +1,15 @@
+{
+  "technical_author": "Don Paulo Ricardo",
+  "groups": [
+    "data-platform",
+    "data-governance",
+    "data-quality",
+    "data-warehouse",
+    "privacy",
+    "security",
+    "finance",
+    "model-risk",
+    "release-engineering"
+  ],
+  "institutional_approval": "PENDING_EXTERNAL_SIGNATURE"
+}

@@ -1,0 +1,18 @@
+{
+  "apiVersion": "regenera.bank/v1",
+  "kind": "WorkloadBaseline",
+  "spec": {
+    "imagePolicy": "DIGEST_ONLY",
+    "runAsNonRoot": true,
+    "readOnlyRootFilesystem": true,
+    "seccompProfile": "RuntimeDefault",
+    "dropCapabilities": [
+      "ALL"
+    ],
+    "automountServiceAccountToken": false,
+    "networkPolicy": "DEFAULT_DENY",
+    "probesRequired": true,
+    "resourcesRequired": true,
+    "workloadIdentityRequired": true
+  }
+}

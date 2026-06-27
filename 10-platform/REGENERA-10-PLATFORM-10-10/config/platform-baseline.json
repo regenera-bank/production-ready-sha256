@@ -1,0 +1,34 @@
+{
+  "document_id": "PLATFORM-CONTROL-BASELINE-001",
+  "external_evidence_required": [
+    "cloud_accounts",
+    "workload_identity_provider",
+    "kms_hsm",
+    "kubernetes_clusters",
+    "managed_databases",
+    "object_storage",
+    "event_bus",
+    "siem",
+    "backup_vault",
+    "dr_region"
+  ],
+  "status": "PENDING_INSTITUTIONAL_APPROVAL",
+  "targets": {
+    "availability_percent": 99.99,
+    "backup_restore_test_days": 30,
+    "certificate_expiry_warning_days": 30,
+    "critical_patch_sla_hours": 72,
+    "database_max_replica_lag_seconds": 10,
+    "duplicate_financial_effect_tolerance": 0,
+    "event_bus_max_lag_seconds": 60,
+    "financial_posting_p99_ms": 300,
+    "privileged_access_review_days": 30,
+    "reconciliation_break_tolerance": 0,
+    "release_rollback_minutes": 15,
+    "rpo_minutes": 5,
+    "rto_minutes": 60,
+    "secret_max_age_days": 90,
+    "sev1_ack_minutes": 5,
+    "sev1_executive_notification_minutes": 15
+  }
+}

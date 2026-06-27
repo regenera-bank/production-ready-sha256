@@ -1,0 +1,48 @@
+PASS currency rejects invalid code
+PASS money adds exact minor units
+PASS money rejects mixed currency
+PASS money rejects arithmetic overflow
+PASS percentage rounds positive half away from zero
+PASS percentage rounds negative half away from zero
+PASS account cannot be opened twice
+PASS blocked account cannot be used
+PASS closed account does not reopen
+PASS ledger rejects unbalanced entry
+PASS ledger rejects mixed currency
+PASS ledger rejects non positive line
+PASS ledger returns original result for duplicate request
+PASS ledger rejects duplicate key with different payload
+PASS ledger entry hash remains valid
+PASS reversal creates compensating entry
+PASS second reversal is rejected
+PASS liability balance follows accounting side
+PASS idempotency completes and replays
+PASS idempotency unknown blocks execution
+PASS idempotency retryable can be reacquired
+PASS idempotency rejects payload drift
+PASS hold reduces available balance
+PASS hold cannot exceed available balance
+PASS released hold restores available balance
+PASS expired hold stops reserving funds
+PASS payment debit is atomic across ledger outbox and audit
+PASS payment duplicate returns original result
+PASS payment payload drift is rejected
+PASS payment rejects insufficient funds
+PASS payment follows sent and settled states
+PASS payment rejects invalid transition
+PASS unknown payment cannot be retried blindly
+PASS unknown payment can reconcile to settled
+PASS rejected reconciliation creates compensating entry
+PASS concurrent duplicate payment produces one financial effect
+PASS audit chain detects tampering
+PASS outbox publish is idempotent
+PASS outbox rejects invalid batch limit
+PASS pix generates canonical end to end id
+PASS pix does not retain raw key
+PASS pix rejects weak hmac secret
+PASS pix rejects invalid ispb
+PASS payment respects active holds
+PASS failed payment request is not left processing
+PASS payment rejects non liability accounting accounts
+PASS pix replay returns the same end to end id
+SUMMARY passed=47 failed=0 total=47

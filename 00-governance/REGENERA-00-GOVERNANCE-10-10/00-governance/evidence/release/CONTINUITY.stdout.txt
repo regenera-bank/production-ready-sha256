@@ -1,0 +1,9 @@
+{
+  "exercise_scope": "local-synthetic-dataset",
+  "source_sha256": "4940de393cf9c3fef45752b92dc9c05fc045d21710f01516ed0907fe4d3e2178",
+  "restored_sha256": "4940de393cf9c3fef45752b92dc9c05fc045d21710f01516ed0907fe4d3e2178",
+  "integrity_match": true,
+  "observed_rto_ms": 2.243,
+  "financial_breaks": 0,
+  "duplicate_effects": 0
+}

@@ -1,0 +1,7 @@
+[project]
+name = "regenera-documentation"
+version = "1.0.0"
+requires-python = ">=3.11"
+
+[tool.regenera]
+release = "REGENERA-16-DOCUMENTATION-10-10"

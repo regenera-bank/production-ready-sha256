@@ -1,0 +1,19 @@
+{
+  "source_archive": "13-quality.zip",
+  "entries": 1578,
+  "macos_metadata_entries": 790,
+  "active_root_entries": 548,
+  "empty_files": 99,
+  "declared_repositories": 11,
+  "typescript_files": 42,
+  "python_files": 2,
+  "javascript_files": 2,
+  "shell_files": 110,
+  "markdown_files": 336,
+  "decision": "REBUILD_ACTIVE_QUALITY_BOUNDARY",
+  "notes": [
+    "scripts were repeated across repositories",
+    "most test directories contained only presence files",
+    "executable material was concentrated under source-material"
+  ]
+}

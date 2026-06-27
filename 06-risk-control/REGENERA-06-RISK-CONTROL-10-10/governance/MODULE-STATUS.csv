@@ -1,0 +1,11 @@
+module,status,evidence,external_blocker
+fraud,ACTIVE_REFERENCE,tests,signal platform
+aml,ACTIVE_REFERENCE,tests,official monitoring data
+kyc,ACTIVE_REFERENCE,tests,identity provider
+sanctions,ACTIVE_REFERENCE,tests,official list feed
+credit,ACTIVE_REFERENCE,tests,bureau and approved policy
+reconciliation,ACTIVE_REFERENCE,tests,settlement provider
+accounting,ACTIVE_REFERENCE,tests,authoritative ledger
+case-management,ACTIVE_REFERENCE,tests,corporate IAM
+regulatory-reporting,ACTIVE_REFERENCE,tests,regulator channel
+audit-chain,ACTIVE_REFERENCE,tests,immutable storage and external signature

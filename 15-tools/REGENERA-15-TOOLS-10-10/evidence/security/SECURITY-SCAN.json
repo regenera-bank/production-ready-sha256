@@ -1,0 +1,17 @@
+{
+  "excluded": [
+    "src/regenera_tools/secrets.py",
+    "tests/test_controls_cli.py",
+    "tests/test_secrets_comments.py",
+    "tools/security_scan.py"
+  ],
+  "exclusion_reasons": {
+    "src/regenera_tools/secrets.py": "biblioteca cont\u00e9m as assinaturas das regras de detec\u00e7\u00e3o",
+    "tests/test_controls_cli.py": "fixture isolado valida o retorno n\u00e3o zero da CLI",
+    "tests/test_secrets_comments.py": "fixtures isolados exercitam cada assinatura de segredo",
+    "tools/security_scan.py": "implementa\u00e7\u00e3o cont\u00e9m as assinaturas que o pr\u00f3prio scanner procura"
+  },
+  "files_scanned": 68,
+  "findings": [],
+  "status": "PASSED"
+}

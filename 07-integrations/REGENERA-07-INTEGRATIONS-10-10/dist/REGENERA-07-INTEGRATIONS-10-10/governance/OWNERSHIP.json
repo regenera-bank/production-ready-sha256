@@ -1,0 +1,32 @@
+{
+  "accountable_person": "Don Paulo Ricardo",
+  "author": "Don Paulo Ricardo",
+  "independent_approval_required": true,
+  "schema": "regenera.ownership.v1",
+  "teams": [
+    {
+      "area": "Integration Platform",
+      "backup_group": "platform-sre",
+      "operational_contact": "integration-platform-oncall",
+      "responsibility": "kernel, transporte, retries e circuit breaker"
+    },
+    {
+      "area": "Security Engineering",
+      "backup_group": "platform-security",
+      "operational_contact": "security-operations",
+      "responsibility": "mTLS, certificados, HMAC e segredos"
+    },
+    {
+      "area": "Finance Operations",
+      "backup_group": "core-banking-operations",
+      "operational_contact": "finance-operations",
+      "responsibility": "reconciliação e tratamento de UNKNOWN"
+    },
+    {
+      "area": "Release Engineering",
+      "backup_group": "engineering-governance",
+      "operational_contact": "release-engineering",
+      "responsibility": "manifesto, checksums, assinatura e promoção"
+    }
+  ]
+}

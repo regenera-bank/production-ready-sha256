@@ -1,0 +1,15 @@
+{
+  "document_owner": {
+    "name": "Don Paulo Ricardo",
+    "role": "responsável técnico declarado",
+    "approval_reference": "PENDING_EXTERNAL_SIGNATURE"
+  },
+  "required_independent_review": [
+    "Core Banking",
+    "Contabilidade",
+    "Segurança",
+    "Operações",
+    "Jurídico"
+  ],
+  "production_activation": "BLOCKED_UNTIL_INDEPENDENT_APPROVAL"
+}

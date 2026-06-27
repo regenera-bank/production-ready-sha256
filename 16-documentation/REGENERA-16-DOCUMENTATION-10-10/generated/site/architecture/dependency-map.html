@@ -1,0 +1,17 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mapa de Dependências</title><link rel="stylesheet" href="../assets/site.css"></head><body><main>
+<h1>Mapa de Dependências</h1>
+
+<h2>Regra</h2>
+
+<p>Dependência aponta para contrato, não para implementação privada.</p>
+
+<pre class="table">| Origem | Dependência permitida | Dependência proibida |</pre>
+<pre class="table">|---|---|---|</pre>
+<pre class="table">| Channels | BFFs e Design System | banco, ledger ou integração direta |</pre>
+<pre class="table">| BFFs | Contracts e APIs de domínio | acesso direto a tabelas |</pre>
+<pre class="table">| Core Banking | Contracts, Platform e Integrations | UI e estado de sessão de canal |</pre>
+<pre class="table">| Risk Control | eventos e dados autorizados | mutação silenciosa do ledger |</pre>
+<pre class="table">| Data Platform | eventos versionados | captura sem contrato e finalidade |</pre>
+<pre class="table">| Operations | APIs operacionais | bypass de maker-checker |</pre>
+
+<p>Toda exceção precisa de owner, prazo, evidência e aprovação independente.</p></main></body></html>

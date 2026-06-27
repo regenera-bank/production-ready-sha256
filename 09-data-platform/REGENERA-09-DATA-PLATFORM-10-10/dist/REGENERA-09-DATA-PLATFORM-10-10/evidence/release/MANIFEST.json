@@ -1,0 +1,311 @@
+{
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "7a56ad5c93310ddf51e0a6dbfd0f740b6407a98810c5a90739aad00d1a408c6b",
+      "size": 375
+    },
+    {
+      "path": "ASSINATURA-EXTERNA-REQUERIDA.md",
+      "sha256": "6b793cec458d4d6964aac016d7f03b6622ed62be58586c655d550afefa5e35a5",
+      "size": 348
+    },
+    {
+      "path": "ATA-REVISAO-TECNICA.md",
+      "sha256": "395a33c1eb0be86b57203b80b69c3baf6e8b89413c90a26f99f732f003cc3afc",
+      "size": 1035
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "01fe780044ee7bc9d529f9937aa8114181c2b82b64eab97ef5721d615fa4a987",
+      "size": 489
+    },
+    {
+      "path": "DECLARACAO-PROCEDENCIA.md",
+      "sha256": "450f81ff973d5401821818caeaefda32ff4fc9bc2e1340e5aa3dd2152b3db45b",
+      "size": 539
+    },
+    {
+      "path": "HISTORICO-INCREMENTAL.md",
+      "sha256": "c9a1f37c25d0b65e789807c114e688009052b6f4f189120d272eeacaff35245d",
+      "size": 972
+    },
+    {
+      "path": "INTEGRITY-SCOPE.md",
+      "sha256": "a64f4e7a478262e0b720ff7b6ee818c569c862a1de6515c3f348f46adb76e4e6",
+      "size": 349
+    },
+    {
+      "path": "Makefile",
+      "sha256": "eaff26b080bbef44a1aafdc243a25e4bc98e4b23ce96a3fe9a35992a7f0a60a2",
+      "size": 777
+    },
+    {
+      "path": "README-APLICACAO.md",
+      "sha256": "54182233ae67fe35796ec2228f7c4ee99732820e48d837704df6f1ddd30c4f2c",
+      "size": 737
+    },
+    {
+      "path": "README.md",
+      "sha256": "c27b8201519911233f3e560c7e353709d3e51f7ea2e97dcfa78883b9a948ec1f",
+      "size": 1545
+    },
+    {
+      "path": "docs/adrs/ADR-001-CONTRATOS-ANTES-DA-INGESTAO.md",
+      "sha256": "7e33308125076b40fa4ac8c579914c574d93df0ec89f6ef7b12ca366936acd61",
+      "size": 542
+    },
+    {
+      "path": "docs/adrs/ADR-002-LINEAGE-APPEND-ONLY.md",
+      "sha256": "f6df0c1054ddfbff2c1b955144ea129f092301b8e489cd61c478044b161ddd55",
+      "size": 339
+    },
+    {
+      "path": "docs/adrs/ADR-003-UNKNOWN-BLOQUEIA-REPROCESSAMENTO.md",
+      "sha256": "f1c29032aaa0dd85e662676eb2d160d8d9f8a27a1701004d830b57be38218ced",
+      "size": 299
+    },
+    {
+      "path": "docs/adrs/ADR-004-CHECKSUM-SEM-AUTORREFERENCIA.md",
+      "sha256": "3ef7e7b5b009602bc0438198af910517200756377e7cf67b9f5b2f5e001f1e31",
+      "size": 250
+    },
+    {
+      "path": "docs/architecture/DATA-PLATFORM-ARCHITECTURE.md",
+      "sha256": "84803778d537db6121e43d756e5794556824b49deac507115df6cde41dd3fedf",
+      "size": 806
+    },
+    {
+      "path": "docs/policies/DATA-POL-001.md",
+      "sha256": "020763087daa2897aaa29b2b88fcf75f64631a1efa745be633fda2d3d170ec42",
+      "size": 903
+    },
+    {
+      "path": "docs/policies/DATA-POL-002.md",
+      "sha256": "4ff76bd10eb98d48fe27ae2230bdf36fb3aad6a0c7e34a50a7c91652fc7d8331",
+      "size": 918
+    },
+    {
+      "path": "docs/policies/DATA-POL-003.md",
+      "sha256": "6f6888719376479c82565c9afb8af1eabe2a0caa48f9a8503b73451f9ecac908",
+      "size": 892
+    },
+    {
+      "path": "docs/policies/DATA-POL-004.md",
+      "sha256": "37739cbb007006965c1b74166ad5045f93dfaeb0f55de154ff438e4ecd7bcbf2",
+      "size": 899
+    },
+    {
+      "path": "docs/policies/DATA-POL-005.md",
+      "sha256": "0260e867afb9fa203f8052e84644e335e8ddd0630073d76dacab9beabd2ff2e9",
+      "size": 846
+    },
+    {
+      "path": "docs/policies/DATA-POL-006.md",
+      "sha256": "17b4f4b7088ef629388e4d1b41b87c7dead457110d0481f812959082757e5470",
+      "size": 897
+    },
+    {
+      "path": "docs/policies/DATA-POL-007.md",
+      "sha256": "6b341b654a469d310e76afa8f2c2d5e9d4f851ebf28f4be9183b7e0311cc5123",
+      "size": 903
+    },
+    {
+      "path": "docs/policies/DATA-POL-008.md",
+      "sha256": "a6cfc88b016e87de1a582c3683dedeb48486947edb8096807817ab855e4bb3df",
+      "size": 884
+    },
+    {
+      "path": "docs/policies/DATA-POL-009.md",
+      "sha256": "02925dfbc6af2a7191fe1359e549c6bf17d64c42abf446d848ad19b1b64fa88b",
+      "size": 876
+    },
+    {
+      "path": "docs/runbooks/DATA-RUN-001-UNKNOWN.md",
+      "sha256": "cde1b1d752bf8a40b86e71b3d6cd266be12edb1c3832cbaabea2e20bbb880d33",
+      "size": 572
+    },
+    {
+      "path": "docs/runbooks/DATA-RUN-002-QUALITY-BLOCK.md",
+      "sha256": "2d15eeb5fbabd2c2dad26b3173a3e119db5c02b8889b0385c58c587850ce564e",
+      "size": 438
+    },
+    {
+      "path": "docs/runbooks/DATA-RUN-003-PRIVACY.md",
+      "sha256": "b6f61dc89c1d86648104c2d6aee6d69e3f2d57c6ce5aa04f123b64b647f36741",
+      "size": 414
+    },
+    {
+      "path": "docs/runbooks/DATA-RUN-004-LINEAGE-BROKEN.md",
+      "sha256": "7c07fe9ab8e87817be228d2844388a611f0de191fc0ec78e3e475875563f9beb",
+      "size": 354
+    },
+    {
+      "path": "docs/runbooks/DATA-RUN-005-RESTORE.md",
+      "sha256": "624422f68263cf6809ffaf8a9a34d6bfaa7537538bf2696981935d1c985f19ca",
+      "size": 493
+    },
+    {
+      "path": "governance/APPROVAL-RECORD.json",
+      "sha256": "fe1a316a45832fe5aad35c859837df77b155259f4174c8a192e9361852e81f2a",
+      "size": 229
+    },
+    {
+      "path": "governance/CONTROL-MATRIX.json",
+      "sha256": "245484a4d2f13908122694617155015734e6058da625cd77469c086b81ad38d9",
+      "size": 7181
+    },
+    {
+      "path": "governance/EXCEPTION-REGISTER.json",
+      "sha256": "584e697cce0eb005ea6f0037f5757f418c6cad912bcca8f486ed97c7cdfa7fe1",
+      "size": 23
+    },
+    {
+      "path": "governance/MODULE-REGISTRY.json",
+      "sha256": "1d9694837fe61b0b9cff77fe27e1a6ed11ee1d6abde863923ecc1a26e61a9486",
+      "size": 1662
+    },
+    {
+      "path": "governance/OWNERSHIP.json",
+      "sha256": "f9508dd4fc6e1e7c62281f3faad90a1f0428ec5b2363388df2dd102f42048f67",
+      "size": 299
+    },
+    {
+      "path": "governance/SOURCE-INVENTORY.json",
+      "sha256": "3b22dffabf96f40f95c51c3d51428af330e86595ecff0b1e1c8e04f3ee9b460a",
+      "size": 417
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "73471591054925c1a1f1a8f893ad91f786e336a5eacd936a72f6e9bf1c9dc576",
+      "size": 277
+    },
+    {
+      "path": "scripts/build_release.py",
+      "sha256": "79da58280bd93e3f295f0e47243339d430b2bcd7d664b39a15fd7ad5386f610f",
+      "size": 2689
+    },
+    {
+      "path": "scripts/common.py",
+      "sha256": "614d1d965fd604babb68ab16cc1f1fd283d911fdf3f7801b1f6d93420069be9d",
+      "size": 661
+    },
+    {
+      "path": "scripts/run_tests.py",
+      "sha256": "48f98f83044005652c9aa270f8e735c180195efd590324142a206b7b79e67fc8",
+      "size": 2069
+    },
+    {
+      "path": "scripts/security_scan.py",
+      "sha256": "133a87eada192fb6d0e5091f66d1170a228c6394671d01a5337db531e1c07cd9",
+      "size": 1390
+    },
+    {
+      "path": "scripts/validate.py",
+      "sha256": "334b9b916e3fbe30f6c5a65bb957b8462943cd26dbed72628297fbefe3f828b9",
+      "size": 2255
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "sha256": "c1e9dd1932ff012be22d1abca0e9227dff61548b644d30856c3ace66acc6750c",
+      "size": 1292
+    },
+    {
+      "path": "src/regenera_data_platform/__init__.py",
+      "sha256": "5a3fcaba02b8b11230ef9ac8b3b572cc28e40c01d7ed49388e52bdf13de83808",
+      "size": 943
+    },
+    {
+      "path": "src/regenera_data_platform/access.py",
+      "sha256": "86c0cc39731013ed887c46dfc972e12d0f0aefa99d16c0b539146057b80151fc",
+      "size": 1414
+    },
+    {
+      "path": "src/regenera_data_platform/contracts.py",
+      "sha256": "d9b1c3a3cbd7e98b7b2f11c4a3b7541c9748b87975c192999b4d986d749f68a5",
+      "size": 5511
+    },
+    {
+      "path": "src/regenera_data_platform/finance.py",
+      "sha256": "25bef0f3c4cf377e2b6f67d6074e939d5a6cc4288c0fde197f8c9856af65cb8d",
+      "size": 1795
+    },
+    {
+      "path": "src/regenera_data_platform/governance.py",
+      "sha256": "cb8faeae9282c8a36673c425d53478a335aad34f759cd4baf5af8861732502e2",
+      "size": 1058
+    },
+    {
+      "path": "src/regenera_data_platform/ingestion.py",
+      "sha256": "92d88993700f760390404025d1a34833b8282e0f0274f3a22082e45d42ba9284",
+      "size": 3344
+    },
+    {
+      "path": "src/regenera_data_platform/lineage.py",
+      "sha256": "23d6df1c3a6f6fe6b7d20a16b409cc13208dd97996fd4e9502343c33931feb89",
+      "size": 2237
+    },
+    {
+      "path": "src/regenera_data_platform/models.py",
+      "sha256": "b09b9835903d2401de30280f8b38d9966fee63458f08da87593aefd928b1669c",
+      "size": 1694
+    },
+    {
+      "path": "src/regenera_data_platform/money.py",
+      "sha256": "c893328d624ee779ae81dc7145c36b48e29fad7f5080f00ea17c88a63118a4c2",
+      "size": 1649
+    },
+    {
+      "path": "src/regenera_data_platform/privacy.py",
+      "sha256": "9955735434626ebee250ff1bec088cdb6e912c83dc95304357b278de2438a7fc",
+      "size": 1559
+    },
+    {
+      "path": "src/regenera_data_platform/quality.py",
+      "sha256": "4c4ac93e8a58ff4f793bfccd608219c7b48a03da8825c851564389017a634e79",
+      "size": 3041
+    },
+    {
+      "path": "src/regenera_data_platform/retention.py",
+      "sha256": "52104cb1b9319290db363d27bc9f3b9952fef8e92bfd1f6231228d702fbe72e6",
+      "size": 1603
+    },
+    {
+      "path": "src/regenera_data_platform/streaming.py",
+      "sha256": "d61bd90dda814b611d67846222e4181a35ab6ea4bf56fddc5cbf55ff28905cfb",
+      "size": 1917
+    },
+    {
+      "path": "src/regenera_data_platform/warehouse.py",
+      "sha256": "2d7fa7f2aa56a30a2c0f2c07566812bd8466fbb7094c4535bc13d3b5c5ec3991",
+      "size": 1651
+    },
+    {
+      "path": "tests/test_access_streaming_warehouse.py",
+      "sha256": "ccd87dc70115b681b1d9b02728b22f89607a60e10100e60dd36fc3a117ad982e",
+      "size": 3604
+    },
+    {
+      "path": "tests/test_finance_models_governance.py",
+      "sha256": "14241801e591d84a42b3de0cea7595cb1b9fbc760f54eb9f0a93f53886f9b994",
+      "size": 3702
+    },
+    {
+      "path": "tests/test_ingestion_quality.py",
+      "sha256": "a91297ab58ad2022d06a954258d12f27baa41addb50f0960e60e91b8a651ce6e",
+      "size": 2978
+    },
+    {
+      "path": "tests/test_lineage_privacy_retention.py",
+      "sha256": "2c4dae7783dc4de8a3050be3fec1e4c6eb1a387b160934b0825dc9bd518e2bfe",
+      "size": 2907
+    },
+    {
+      "path": "tests/test_money_contracts.py",
+      "sha256": "4355c8b5890b926ccb6c81b5ff48101109fdd39762162eeba8b898e7bbf57ad6",
+      "size": 2872
+    }
+  ],
+  "generated_at": "2026-06-26T00:00:00Z",
+  "release": "REGENERA-09-DATA-PLATFORM-10-10"
+}

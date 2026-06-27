@@ -1,0 +1,9 @@
+{
+  "defaultDeny": true,
+  "publicIngress": [
+    "approved-edge-only"
+  ],
+  "eastWestMTLS": true,
+  "databasePublicAccess": false,
+  "egressAllowlistRequired": true
+}

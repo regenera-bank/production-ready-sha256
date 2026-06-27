@@ -1,0 +1,10 @@
+[project]
+name = "regenera-regulatory-control-plane"
+version = "10.10.0"
+description = "Controles locais para obrigação, evidência, aprovação e submissão regulatória."
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.regenera]
+network_required = false
+external_approval_required = true

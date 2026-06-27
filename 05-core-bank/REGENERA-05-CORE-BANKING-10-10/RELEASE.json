@@ -1,0 +1,10 @@
+{
+  "artifact": "REGENERA-05-CORE-BANKING-10-10",
+  "version": "1.0.0",
+  "release_date": "2026-06-26",
+  "source_date_epoch": 1782432000,
+  "responsible_declared": "Don Paulo Ricardo",
+  "approval_status": "INDEPENDENT_REVIEW_REQUIRED",
+  "signature_status": "EXTERNAL_SIGNATURE_REQUIRED",
+  "production_activation": "BLOCKED_PENDING_EXTERNAL_EVIDENCE"
+}

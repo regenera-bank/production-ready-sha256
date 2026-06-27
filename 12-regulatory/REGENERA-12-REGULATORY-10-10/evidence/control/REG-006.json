@@ -1,0 +1,13 @@
+{
+  "control": "Evid\u00eancia por hash",
+  "control_id": "REG-006",
+  "evidence_type": "LOCAL_TECHNICAL_VERIFICATION",
+  "institutional_approval": "PENDING",
+  "owner": "Regulatory Affairs",
+  "state": "VERIFIED_LOCAL_CONTROL",
+  "verification_references": [
+    "tests/",
+    "evidence/test/TEST-RESULTS.json",
+    "evidence/security/SECURITY-REPORT.json"
+  ]
+}

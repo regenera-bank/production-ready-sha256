@@ -1,0 +1,19 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [],
+  "metadata": {
+    "component": {
+      "name": "regenera-integrations",
+      "type": "application",
+      "version": "1.0.0"
+    }
+  },
+  "properties": [
+    {
+      "name": "regenera.runtime_dependencies",
+      "value": "python-standard-library-only"
+    }
+  ],
+  "specVersion": "1.5",
+  "version": 1
+}

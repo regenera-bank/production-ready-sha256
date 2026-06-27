@@ -1,0 +1,26 @@
+control_id,domain,control,owner,executor,frequency,blocking,evidence,test_reference,status
+CORE-MON-001,Money,Unidade mínima inteira,Core Banking,Domain Library,por operação,true,resultado de testes,money adds exact minor units,TESTED
+CORE-MON-002,Money,Moeda não se mistura,Core Banking,Domain Library,por operação,true,resultado de testes,money rejects mixed currency,TESTED
+CORE-LED-001,Ledger,Partidas fecham em zero,Core Banking,Ledger Engine,por lançamento,true,resultado de testes,ledger rejects unbalanced entry,TESTED
+CORE-LED-002,Ledger,Lançamento postado é imutável,Core Banking,Database,contínua,true,migration e hash,ledger entry hash remains valid,TESTED
+CORE-LED-003,Ledger,Reversão é compensatória,Core Banking,Ledger Engine,por reversão,true,resultado de testes,reversal creates compensating entry,TESTED
+CORE-LED-004,Ledger,Segunda reversão é bloqueada,Core Banking,Ledger Engine,por reversão,true,resultado de testes,second reversal is rejected,TESTED
+CORE-ACC-001,Accounts,Conta bloqueada não posta,Core Banking,Account Registry,por operação,true,resultado de testes,blocked account cannot be used,TESTED
+CORE-HLD-001,Holds,Reserva reduz saldo disponível,Core Banking,Hold Book,por autorização,true,resultado de testes,hold reduces available balance,TESTED
+CORE-HLD-002,Holds,Reserva encerrada não volta,Core Banking,Hold Book,por evento,true,resultado de testes,released hold restores available balance,TESTED
+CORE-IDM-001,Idempotency,Mesma chave e payload retornam resultado original,Core Banking,Idempotency Registry,por operação,true,resultado de testes,idempotency completes and replays,TESTED
+CORE-IDM-002,Idempotency,Payload divergente gera conflito,Core Banking,Idempotency Registry,por operação,true,resultado de testes,idempotency rejects payload drift,TESTED
+CORE-IDM-003,Idempotency,UNKNOWN bloqueia nova execução,Core Banking,Idempotency Registry,por operação,true,resultado de testes,idempotency unknown blocks execution,TESTED
+CORE-PAY-001,Payments,Débito respeita saldo disponível,Payments,Payment Engine,por pagamento,true,resultado de testes,payment respects active holds,TESTED
+CORE-PAY-002,Payments,Concorrência produz um efeito,Payments,Payment Engine,por release,true,resultado de testes,concurrent duplicate payment produces one financial effect,TESTED
+CORE-PAY-003,Payments,Outbox acompanha efeito financeiro,Payments,Payment Engine,por pagamento,true,resultado de testes,payment debit is atomic across ledger outbox and audit,TESTED
+CORE-PAY-004,Payments,Retry cego em UNKNOWN é bloqueado,Payments,Payment Engine,por operação,true,resultado de testes,unknown payment cannot be retried blindly,TESTED
+CORE-REC-001,Reconciliation,Rejeição cria reversão,Operations,Reconciliation,por caso,true,resultado de testes,rejected reconciliation creates compensating entry,TESTED
+CORE-PIX-001,Pix,Chave não permanece em claro,Pix,Pix Engine,por operação,true,resultado de testes,pix does not retain raw key,TESTED
+CORE-PIX-002,Pix,Replay preserva EndToEndId,Pix,Pix Engine,por operação,true,resultado de testes,pix replay returns the same end to end id,TESTED
+CORE-AUD-001,Audit,Adulteração quebra a cadeia,Security,Audit Chain,contínua,true,resultado de testes,audit chain detects tampering,TESTED
+CORE-OUT-001,Outbox,Publicação é idempotente,Platform,Outbox Dispatcher,por evento,true,resultado de testes,outbox publish is idempotent,TESTED
+CORE-DB-001,Database,Equilíbrio validado antes de POSTED,Database Engineering,PostgreSQL,por lançamento,true,migration,V001 static validation,SPECIFIED
+CORE-DB-002,Database,Posting não sofre update ou delete,Database Engineering,PostgreSQL,contínua,true,migration,V001 static validation,SPECIFIED
+CORE-OPS-001,Operations,Restauração mede RTO e RPO,Operations,DR Process,trimestral,true,relatório de exercício,external exercise,PENDING_EXTERNAL
+CORE-SEC-001,Security,Segredos ficam fora do repositório,Security,Secret Manager,contínua,true,secret scan,security scan,TESTED

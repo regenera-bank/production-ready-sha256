@@ -1,0 +1,9 @@
+{
+  "errors": 0,
+  "expected": 111,
+  "failures": 0,
+  "skipped": 0,
+  "status": "PASSED",
+  "suite": "operations",
+  "tests_run": 111
+}

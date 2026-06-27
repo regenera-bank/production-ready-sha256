@@ -1,0 +1,21 @@
+{
+  "source_archive": "05-core-banking.zip",
+  "source_sha256": "1e046c5a8bb4dd6693c5b0c1141d46c69770a63f0cfe15760c3db184f8207c3a",
+  "source_entries": 6860,
+  "source_top_level_modules": 36,
+  "source_system_artifacts_detected": 7,
+  "source_nested_archives_detected": 2,
+  "active_capabilities_selected": [
+    "Money",
+    "Accounts",
+    "Ledger",
+    "Holds",
+    "Idempotency",
+    "Payments",
+    "Pix",
+    "Outbox",
+    "AuditChain",
+    "Reconciliation"
+  ],
+  "selection_rule": "Only behavior with explicit invariants and executable tests enters the active release."
+}

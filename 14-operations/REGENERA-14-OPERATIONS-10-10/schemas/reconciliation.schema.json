@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "amount_minor": {
+      "type": "integer"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "reference": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "reference",
+    "amount_minor",
+    "currency",
+    "status"
+  ],
+  "title": "reconciliation",
+  "type": "object"
+}

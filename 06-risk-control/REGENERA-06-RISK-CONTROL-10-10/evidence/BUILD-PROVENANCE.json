@@ -1,0 +1,8 @@
+{
+  "author_declared": "Don Paulo Ricardo",
+  "builder": "python-stdlib",
+  "command": "make all",
+  "schema": "regenera.build-provenance.v1",
+  "signature_status": "PENDING_EXTERNAL_GPG",
+  "source_date_epoch": 1782432000
+}

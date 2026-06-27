@@ -1,0 +1,31 @@
+control_id,control_name,owner,evidence,blocking
+ISO-001,Parser XML seguro,engineering-security,evidence/generated/TEST-RESULTS.json,true
+ISO-002,DTD e entidades proibidas,engineering-security,evidence/generated/TEST-RESULTS.json,true
+ISO-003,Limite de tamanho,platform-engineering,evidence/generated/TEST-RESULTS.json,true
+ISO-004,Limite de profundidade,platform-engineering,evidence/generated/TEST-RESULTS.json,true
+ISO-005,Namespace aprovado,payments-architecture,evidence/generated/TEST-RESULTS.json,true
+ISO-006,MsgId obrigatório,payments-engineering,evidence/generated/TEST-RESULTS.json,true
+ISO-007,Idempotência por MsgId e digest,payments-engineering,evidence/generated/TEST-RESULTS.json,true
+ISO-008,Conflito de payload bloqueado,payments-engineering,evidence/generated/TEST-RESULTS.json,true
+ISO-009,Reenvio cego bloqueado,payments-operations,evidence/generated/TEST-RESULTS.json,true
+ISO-010,Estado UNKNOWN reconciliado,payments-operations,evidence/generated/TEST-RESULTS.json,true
+ISO-011,Dinheiro positivo,core-banking,evidence/generated/TEST-RESULTS.json,true
+ISO-012,Escala monetária,core-banking,evidence/generated/TEST-RESULTS.json,true
+ISO-013,Moeda aprovada,core-banking,evidence/generated/TEST-RESULTS.json,true
+ISO-014,BIC validado,payments-engineering,evidence/generated/TEST-RESULTS.json,true
+ISO-015,Contagem de transações,payments-engineering,evidence/generated/TEST-RESULTS.json,true
+ISO-016,CtrlSum reconciliado,payments-engineering,evidence/generated/TEST-RESULTS.json,true
+ISO-017,Status rejeitado exige motivo,payments-engineering,evidence/generated/TEST-RESULTS.json,true
+ISO-018,Extrato reconcilia saldos,reconciliation,evidence/generated/TEST-RESULTS.json,true
+ISO-019,Notificação exige TxId,reconciliation,evidence/generated/TEST-RESULTS.json,true
+ISO-020,Digest canônico estável,engineering-security,evidence/generated/TEST-RESULTS.json,true
+ISO-021,XSD oficial obrigatório,payments-architecture,profiles/OFFICIAL-XSD-REQUIREMENT.md,true
+ISO-022,Assinatura externa obrigatória,release-engineering,governance/APPROVAL-RECORD.json,true
+ISO-023,Segredo ausente da release,engineering-security,evidence/generated/SECURITY-RESULTS.json,true
+ISO-024,Checksums cobrem release,release-engineering,PACKAGE-CHECKSUMS.sha256,true
+ISO-025,Revisão independente,change-authority,governance/APPROVAL-RECORD.json,true
+ISO-026,Mudança de perfil exige ADR,payments-architecture,docs/policies/SCHEMA-CHANGE.md,true
+ISO-027,Certificado comprometido bloqueia envio,engineering-security,docs/runbooks/CERTIFICATE-COMPROMISE.md,true
+ISO-028,Quebra de reconciliação bloqueia fechamento,reconciliation,docs/runbooks/RECONCILIATION-BREAK.md,true
+ISO-029,Retenção de evidência definida,records-management,docs/policies/RETENTION.md,false
+ISO-030,Exceção com validade e aprovador,risk-management,governance/EXCEPTION-PROCESS.md,true

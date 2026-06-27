@@ -1,0 +1,19 @@
+{
+  "items": [
+    "IAM institucional",
+    "SIEM e SOC",
+    "ITSM",
+    "observabilidade",
+    "mensageria",
+    "bancos de produção",
+    "HSM/KMS",
+    "SPI e DICT",
+    "processadores de cartões",
+    "motor AML",
+    "motor antifraude",
+    "ambiente de continuidade",
+    "assinatura OpenPGP",
+    "aprovação independente externa"
+  ],
+  "status": "BLOCKED_UNTIL_EVIDENCE"
+}

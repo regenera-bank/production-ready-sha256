@@ -1,0 +1,9 @@
+{
+  "accountable_person": "Don Paulo Ricardo",
+  "activation_authorized": false,
+  "cryptographic_signature_present": false,
+  "independent_reviewer": null,
+  "package": "REGENERA-08-ISO20022-10-10",
+  "reason": "XSD oficial, revisão independente e assinatura real ainda ausentes",
+  "status": "PENDING_INDEPENDENT_REVIEW_AND_SIGNATURE"
+}

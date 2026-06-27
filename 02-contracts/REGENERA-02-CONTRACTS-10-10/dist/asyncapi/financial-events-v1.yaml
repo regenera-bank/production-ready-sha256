@@ -1,0 +1,187 @@
+asyncapi: 3.0.0
+info:
+  title: Regenera Financial Events
+  version: 1.0.0
+  description: Eventos confirmam fatos. Comando não vira evento só porque foi recebido.
+defaultContentType: application/json
+channels:
+  ledgerEvents:
+    address: regenera.ledger.events.v1
+    messages:
+      ledgerEntryPosted:
+        $ref: '#/components/messages/LedgerEntryPosted'
+      ledgerEntryReversed:
+        $ref: '#/components/messages/LedgerEntryReversed'
+  pixEvents:
+    address: regenera.pix.events.v1
+    messages:
+      pixStatusChanged:
+        $ref: '#/components/messages/PixStatusChanged'
+  auditEvents:
+    address: regenera.audit.events.v1
+    messages:
+      auditEventRecorded:
+        $ref: '#/components/messages/AuditEventRecorded'
+operations:
+  publishLedger:
+    action: send
+    channel:
+      $ref: '#/channels/ledgerEvents'
+    messages:
+    - $ref: '#/channels/ledgerEvents/messages/ledgerEntryPosted'
+    - $ref: '#/channels/ledgerEvents/messages/ledgerEntryReversed'
+  publishPix:
+    action: send
+    channel:
+      $ref: '#/channels/pixEvents'
+    messages:
+    - $ref: '#/channels/pixEvents/messages/pixStatusChanged'
+  publishAudit:
+    action: send
+    channel:
+      $ref: '#/channels/auditEvents'
+    messages:
+    - $ref: '#/channels/auditEvents/messages/auditEventRecorded'
+components:
+  schemas:
+    EventEnvelope:
+      type: object
+      required:
+      - eventId
+      - eventType
+      - eventVersion
+      - occurredAt
+      - aggregateType
+      - aggregateId
+      - correlationId
+      - data
+      properties:
+        eventId:
+          type: string
+          format: uuid
+        eventType:
+          type: string
+          pattern: ^[A-Z][A-Z0-9_]{2,79}$
+        eventVersion:
+          type: integer
+          minimum: 1
+        occurredAt:
+          type: string
+          format: date-time
+        aggregateType:
+          type: string
+          minLength: 1
+          maxLength: 80
+        aggregateId:
+          type: string
+          minLength: 1
+          maxLength: 128
+        correlationId:
+          type: string
+          format: uuid
+        causationId:
+          type:
+          - string
+          - 'null'
+          format: uuid
+        producer:
+          type: string
+          minLength: 1
+          maxLength: 100
+        data:
+          type: object
+          additionalProperties: true
+      additionalProperties: false
+  messages:
+    LedgerEntryPosted:
+      name: LEDGER_ENTRY_POSTED
+      title: Lançamento confirmado.
+      payload:
+        allOf:
+        - $ref: '#/components/schemas/EventEnvelope'
+        - type: object
+          properties:
+            data:
+              type: object
+              required:
+              - ledgerEntryId
+              - referenceType
+              - referenceId
+              properties:
+                ledgerEntryId:
+                  type: string
+                  format: uuid
+                referenceType:
+                  type: string
+                referenceId:
+                  type: string
+                  format: uuid
+              additionalProperties: false
+    LedgerEntryReversed:
+      name: LEDGER_ENTRY_REVERSED
+      title: Estorno compensatório confirmado.
+      payload:
+        allOf:
+        - $ref: '#/components/schemas/EventEnvelope'
+        - type: object
+          properties:
+            data:
+              type: object
+              required:
+              - originalEntryId
+              - reversalEntryId
+              - reason
+              properties:
+                originalEntryId:
+                  type: string
+                  format: uuid
+                reversalEntryId:
+                  type: string
+                  format: uuid
+                reason:
+                  type: string
+                  minLength: 1
+                  maxLength: 500
+              additionalProperties: false
+    PixStatusChanged:
+      name: PIX_STATUS_CHANGED
+      title: Estado Pix alterado.
+      payload:
+        allOf:
+        - $ref: '#/components/schemas/EventEnvelope'
+        - type: object
+          properties:
+            data:
+              type: object
+              required:
+              - paymentId
+              - previousStatus
+              - currentStatus
+              properties:
+                paymentId:
+                  type: string
+                  format: uuid
+                previousStatus:
+                  type: string
+                currentStatus:
+                  type: string
+                  enum:
+                  - RECEIVED
+                  - AUTHORIZED
+                  - DEBITED
+                  - SENT
+                  - SETTLED
+                  - FAILED
+                  - REVERSED
+                  - UNKNOWN
+                  - RECONCILIATION_REQUIRED
+                externalEndToEndId:
+                  type:
+                  - string
+                  - 'null'
+              additionalProperties: false
+    AuditEventRecorded:
+      name: AUDIT_EVENT_RECORDED
+      title: Evento de auditoria persistido.
+      payload:
+        $ref: '#/components/schemas/EventEnvelope'

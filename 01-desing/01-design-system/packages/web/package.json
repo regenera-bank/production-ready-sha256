@@ -1,0 +1,12 @@
+{
+  "name": "@regenera/design-web",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.mjs",
+    "./styles": "./src/styles/components.css"
+  },
+  "sideEffects": [
+    "./src/styles/components.css"
+  ]
+}

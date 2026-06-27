@@ -1,0 +1,440 @@
+{
+  "files": [
+    {
+      "bytes": 485,
+      "path": "ASSINATURA-EXTERNA-REQUERIDA.md",
+      "sha256": "af4de5a77a05a8e568f5e3e2ee2629490c0fab9401576ab828ce2629017942a4"
+    },
+    {
+      "bytes": 647,
+      "path": "ATA-REVISAO-TECNICA.md",
+      "sha256": "6b3d802e2d387270dfe79562938cbc44ae76ed8add6bc346896c5731ab9639dd"
+    },
+    {
+      "bytes": 557,
+      "path": "CHANGELOG.md",
+      "sha256": "65febb836929fcbae718af55adb01a651f97f6f25255c9aab62e49e16e43e30c"
+    },
+    {
+      "bytes": 413,
+      "path": "DECLARACAO-PROCEDENCIA.md",
+      "sha256": "77165b11caf0ade2d9e3c135060e6faa3cdaa754f589d181ae302ba5ba306b32"
+    },
+    {
+      "bytes": 446,
+      "path": "HISTORICO-INCREMENTAL.md",
+      "sha256": "d9a63cff3061138c65566d4d2b3c99d7b59ae267bc8c61c0872796ce41327bfa"
+    },
+    {
+      "bytes": 348,
+      "path": "INTEGRITY-SCOPE.md",
+      "sha256": "dcef15f59c4792b5cbf8eacface1d511f72a125fb12f31632cac60ca4108df42"
+    },
+    {
+      "bytes": 108,
+      "path": "LICENSE",
+      "sha256": "b6cb8b5c298e8292242f3e01f7f42de0e5df29719f8a8df5ed6286efc711e69c"
+    },
+    {
+      "bytes": 446,
+      "path": "Makefile",
+      "sha256": "035d0bbcdff8a571c520053fc7da16dad157c2112eebfce1152ec8a1c79fa5d4"
+    },
+    {
+      "bytes": 507,
+      "path": "README-APLICACAO.md",
+      "sha256": "eb33dddc24c3f29da2098eed5f51d8228aa325b0725e552609cd494888c824dc"
+    },
+    {
+      "bytes": 1066,
+      "path": "README.md",
+      "sha256": "e8a1e47b39366dda9980f6c1c7b5c84d210df69a70de332ba7e3a975b2a8154f"
+    },
+    {
+      "bytes": 734,
+      "path": "docs/architecture/channel-map.md",
+      "sha256": "12b2a27a435fe8a24e0ac55adbe2f5bab2e2ea955d431995ee5a9ce69b956bdc"
+    },
+    {
+      "bytes": 974,
+      "path": "docs/architecture/dependency-map.md",
+      "sha256": "64e2443846d938395c485c61434d76efd94e3be7a9c4cb84ef14a97be535c30f"
+    },
+    {
+      "bytes": 834,
+      "path": "docs/architecture/deployment-map.md",
+      "sha256": "f79acc95f98a25f766e64437d298a8108529349a64a01987aa148e45244b6269"
+    },
+    {
+      "bytes": 1482,
+      "path": "docs/architecture/domain-map.md",
+      "sha256": "9f955fc92863eb360b1c650ad9383750eece3257488e3f38b5822615c59c9681"
+    },
+    {
+      "bytes": 909,
+      "path": "docs/architecture/environment-map.md",
+      "sha256": "d74c29777a811052fc418172fb8db8328ef3c3e4bcbd75fbcedcd48aff05404c"
+    },
+    {
+      "bytes": 868,
+      "path": "docs/architecture/security-architecture.md",
+      "sha256": "6c1a7289da23432345e08b76ae997e516badd6e1ec7467d5fc9ef633bf3e53c2"
+    },
+    {
+      "bytes": 1260,
+      "path": "docs/architecture/system-context.md",
+      "sha256": "a733264d3faeb05514c41f0efe2fce764d9888ae65be81a2f08d66847ee483d3"
+    },
+    {
+      "bytes": 730,
+      "path": "docs/catalogs/api-catalog.md",
+      "sha256": "e2e8c148377b14ce8e69ba0a6f0e84dd50e2602f05b327a2abd52b4618b2b028"
+    },
+    {
+      "bytes": 784,
+      "path": "docs/catalogs/document-register.md",
+      "sha256": "72ffc3167b87c66d68efbde268e1e70b4ae562536bf988572622a6917c968a37"
+    },
+    {
+      "bytes": 1014,
+      "path": "docs/catalogs/error-catalog.md",
+      "sha256": "0842c47127b4eb1c36013da1816e0a9835f83ea684edafc0c7b89d461801b11e"
+    },
+    {
+      "bytes": 815,
+      "path": "docs/catalogs/event-catalog.md",
+      "sha256": "f501af6a811594abfd9ce82fc75678a22e0988815637c823a9fa2ee7bda035c8"
+    },
+    {
+      "bytes": 1025,
+      "path": "docs/catalogs/service-catalog.md",
+      "sha256": "f715c0539722ad22968fcd69e6b02c1b6aed29cc66fb1ca76c29078e867d9415"
+    },
+    {
+      "bytes": 769,
+      "path": "docs/data/data-classification.md",
+      "sha256": "80194b1683d7eccba0e826c4e282c46283fc7e56ded5ac8fbad50818bf515f8a"
+    },
+    {
+      "bytes": 864,
+      "path": "docs/decision-records/ADR-0001-document-authority.md",
+      "sha256": "a3a24638a669db38c394779578247d55eb7658428de252d1b1010bbe36f187e3"
+    },
+    {
+      "bytes": 869,
+      "path": "docs/decision-records/ADR-0002-domain-delegation.md",
+      "sha256": "200c465263e642831817500023081903cab6e5ec9e37656f98667557a44ba628"
+    },
+    {
+      "bytes": 1770,
+      "path": "docs/index.md",
+      "sha256": "0ee1d4f9a1298e1dc96354c5fd4f869e2deb07a9e3912ffcf3e5fb68be8caefa"
+    },
+    {
+      "bytes": 767,
+      "path": "docs/onboarding/engineering-onboarding.md",
+      "sha256": "588380cf4b4a0615bf3c234f758a2e9d8b36985f3b86384653ed56ad2c57d036"
+    },
+    {
+      "bytes": 704,
+      "path": "docs/operations/document-lifecycle.md",
+      "sha256": "8e1c514d8432ccfeb9ac86a6ae8ca771b3ef72abe7b1c16dc30f6a608616a986"
+    },
+    {
+      "bytes": 587,
+      "path": "docs/operations/review-and-approval.md",
+      "sha256": "05ddce3f38ca5ffbb05ebdd17e23e2c662950257a2129c6897f379457f336031"
+    },
+    {
+      "bytes": 1086,
+      "path": "docs/policies/document-governance.md",
+      "sha256": "1d81270274509048598b8653ded9c1d595792755924175af5eb7d069aab01ec7"
+    },
+    {
+      "bytes": 672,
+      "path": "docs/policies/evidence.md",
+      "sha256": "6336d43a505c140f308382ba2bd9a6a7b389dab43ad18a907da8537f6513361e"
+    },
+    {
+      "bytes": 622,
+      "path": "docs/policies/versioning.md",
+      "sha256": "8fc694eec911ad6e1670f3f17b269cbe8319c501d6d782f45c800ad958a5ccd1"
+    },
+    {
+      "bytes": 1027,
+      "path": "docs/regulatory/regulatory-matrix.md",
+      "sha256": "ab6c57c55df13410ead5979cd2cfbe9d1f8d6288f1e35bae5a63203db1aeefa9"
+    },
+    {
+      "bytes": 511,
+      "path": "docs/runbooks/broken-link.md",
+      "sha256": "4e22db12e8885d080943e21ca6e9cfc1b908ba27fc8096289e5722f68f8aecf6"
+    },
+    {
+      "bytes": 582,
+      "path": "docs/runbooks/emergency-document-change.md",
+      "sha256": "c4fc0423c529f9fe4facef1a21a83d84775530eb2a8578f16efe2745a0e005e5"
+    },
+    {
+      "bytes": 538,
+      "path": "docs/runbooks/stale-document.md",
+      "sha256": "fdc4a28d70bab839c2d5c9a91094ea9768e054c8952c9e31dff7d818e6ee7a87"
+    },
+    {
+      "bytes": 62,
+      "path": "generated/build-summary.json",
+      "sha256": "d723bc5d0184db8f18bf8559f7ad59217a6f45bf6887f374fde495e9c7232b49"
+    },
+    {
+      "bytes": 4901,
+      "path": "generated/search-index.json",
+      "sha256": "00b399c3c2f659f3ef61a59b6523c4f623fe995124135d7892078a306565f7e3"
+    },
+    {
+      "bytes": 905,
+      "path": "generated/site/architecture/channel-map.html",
+      "sha256": "155ae0085394790efd4e7ff9ca3c200647477e41e2373ddf478163b47b0c1d86"
+    },
+    {
+      "bytes": 1188,
+      "path": "generated/site/architecture/dependency-map.html",
+      "sha256": "b5f20343772b1eb73cc3901762f58905fbbaa2d462e5ac00e65c4ce7820aa372"
+    },
+    {
+      "bytes": 1043,
+      "path": "generated/site/architecture/deployment-map.html",
+      "sha256": "801422a7f242bd43bf3e75d1f6a275f6055b9fe07b623341510eaa5c01e7c888"
+    },
+    {
+      "bytes": 1962,
+      "path": "generated/site/architecture/domain-map.html",
+      "sha256": "a5088484841c4e485d4aa164d80874a53c5c87c529dc1aef93929286ade26e55"
+    },
+    {
+      "bytes": 1077,
+      "path": "generated/site/architecture/environment-map.html",
+      "sha256": "d5055996e8e04897298a44663acfbc23f13189a4a870320499aad46734522bec"
+    },
+    {
+      "bytes": 1050,
+      "path": "generated/site/architecture/security-architecture.html",
+      "sha256": "28aa99524ce11b8a33d0852ad04dc2c1fdc75d466feb2fb197cac9ed8702c94c"
+    },
+    {
+      "bytes": 1462,
+      "path": "generated/site/architecture/system-context.html",
+      "sha256": "bb3a602ece3071789852ac5a145e1d847cc1837c88d74f0c1ba4ea53514dbaa0"
+    },
+    {
+      "bytes": 289,
+      "path": "generated/site/assets/site.css",
+      "sha256": "e549cd5b38c876655c41a053363b594142e85568c877f31be7da153d5c4057cf"
+    },
+    {
+      "bytes": 916,
+      "path": "generated/site/catalogs/api-catalog.html",
+      "sha256": "4b82c3c037fd5d0a46bff85a772abed0a6a69267e97f236a54639622523ee38b"
+    },
+    {
+      "bytes": 898,
+      "path": "generated/site/catalogs/document-register.html",
+      "sha256": "795b454f5ceb5709f74160441fb2bcca0f091121e3dc3c132b8d8e5934ad6a91"
+    },
+    {
+      "bytes": 1248,
+      "path": "generated/site/catalogs/error-catalog.html",
+      "sha256": "bcd2f86431c2e19d542cc5f9f091ee278df40cbd9e167baebd6a2094c288e0c3"
+    },
+    {
+      "bytes": 997,
+      "path": "generated/site/catalogs/event-catalog.html",
+      "sha256": "52861bab5eb55e224fce4aef2420efc263412daf5a605fdcfd7a20608a27accb"
+    },
+    {
+      "bytes": 1309,
+      "path": "generated/site/catalogs/service-catalog.html",
+      "sha256": "9b536e247097b911cda58c1ecba641956f136e270bba094addb611e298b4f535"
+    },
+    {
+      "bytes": 913,
+      "path": "generated/site/data/data-classification.html",
+      "sha256": "ec01498c1910431cf3320986286dbf28689c4dce14c04341b74f0836ae3e5385"
+    },
+    {
+      "bytes": 12912,
+      "path": "generated/site/data/documents.json",
+      "sha256": "49b1086ab4efaae08d859242d272de67165c476d10fcb7e07d93538b790d8df1"
+    },
+    {
+      "bytes": 993,
+      "path": "generated/site/decision-records/ADR-0001-document-authority.html",
+      "sha256": "65efe3e99dfad42f547d13fd8cd6351d2769a8e0e4799c335bc4e7b4ebd4463d"
+    },
+    {
+      "bytes": 917,
+      "path": "generated/site/decision-records/ADR-0002-domain-delegation.html",
+      "sha256": "441c4ba27f346ecf2727a0ed1adc931d9ab713cee9e1ed7487f29d5fdf5b17e0"
+    },
+    {
+      "bytes": 2340,
+      "path": "generated/site/index.html",
+      "sha256": "650bf12a175a40834b50560014b92071ae44e40fa08a25c8c511fd09d38dc7a3"
+    },
+    {
+      "bytes": 825,
+      "path": "generated/site/onboarding/engineering-onboarding.html",
+      "sha256": "8e66a9a5cdb37702adb538cdaf4ea876b2a449677e795f4eb8ad0684616cb615"
+    },
+    {
+      "bytes": 746,
+      "path": "generated/site/operations/document-lifecycle.html",
+      "sha256": "e162fa4fe08b5848980ce11bfb5a79e8541ac64594bc1608d6be58ef56999249"
+    },
+    {
+      "bytes": 586,
+      "path": "generated/site/operations/review-and-approval.html",
+      "sha256": "e929f3a6edd2226eae7589e3acd25cfd6b9a1876af867f20455ceb0e7172c12a"
+    },
+    {
+      "bytes": 1409,
+      "path": "generated/site/policies/document-governance.html",
+      "sha256": "901d835696ce7627e8b342d96b3b5ea8e1736f212a12e883c7591f3cb5cfd8db"
+    },
+    {
+      "bytes": 820,
+      "path": "generated/site/policies/evidence.html",
+      "sha256": "e912f288a1457d56935913159e20fac64bac3074bce43b32c6485ee272dead61"
+    },
+    {
+      "bytes": 681,
+      "path": "generated/site/policies/versioning.html",
+      "sha256": "8874c09311c80e96e8da6536d4aea3bb68f09624b047c216363f596ca9594011"
+    },
+    {
+      "bytes": 1194,
+      "path": "generated/site/regulatory/regulatory-matrix.html",
+      "sha256": "d8681778f12e8beacdbdcb619e6bd5c697ad5ea3eae70f5affbfba7d7276daa6"
+    },
+    {
+      "bytes": 536,
+      "path": "generated/site/runbooks/broken-link.html",
+      "sha256": "1344e745a287b6e1091c8ae0cdb0715b4621c9c4aaefd0e94e7359db3d0a3c37"
+    },
+    {
+      "bytes": 602,
+      "path": "generated/site/runbooks/emergency-document-change.html",
+      "sha256": "b16db2321006b4a6b5ab78ddfec7a94bc3dd91ed1227f5f8973036182c08832e"
+    },
+    {
+      "bytes": 562,
+      "path": "generated/site/runbooks/stale-document.html",
+      "sha256": "4e4b0d8514f085b257f89ca3e9422a6709cc109ab37dc12fa1544d80f7d1d0c2"
+    },
+    {
+      "bytes": 4695,
+      "path": "governance/CONTROL-MATRIX.json",
+      "sha256": "d2973b47e7defa7a1b6f56f1e0fb8e3fdf6c2daa1f329964089bedf223f3cd79"
+    },
+    {
+      "bytes": 444,
+      "path": "governance/EXTERNAL-DEPENDENCIES.md",
+      "sha256": "bda8b5d2822ec16b19c93d319e77590d0f1b3382990f5f45b5bda092c7446c3b"
+    },
+    {
+      "bytes": 148,
+      "path": "pyproject.toml",
+      "sha256": "5aa71eed1157a2128235ce6dc5df02a1cd5e3a555aa49ccc52956aeb6e8aceda"
+    },
+    {
+      "bytes": 12912,
+      "path": "registry/documents.json",
+      "sha256": "49b1086ab4efaae08d859242d272de67165c476d10fcb7e07d93538b790d8df1"
+    },
+    {
+      "bytes": 647,
+      "path": "schemas/control-matrix.schema.json",
+      "sha256": "66099e14dd8a95c7d6efc609a5b7e9e16d453536c6c54d6dc04672887690dbdc"
+    },
+    {
+      "bytes": 1289,
+      "path": "schemas/document.schema.json",
+      "sha256": "a7c4223bbed45d4b54bae9c017dcb5dc42dcf50899afbd9ab8af5321b7a1e463"
+    },
+    {
+      "bytes": 1990,
+      "path": "tests/test_build.py",
+      "sha256": "c7d552a13ea6dc1034c11ed8b0ea835751a01edbd74800a91fc90e8533164ba5"
+    },
+    {
+      "bytes": 1873,
+      "path": "tests/test_content.py",
+      "sha256": "82bcd7f45dac4845050c07ba63d33cb831cb80603f38136773e10a84d47878ea"
+    },
+    {
+      "bytes": 1310,
+      "path": "tests/test_document_matrix.py",
+      "sha256": "c7396d82cbb79490c1fcb79ce5b240dc561c50e3c5cc010036635809c0be303e"
+    },
+    {
+      "bytes": 1019,
+      "path": "tests/test_links.py",
+      "sha256": "811a557ce1a9ae639e83c51c7f9e78904e4401a3865b69f456b1cedd9e9bed33"
+    },
+    {
+      "bytes": 1799,
+      "path": "tests/test_metadata.py",
+      "sha256": "0d2875e50eb0c80fa338a3f820566caf0206fc3f581e1ad96690f8463409fc9b"
+    },
+    {
+      "bytes": 969,
+      "path": "tests/test_registry.py",
+      "sha256": "ba19c2369f7208c62d94aa6d4451778827a68bbea22946c089b429f8ead584d8"
+    },
+    {
+      "bytes": 890,
+      "path": "tests/test_security.py",
+      "sha256": "7e33c030cb063d4ab620d379b1c3a4f1d5fac0faf0d65df90a76ad5f48f723e6"
+    },
+    {
+      "bytes": 4067,
+      "path": "tools/build.py",
+      "sha256": "7c3366075611b98e0d081092c5787d7a7973e5539b248e457d4ad6de7bf5881a"
+    },
+    {
+      "bytes": 391,
+      "path": "tools/clean.py",
+      "sha256": "3a92d3e6d6b2b5c7202307352d90f1b2c8252676c2a0d4a8b7073e9cc7b936d8"
+    },
+    {
+      "bytes": 1778,
+      "path": "tools/common.py",
+      "sha256": "b951c9ddbfc92310921a00632f798bcae95aa5381153fc61cbb7f44b8242706d"
+    },
+    {
+      "bytes": 1162,
+      "path": "tools/evidence.py",
+      "sha256": "bccd1d25a1cb4e167c97697958196f793278fd73be35b4fd8b06a525a41bc261"
+    },
+    {
+      "bytes": 656,
+      "path": "tools/run_tests.py",
+      "sha256": "4d0c083959a013c0b9cc15ec68e38ee81d795e85a6d4ad7c87d363f2610b8bf1"
+    },
+    {
+      "bytes": 1654,
+      "path": "tools/security_scan.py",
+      "sha256": "a5cc477fbd88bc8b4eb9a69e30d158b0ad5e2d4e649e9e9fc4f4af5449e2dde4"
+    },
+    {
+      "bytes": 3473,
+      "path": "tools/validate.py",
+      "sha256": "d9bed768ffa4519d7f057fdca7b1cee53f87bbbb3e153e7d1f8b31fe712ba07c"
+    },
+    {
+      "bytes": 1448,
+      "path": "tools/verify_release.py",
+      "sha256": "0489be43430e7ce28ca319029776966780b776f1641935bd346be94e387c86ac"
+    }
+  ],
+  "scope": "all release payload excluding evidence to avoid self-reference"
+}

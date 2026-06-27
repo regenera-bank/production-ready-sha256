@@ -1,0 +1,8 @@
+{
+  "builder": "python-stdlib",
+  "network_used": false,
+  "python": "3.13.5",
+  "release": "REGENERA-16-DOCUMENTATION-10-10",
+  "source_sha256": "b7427ff675069b155890df1d912d35312c101b0c98a6a49ddfd25f927e9023f0",
+  "status": "VERIFIED_LOCAL"
+}

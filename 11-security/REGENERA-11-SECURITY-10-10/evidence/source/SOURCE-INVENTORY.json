@@ -1,0 +1,17 @@
+{
+  "decision": "inventory_only_not_promoted_to_active_release",
+  "declared_repositories": 12,
+  "ds_store_files": 2,
+  "files_after_macos_filter": 684,
+  "gitkeep_files": 240,
+  "macos_entries": 1022,
+  "markdown_files_after_filter": 168,
+  "python_files": 0,
+  "shell_scripts_after_filter": 60,
+  "source_file": "11-security.zip",
+  "source_sha256": "7fb1b1c24770b226330587347daf7788294929a345439ffaa55480a8113da25b",
+  "typescript_files": 0,
+  "yaml_files_after_filter": 108,
+  "zip_entries": 2044,
+  "zip_files": 1707
+}

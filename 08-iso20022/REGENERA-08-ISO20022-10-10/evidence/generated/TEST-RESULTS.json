@@ -1,0 +1,9 @@
+{
+  "command": "python tools/run_tests.py",
+  "errors": 0,
+  "exit_code": 0,
+  "failures": 0,
+  "skipped": 0,
+  "status": "PASS",
+  "tests_run": 48
+}

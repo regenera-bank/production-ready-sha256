@@ -1,0 +1,16 @@
+{
+  "active_tree_entries_after_metadata_filter": 1060,
+  "decision": "RECONSTRUCT_ACTIVE_REFERENCE",
+  "excluded": [
+    "__MACOSX",
+    ".DS_Store",
+    "source-material",
+    "nested archives",
+    "empty presence files",
+    "historical certificates"
+  ],
+  "macos_metadata_entries": 1060,
+  "source_entries": 2120,
+  "source_file": "06-risk-control.zip",
+  "source_sha256": "eaa577336fdad64f6b19526610817b1b71b7c20283cb5ff8efd8c4e05dff3c5e"
+}

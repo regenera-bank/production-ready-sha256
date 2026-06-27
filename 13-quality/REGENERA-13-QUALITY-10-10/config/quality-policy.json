@@ -1,0 +1,9 @@
+{
+  "coverage": {"line_min": 90.0, "branch_min": 85.0},
+  "mutation": {"score_min": 80.0, "survived_critical_max": 0},
+  "performance": {"p95_ms_max": 500, "error_rate_max": 0.01, "minimum_samples": 20},
+  "accessibility": {"critical_max": 0, "serious_max": 0},
+  "security": {"critical_max": 0, "high_max": 0, "secret_findings_max": 0},
+  "resilience": {"recovery_required": true, "reconciliation_required": true},
+  "approval": {"independent_reviewer_required": true, "signed_commit_required": true}
+}

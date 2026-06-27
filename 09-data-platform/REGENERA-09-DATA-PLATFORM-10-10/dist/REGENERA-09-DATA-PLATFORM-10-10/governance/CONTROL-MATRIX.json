@@ -1,0 +1,279 @@
+{
+  "controls": [
+    {
+      "control_id": "DATA-001",
+      "control_name": "Contrato obrigatório por dataset",
+      "owner_group": "data-governance",
+      "blocking": true,
+      "evidence": [
+        "contract-registry"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-002",
+      "control_name": "Mudança incompatível exige major",
+      "owner_group": "data-governance",
+      "blocking": true,
+      "evidence": [
+        "compatibility-tests"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-003",
+      "control_name": "Ingestão idempotente",
+      "owner_group": "data-platform",
+      "blocking": true,
+      "evidence": [
+        "ingestion-tests"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-004",
+      "control_name": "Registro inválido entra em quarentena",
+      "owner_group": "data-quality",
+      "blocking": true,
+      "evidence": [
+        "quality-results"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-005",
+      "control_name": "Publicação bloqueada por falha crítica",
+      "owner_group": "data-quality",
+      "blocking": true,
+      "evidence": [
+        "quality-gate"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-006",
+      "control_name": "Lineage encadeado e verificável",
+      "owner_group": "data-governance",
+      "blocking": true,
+      "evidence": [
+        "lineage-chain"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-007",
+      "control_name": "PII exige finalidade",
+      "owner_group": "privacy",
+      "blocking": true,
+      "evidence": [
+        "privacy-tests"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-008",
+      "control_name": "Acesso expira",
+      "owner_group": "security",
+      "blocking": true,
+      "evidence": [
+        "access-tests"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-009",
+      "control_name": "Break-glass exige segregação",
+      "owner_group": "security",
+      "blocking": true,
+      "evidence": [
+        "access-tests"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-010",
+      "control_name": "Legal hold bloqueia descarte",
+      "owner_group": "privacy",
+      "blocking": true,
+      "evidence": [
+        "retention-tests"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-011",
+      "control_name": "Descarte exige evidência",
+      "owner_group": "privacy",
+      "blocking": true,
+      "evidence": [
+        "retention-tests"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-012",
+      "control_name": "Streaming bloqueia UNKNOWN",
+      "owner_group": "data-platform",
+      "blocking": true,
+      "evidence": [
+        "streaming-tests"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-013",
+      "control_name": "Offset só avança após commit",
+      "owner_group": "data-platform",
+      "blocking": true,
+      "evidence": [
+        "streaming-tests"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-014",
+      "control_name": "SCD2 recusa sobreposição",
+      "owner_group": "data-warehouse",
+      "blocking": true,
+      "evidence": [
+        "warehouse-tests"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-015",
+      "control_name": "Reconciliação financeira tem tolerância zero",
+      "owner_group": "finance",
+      "blocking": true,
+      "evidence": [
+        "finance-tests"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-016",
+      "control_name": "Moeda divergente gera break",
+      "owner_group": "finance",
+      "blocking": true,
+      "evidence": [
+        "finance-tests"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-017",
+      "control_name": "Modelo exige owner",
+      "owner_group": "model-risk",
+      "blocking": true,
+      "evidence": [
+        "model-tests"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-018",
+      "control_name": "Modelo exige métrica mínima",
+      "owner_group": "model-risk",
+      "blocking": true,
+      "evidence": [
+        "model-tests"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-019",
+      "control_name": "Modelo exige aprovação independente",
+      "owner_group": "model-risk",
+      "blocking": true,
+      "evidence": [
+        "model-tests"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-020",
+      "control_name": "Release sem assinatura não ativa",
+      "owner_group": "release-engineering",
+      "blocking": true,
+      "evidence": [
+        "approval-record"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-021",
+      "control_name": "Owner ausente torna controle ineficaz",
+      "owner_group": "governance",
+      "blocking": true,
+      "evidence": [
+        "governance-tests"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-022",
+      "control_name": "Evidência ausente torna controle ineficaz",
+      "owner_group": "governance",
+      "blocking": true,
+      "evidence": [
+        "governance-tests"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-023",
+      "control_name": "Revisão vencida torna controle ineficaz",
+      "owner_group": "governance",
+      "blocking": true,
+      "evidence": [
+        "governance-tests"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-024",
+      "control_name": "Segredo não entra no repositório",
+      "owner_group": "security",
+      "blocking": true,
+      "evidence": [
+        "security-report"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    },
+    {
+      "control_id": "DATA-025",
+      "control_name": "Build precisa ser reproduzível",
+      "owner_group": "release-engineering",
+      "blocking": true,
+      "evidence": [
+        "build-provenance"
+      ],
+      "review_frequency": "quarterly",
+      "exception_max_days": 30
+    }
+  ]
+}

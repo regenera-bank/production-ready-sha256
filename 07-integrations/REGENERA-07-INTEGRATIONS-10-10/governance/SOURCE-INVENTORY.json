@@ -1,0 +1,19 @@
+{
+  "decision": "Estrutura histórica não promovida. A release ativa foi reconstruída e testada separadamente.",
+  "ds_store_files": 2,
+  "excluded_classes": [
+    "arquivos de presença",
+    "scripts repetidos sem prova funcional",
+    "source-material não homologado",
+    "resíduos macOS"
+  ],
+  "files_total": 2213,
+  "gitkeep_files": 672,
+  "schema": "regenera.source-inventory.v1",
+  "shell_scripts": 140,
+  "source_file": "07-integrations.zip",
+  "source_sha256": "c6b768f5bb577d29668c3ab1c433761bbfe3ad93ea853bd65cce2d738c0cafe0",
+  "top_level_integration_directories": 14,
+  "typescript_files": 8,
+  "zip_entries_total": 2680
+}

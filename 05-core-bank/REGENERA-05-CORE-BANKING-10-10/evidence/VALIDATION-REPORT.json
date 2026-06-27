@@ -1,0 +1,76 @@
+{
+  "checks": [
+    {
+      "check": "no_forbidden_artifacts",
+      "detail": "clean",
+      "status": "PASS"
+    },
+    {
+      "check": "no_empty_files",
+      "detail": "clean",
+      "status": "PASS"
+    },
+    {
+      "check": "no_world_writable_files",
+      "detail": "clean",
+      "status": "PASS"
+    },
+    {
+      "check": "required_files",
+      "detail": "present",
+      "status": "PASS"
+    },
+    {
+      "check": "no_synthetic_signatures",
+      "detail": "clean",
+      "status": "PASS"
+    },
+    {
+      "check": "sql_controls_present",
+      "detail": "present",
+      "status": "PASS"
+    },
+    {
+      "check": "control_matrix_columns",
+      "detail": "['blocking', 'control', 'control_id', 'domain', 'evidence', 'executor', 'frequency', 'owner', 'status', 'test_reference']",
+      "status": "PASS"
+    },
+    {
+      "check": "control_matrix_depth",
+      "detail": "controls=25",
+      "status": "PASS"
+    },
+    {
+      "check": "control_matrix_no_unowned",
+      "detail": "all controls have owner",
+      "status": "PASS"
+    },
+    {
+      "check": "control_matrix_status",
+      "detail": "valid",
+      "status": "PASS"
+    },
+    {
+      "check": "nominal_owner",
+      "detail": "Don Paulo Ricardo",
+      "status": "PASS"
+    },
+    {
+      "check": "independent_review_block",
+      "detail": "BLOCKED_UNTIL_INDEPENDENT_APPROVAL",
+      "status": "PASS"
+    },
+    {
+      "check": "release_signature_pending",
+      "detail": "EXTERNAL_SIGNATURE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "check": "production_not_self_approved",
+      "detail": "BLOCKED_PENDING_EXTERNAL_EVIDENCE",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "status": "PASS"
+}

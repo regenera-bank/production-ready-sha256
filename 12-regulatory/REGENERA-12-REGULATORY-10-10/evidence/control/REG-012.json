@@ -1,0 +1,13 @@
+{
+  "control": "Estado UNKNOWN",
+  "control_id": "REG-012",
+  "evidence_type": "LOCAL_TECHNICAL_VERIFICATION",
+  "institutional_approval": "PENDING",
+  "owner": "Regulatory Affairs",
+  "state": "VERIFIED_LOCAL_CONTROL",
+  "verification_references": [
+    "tests/",
+    "evidence/test/TEST-RESULTS.json",
+    "evidence/security/SECURITY-REPORT.json"
+  ]
+}

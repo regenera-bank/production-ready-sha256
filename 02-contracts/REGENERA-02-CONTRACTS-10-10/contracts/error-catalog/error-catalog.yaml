@@ -1,0 +1,38 @@
+catalogVersion: 1.0.0
+errors:
+  RG-CONTRACT-INVALID:
+    httpStatus: 400
+    retryable: false
+    category: CONTRACT
+    customerMessageKey: contract.invalid
+    remediation: FIX_REQUEST
+  RG-IDEMPOTENCY-CONFLICT:
+    httpStatus: 409
+    retryable: false
+    category: IDEMPOTENCY
+    customerMessageKey: idempotency.conflict
+    remediation: NEW_KEY_AFTER_REVIEW
+  RG-TRANSACTION-UNKNOWN:
+    httpStatus: 202
+    retryable: false
+    category: TRANSACTION
+    customerMessageKey: transaction.unknown
+    remediation: RECONCILE
+  RG-INSUFFICIENT-FUNDS:
+    httpStatus: 422
+    retryable: false
+    category: FINANCIAL
+    customerMessageKey: funds.insufficient
+    remediation: REJECT
+  RG-DEPENDENCY-UNAVAILABLE:
+    httpStatus: 503
+    retryable: true
+    category: DEPENDENCY
+    customerMessageKey: dependency.unavailable
+    remediation: RETRY_WITH_BACKOFF
+  RG-SECURITY-STEP-UP:
+    httpStatus: 403
+    retryable: false
+    category: SECURITY
+    customerMessageKey: security.step_up
+    remediation: STEP_UP

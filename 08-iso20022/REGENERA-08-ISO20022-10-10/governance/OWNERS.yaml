@@ -1,0 +1,9 @@
+package: REGENERA-08-ISO20022-10-10
+accountable_person: Don Paulo Ricardo
+operational_owner: payments-engineering
+security_owner: engineering-security
+reconciliation_owner: reconciliation
+release_owner: release-engineering
+independent_reviewer: required-not-assigned
+approval_reference: pending
+review_frequency: quarterly

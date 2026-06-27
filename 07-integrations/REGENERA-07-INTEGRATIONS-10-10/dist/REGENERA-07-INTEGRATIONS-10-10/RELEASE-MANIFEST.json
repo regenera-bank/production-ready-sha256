@@ -1,0 +1,10 @@
+{
+  "activation_status": "BLOCKED_EXTERNAL_APPROVAL",
+  "author": "Don Paulo Ricardo",
+  "independent_approval": "PENDING",
+  "payload_file_count_before_evidence": 47,
+  "release": "REGENERA-07-INTEGRATIONS-10-10",
+  "release_date": "2026-06-26",
+  "schema": "regenera.release-manifest.v1",
+  "signature": "PENDING_EXTERNAL_GPG"
+}

@@ -1,0 +1,18 @@
+{
+  "clean_directories": 378,
+  "clean_files": 784,
+  "containers_with_sleep_command": 14,
+  "decision": "estrutura original preservada apenas como invent\u00e1rio",
+  "declared_repositories": 14,
+  "dockerfiles": 14,
+  "empty_files": 266,
+  "macos_entries": 1165,
+  "markdown_files": 196,
+  "nonempty_files": 518,
+  "shell_scripts": 70,
+  "source_archive": "14-operations.zip",
+  "source_sha256": "3cf45790f1a4ac92aa93ae04f7464a4f96fa77ab6756cad383fce32d92ac1176",
+  "yaml_files": 42,
+  "yml_files": 84,
+  "zip_entries": 2328
+}

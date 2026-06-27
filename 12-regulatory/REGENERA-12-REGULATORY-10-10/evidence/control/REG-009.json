@@ -1,0 +1,13 @@
+{
+  "control": "Aprova\u00e7\u00e3o vinculada ao digest",
+  "control_id": "REG-009",
+  "evidence_type": "LOCAL_TECHNICAL_VERIFICATION",
+  "institutional_approval": "PENDING",
+  "owner": "Regulatory Affairs",
+  "state": "VERIFIED_LOCAL_CONTROL",
+  "verification_references": [
+    "tests/",
+    "evidence/test/TEST-RESULTS.json",
+    "evidence/security/SECURITY-REPORT.json"
+  ]
+}

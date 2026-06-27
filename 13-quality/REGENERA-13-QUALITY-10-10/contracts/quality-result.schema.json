@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:regenera:quality:result:1",
+  "type": "object",
+  "required": ["suite", "passed", "failed", "errors", "status"],
+  "properties": {
+    "suite": {"type": "string", "minLength": 1},
+    "passed": {"type": "integer", "minimum": 0},
+    "failed": {"type": "integer", "minimum": 0},
+    "errors": {"type": "integer", "minimum": 0},
+    "status": {"enum": ["PASS", "FAIL"]}
+  },
+  "additionalProperties": false
+}

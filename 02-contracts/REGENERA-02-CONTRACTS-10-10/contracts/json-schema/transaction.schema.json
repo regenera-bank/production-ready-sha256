@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:regenera:schema:transaction:1",
+  "title": "Transaction",
+  "type": "object",
+  "required": [
+    "transactionId",
+    "accountId",
+    "type",
+    "status",
+    "amount",
+    "createdAt",
+    "correlationId"
+  ],
+  "properties": {
+    "transactionId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "accountId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "type": {
+      "enum": [
+        "PIX",
+        "TRANSFER",
+        "CARD",
+        "FEE",
+        "REVERSAL",
+        "ADJUSTMENT"
+      ]
+    },
+    "status": {
+      "enum": [
+        "RECEIVED",
+        "AUTHORIZED",
+        "POSTED",
+        "SETTLEMENT_PENDING",
+        "SETTLED",
+        "REJECTED",
+        "REVERSED",
+        "UNKNOWN",
+        "RECONCILIATION_REQUIRED"
+      ]
+    },
+    "amount": {
+      "$ref": "money.schema.json"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "correlationId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "originalTransactionId": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uuid"
+    }
+  },
+  "additionalProperties": false
+}

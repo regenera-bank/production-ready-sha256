@@ -1,0 +1,7 @@
+{
+  "attestation_required": true,
+  "biometric_confirmation_for_high_risk": true,
+  "device_binding_required": true,
+  "local_secret_storage": "platform_keystore",
+  "rooted_device": "BLOCK"
+}

@@ -1,0 +1,6 @@
+{
+  "runtime_dependencies": [],
+  "development_dependencies": [],
+  "package_manager": "npm",
+  "lockfile": "package-lock.json"
+}

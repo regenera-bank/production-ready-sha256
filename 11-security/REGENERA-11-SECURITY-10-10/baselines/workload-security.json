@@ -1,0 +1,7 @@
+{
+  "automount_service_account_token": false,
+  "drop_all_capabilities": true,
+  "image_digest_required": true,
+  "read_only_root_filesystem": true,
+  "run_as_non_root": true
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:regenera:regulatory:report:10.10",
+  "title": "Regulatory Report Envelope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["report_id", "obligation_id", "period", "control_count", "control_amount_minor", "currency", "digest"],
+  "properties": {
+    "report_id": {"type": "string"},
+    "obligation_id": {"type": "string"},
+    "period": {"type": "string"},
+    "control_count": {"type": "integer", "minimum": 0},
+    "control_amount_minor": {"type": "integer"},
+    "currency": {"type": "string", "pattern": "^[A-Z]{3}$"},
+    "digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  }
+}

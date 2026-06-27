@@ -1,0 +1,26 @@
+control_id,domain,control,owner,evidence,state
+SEC-001,IAM,MFA obrigatório,Security,test:test_mfa_required,IMPLEMENTED_TESTED
+SEC-002,IAM,privilégio JIT,Security,test:test_jit_expiry,IMPLEMENTED_TESTED
+SEC-003,IAM,autoaprovação bloqueada,Security,test:test_self_approval_denied,IMPLEMENTED_TESTED
+SEC-004,Secrets,segredo em texto claro bloqueado,Security,security scan,IMPLEMENTED_TESTED
+SEC-005,Secrets,rotação com evidência,Security,test:test_rotation_requires_evidence,IMPLEMENTED_TESTED
+SEC-006,Crypto,chave vencida bloqueada,Security,test:test_key_expiry,IMPLEMENTED_TESTED
+SEC-007,AppSec,gate de release,AppSec,test:test_release_gate,IMPLEMENTED_TESTED
+SEC-008,Vulnerability,SLA por severidade,AppSec,test:test_vulnerability_sla,IMPLEMENTED_TESTED
+SEC-009,Vulnerability,exceção independente,Risk,test:test_waiver_independence,IMPLEMENTED_TESTED
+SEC-010,Supply chain,digest obrigatório,Platform,test:test_artifact_digest,IMPLEMENTED_TESTED
+SEC-011,Supply chain,assinatura externa,Release,ASSINATURA-EXTERNA-REQUERIDA.md,PENDING_EXTERNAL
+SEC-012,Detection,deduplicação de alerta,SOC,test:test_alert_deduplication,IMPLEMENTED_TESTED
+SEC-013,Detection,telemetria ausente vira UNKNOWN,SOC,test:test_detection_unknown,IMPLEMENTED_TESTED
+SEC-014,Incident,transição de estado,CSIRT,test:test_incident_state_machine,IMPLEMENTED_TESTED
+SEC-015,Incident,encerramento independente,CSIRT,test:test_incident_closure,IMPLEMENTED_TESTED
+SEC-016,Audit,cadeia SHA-256,Audit,test:test_audit_tamper,IMPLEMENTED_TESTED
+SEC-017,HSM,chaves em HSM,Security,attestation externa,BLOCKED_EXTERNAL_EVIDENCE
+SEC-018,PKI,inventário e revogação,Security,evidência externa,BLOCKED_EXTERNAL_EVIDENCE
+SEC-019,SIEM,ingestão e alerta real,SOC,evidência externa,BLOCKED_EXTERNAL_EVIDENCE
+SEC-020,Pentest,relatório independente,AppSec,relatório assinado,BLOCKED_EXTERNAL_EVIDENCE
+SEC-021,Red team,exercício independente,Security,relatório assinado,BLOCKED_EXTERNAL_EVIDENCE
+SEC-022,Mobile,attestation real,Mobile,evidência de plataforma,BLOCKED_EXTERNAL_EVIDENCE
+SEC-023,Cloud,CSPM real,Cloud,evidência de conta,BLOCKED_EXTERNAL_EVIDENCE
+SEC-024,Exception,exceção vencida bloqueada,Risk,test:test_expired_exception,IMPLEMENTED_TESTED
+SEC-025,Governance,controle sem owner falha,Governance,test:test_control_owner,IMPLEMENTED_TESTED

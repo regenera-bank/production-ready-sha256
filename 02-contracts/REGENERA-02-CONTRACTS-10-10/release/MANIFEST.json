@@ -1,0 +1,8 @@
+{
+  "release": "REGENERA-02-CONTRACTS-1.0.0",
+  "version": "1.0.0",
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "payloadFiles": 64,
+  "signatureStatus": "PENDING",
+  "promotionBlocked": true
+}

@@ -1,0 +1,69 @@
+{
+  "tools": [
+    {
+      "entry": "regenera_tools.schema",
+      "id": "schema-validator",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "entry": "regenera_tools.secrets",
+      "id": "secret-scanner",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "entry": "regenera_tools.comments",
+      "id": "comment-gate",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "entry": "regenera_tools.migrations",
+      "id": "migration-validator",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "entry": "regenera_tools.testdata",
+      "id": "test-data",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "entry": "regenera_tools.cli",
+      "id": "developer-cli",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "entry": "regenera_tools.sbom",
+      "id": "sbom",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "entry": "regenera_tools.release",
+      "id": "release-manifest",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "entry": "regenera_tools.contracts",
+      "id": "contract-linter",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "entry": "regenera_tools.executor",
+      "id": "safe-executor",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "entry": "regenera_tools.workspace",
+      "id": "workspace-validator",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "blocker": "container runtime and signed images",
+      "id": "local-environment",
+      "status": "SPECIFIED"
+    },
+    {
+      "blocker": "institutional CI, IAM and signing service",
+      "id": "devsecops-platform",
+      "status": "BLOCKED"
+    }
+  ]
+}

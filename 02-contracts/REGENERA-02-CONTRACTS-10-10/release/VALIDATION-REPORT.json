@@ -1,0 +1,7 @@
+{
+  "command": "make validate",
+  "exitCode": 0,
+  "result": "PASS",
+  "operationsValidated": 8,
+  "source": "release/logs/validate.log"
+}

@@ -1,0 +1,24 @@
+{
+  "build_inputs": [
+    "src",
+    "tests",
+    "scripts",
+    "docs",
+    "governance",
+    "README.md",
+    "README-APLICACAO.md",
+    "CHANGELOG.md",
+    "Makefile",
+    "pyproject.toml",
+    "DECLARACAO-PROCEDENCIA.md",
+    "HISTORICO-INCREMENTAL.md",
+    "ATA-REVISAO-TECNICA.md",
+    "ASSINATURA-EXTERNA-REQUERIDA.md"
+  ],
+  "builder": "scripts/build_release.py",
+  "external_dependencies_installed": false,
+  "generated_at": "2026-06-26T00:00:00-03:00",
+  "network_used": false,
+  "schema": "regenera.build-provenance.v1",
+  "source_archive_sha256": "c6b768f5bb577d29668c3ab1c433761bbfe3ad93ea853bd65cce2d738c0cafe0"
+}

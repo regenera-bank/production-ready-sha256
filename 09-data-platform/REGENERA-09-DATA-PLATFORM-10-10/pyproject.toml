@@ -1,0 +1,10 @@
+[project]
+name = "regenera-data-platform"
+version = "1.0.0"
+description = "Controles executáveis para a plataforma de dados do Regenera Bank"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.regenera]
+owner = "Don Paulo Ricardo"
+release = "REGENERA-09-DATA-PLATFORM-10-10"

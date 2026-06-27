@@ -1,0 +1,12 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Catálogo de Eventos</title><link rel="stylesheet" href="../assets/site.css"></head><body><main>
+<h1>Catálogo de Eventos</h1>
+
+<pre class="table">| Evento | Produtor | Consumidores | Chave de deduplicação |</pre>
+<pre class="table">|---|---|---|---|</pre>
+<pre class="table">| ledger.posted | Core Banking | Data, Risk, Operations | posting_id |</pre>
+<pre class="table">| payment.status.changed | Payments | Channels, Operations | payment_id + version |</pre>
+<pre class="table">| pix.status.changed | Pix | Channels, Reconciliation | end_to_end_id + version |</pre>
+<pre class="table">| risk.case.opened | Risk Control | Operations, Regulatory | case_id |</pre>
+<pre class="table">| consent.changed | Regulatory | Open Finance, Audit | consent_id + version |</pre>
+
+<p>Eventos usam envelope versionado e nunca transportam segredo.</p></main></body></html>

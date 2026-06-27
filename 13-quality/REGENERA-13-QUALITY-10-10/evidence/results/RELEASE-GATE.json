@@ -1,0 +1,51 @@
+{
+  "artifact_digest": "419a2f792353c1cc1fd8f8fc0322592f0e38b84880fd9a3211eb65ce177840d2",
+  "checks": [
+    {
+      "id": "tests",
+      "status": "PASS",
+      "value": 106
+    },
+    {
+      "id": "security",
+      "status": "PASS",
+      "value": 0
+    },
+    {
+      "id": "coverage",
+      "measurement": "PENDING_PER_TARGET_REPOSITORY",
+      "status": "POLICY_ENFORCEMENT_TESTED",
+      "threshold_branch": 85.0,
+      "threshold_line": 90.0
+    },
+    {
+      "id": "mutation",
+      "measurement": "PENDING_PER_TARGET_REPOSITORY",
+      "status": "POLICY_ENFORCEMENT_TESTED",
+      "threshold_score": 80.0
+    },
+    {
+      "id": "performance",
+      "measurement": "PENDING_IN_TARGET_ENVIRONMENT",
+      "status": "POLICY_ENFORCEMENT_TESTED",
+      "threshold_error_rate": 0.01,
+      "threshold_p95_ms": 500
+    },
+    {
+      "device_and_assistive_technology_review": "PENDING",
+      "id": "accessibility",
+      "status": "LOCAL_RULES_TESTED"
+    },
+    {
+      "id": "resilience",
+      "reconciled": true,
+      "recovered": true,
+      "source": "local-state-tests",
+      "status": "PASS"
+    }
+  ],
+  "decision": "APPROVED_FOR_LOCAL_TECHNICAL_SCOPE",
+  "external_approval": "PENDING",
+  "scope": "LOCAL_TECHNICAL_VERIFICATION",
+  "signature": "PENDING"
+}

@@ -1,0 +1,25 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Contexto do Sistema</title><link rel="stylesheet" href="../assets/site.css"></head><body><main>
+<h1>Contexto do Sistema</h1>
+
+<p>O Regenera Bank é organizado como um workspace de domínios independentes por risco. Canais nunca são fonte autoritativa de saldo. BFFs compõem respostas e aplicam controles de canal. O Core Banking mantém contas, ledger, transações e reconciliação. Risco, segurança, plataforma, integrações e regulação mantêm controles próprios.</p>
+
+<pre data-language="mermaid"><code>flowchart TD
+  Channels[Canais] --&gt; Edge[Edge e identidade]
+  Edge --&gt; BFF[BFFs]
+  BFF --&gt; Core[Core Banking]
+  Core --&gt; Risk[Risco e controles]
+  Core --&gt; Integrations[Integrações]
+  Core --&gt; Data[Plataforma de dados]
+  Platform[Plataforma] --&gt; Core
+  Security[Segurança] --&gt; Platform
+  Regulatory[Regulatório] --&gt; Risk
+  Operations[Operações] --&gt; Core</code></pre>
+
+<h2>Invariantes</h2>
+
+<p class="item">• dinheiro usa unidade mínima inteira;</p>
+<p class="item">• efeito financeiro exige idempotência;</p>
+<p class="item">• estado ambíguo vira `UNKNOWN`;</p>
+<p class="item">• `UNKNOWN` bloqueia repetição cega;</p>
+<p class="item">• reversão é compensatória;</p>
+<p class="item">• aprovação humana externa não é simulada.</p></main></body></html>

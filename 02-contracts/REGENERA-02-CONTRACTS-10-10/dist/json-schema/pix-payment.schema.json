@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:regenera:schema:pix-payment:1",
+  "title": "PixPayment",
+  "type": "object",
+  "required": [
+    "paymentId",
+    "internalEndToEndId",
+    "status",
+    "amount",
+    "createdAt",
+    "correlationId"
+  ],
+  "properties": {
+    "paymentId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "internalEndToEndId": {
+      "type": "string",
+      "pattern": "^E[0-9]{8}[0-9]{12}[a-z0-9]{11}$"
+    },
+    "externalEndToEndId": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1,
+      "maxLength": 64
+    },
+    "status": {
+      "enum": [
+        "RECEIVED",
+        "AUTHORIZED",
+        "DEBITED",
+        "SENT",
+        "SETTLED",
+        "FAILED",
+        "REVERSED",
+        "UNKNOWN",
+        "RECONCILIATION_REQUIRED"
+      ]
+    },
+    "amount": {
+      "$ref": "money.schema.json"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "correlationId": {
+      "type": "string",
+      "format": "uuid"
+    }
+  },
+  "additionalProperties": false
+}

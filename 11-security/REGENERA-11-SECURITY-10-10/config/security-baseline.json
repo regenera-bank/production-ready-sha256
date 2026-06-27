@@ -1,0 +1,21 @@
+{
+  "document_id": "SECURITY-BASELINE-001",
+  "fail_closed": true,
+  "incident_requires_independent_closure": true,
+  "money_unit": "minor_unit",
+  "privileged_access": {
+    "independent_approval": true,
+    "jit": true,
+    "max_duration_minutes": 60,
+    "mfa": true
+  },
+  "release_requires_signature": true,
+  "status": "PENDING_INSTITUTIONAL_APPROVAL",
+  "version": "10.10",
+  "vulnerability_sla_days": {
+    "CRITICAL": 1,
+    "HIGH": 7,
+    "LOW": 90,
+    "MEDIUM": 30
+  }
+}

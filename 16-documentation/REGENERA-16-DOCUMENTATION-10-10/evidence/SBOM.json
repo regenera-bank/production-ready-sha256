@@ -1,0 +1,11 @@
+{
+  "components": [
+    {
+      "name": "python-stdlib",
+      "type": "runtime",
+      "version": "3.13.5"
+    }
+  ],
+  "external_dependencies": [],
+  "format": "Regenera-SBOM-1"
+}

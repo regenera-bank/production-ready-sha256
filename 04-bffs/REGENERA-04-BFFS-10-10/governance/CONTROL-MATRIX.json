@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "controls": [
+    {"id":"BFF-CTRL-001","name":"Idempotência financeira","owner":"BFF Platform Engineering","frequency":"per_request","blocking":true,"test":"idempotency replay and conflict","evidence":"evidence/TEST-RESULTS.json"},
+    {"id":"BFF-CTRL-002","name":"Bloqueio de estado desconhecido","owner":"BFF Platform Engineering","frequency":"per_request","blocking":true,"test":"unknown state blocks retry","evidence":"evidence/TEST-RESULTS.json"},
+    {"id":"BFF-CTRL-003","name":"Maker-checker operacional","owner":"Operations Security","frequency":"per_privileged_action","blocking":true,"test":"self approval denied","evidence":"evidence/TEST-RESULTS.json"},
+    {"id":"BFF-CTRL-004","name":"Autenticação de parceiro","owner":"Partner Security","frequency":"per_request","blocking":true,"test":"mTLS and scope required","evidence":"evidence/TEST-RESULTS.json"},
+    {"id":"BFF-CTRL-005","name":"Consentimento Open Finance","owner":"Open Finance","frequency":"per_request","blocking":true,"test":"revoked and expired consent denied","evidence":"evidence/TEST-RESULTS.json"},
+    {"id":"BFF-CTRL-006","name":"Trilha encadeada","owner":"Operations Security","frequency":"per_privileged_action","blocking":true,"test":"tamper detection","evidence":"evidence/TEST-RESULTS.json"},
+    {"id":"BFF-CTRL-007","name":"Release íntegra","owner":"Release Engineering","frequency":"per_release","blocking":true,"test":"manifest and checksums","evidence":"release/PACKAGE-CHECKSUMS.sha256"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "release_id": "REGENERA-04-BFFS-10-10",
+  "author": "Don Paulo Ricardo",
+  "reviewer": "PENDING_INDEPENDENT_REVIEW",
+  "approver": "PENDING_CHANGE_AUTHORITY",
+  "cryptographic_signature": "PENDING_EXTERNAL_SIGNATURE",
+  "technical_verification": "AUTOMATED_PASS_REQUIRED",
+  "production_activation": "BLOCKED_UNTIL_EXTERNAL_APPROVAL"
+}

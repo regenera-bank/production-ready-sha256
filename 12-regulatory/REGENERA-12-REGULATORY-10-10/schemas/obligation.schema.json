@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:regenera:regulatory:obligation:10.10",
+  "title": "Regulatory Obligation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["obligation_id", "domain", "owner_id", "activation_state"],
+  "properties": {
+    "obligation_id": {"type": "string", "pattern": "^[A-Z0-9][A-Z0-9._:-]{2,127}$"},
+    "domain": {"type": "string"},
+    "owner_id": {"type": "string"},
+    "activation_state": {"enum": ["BLOCKED_EXTERNAL_EVIDENCE", "ACTIVE_APPROVED"]},
+    "legal_source_digest": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
+    "due_date": {"type": ["string", "null"], "format": "date"}
+  }
+}

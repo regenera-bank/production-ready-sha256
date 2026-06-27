@@ -1,0 +1,80 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "asyncapi/financial-events-v1.yaml",
+      "sha256": "1d6d9f18fdf9ceda6ee7d8667f1f897993818a07919461bed094e624ebf328de",
+      "size": 5076
+    },
+    {
+      "path": "error-catalog/error-catalog.yaml",
+      "sha256": "d8d9277f6d549035cef59580773c90ecde3557728c809497a2eac61490c81a9d",
+      "size": 1015
+    },
+    {
+      "path": "error-catalog/messages.pt-BR.yaml",
+      "sha256": "96798d0562bb6f9779fe6c9ffab5c673a34dadafe0bad36e731d3c200e7fc551",
+      "size": 395
+    },
+    {
+      "path": "error-catalog/remediation.yaml",
+      "sha256": "7edd637701111a66663edf71662a14938d725e693c92a8720687a5671f977ba4",
+      "size": 604
+    },
+    {
+      "path": "json-schema/account.schema.json",
+      "sha256": "6aea50d6b05419e428cf44851a9e6d804a647840f8be885b45edec8b7a4fc84e",
+      "size": 768
+    },
+    {
+      "path": "json-schema/audit-event.schema.json",
+      "sha256": "a07c8ad02f8d8521d08caca35ff53bdf439e866245730e816a0f1597107fb652",
+      "size": 1762
+    },
+    {
+      "path": "json-schema/error.schema.json",
+      "sha256": "c8bd5ee3be183f1e2885f9e9d51e8b6ac3980e411eb1fec33206173b6abb6d16",
+      "size": 674
+    },
+    {
+      "path": "json-schema/idempotency-record.schema.json",
+      "sha256": "720f2df0a3147e58e97a0785ae999e27d2ec7ac8c631363102a8ae70b2f9a579",
+      "size": 1251
+    },
+    {
+      "path": "json-schema/money.schema.json",
+      "sha256": "fefe667fb3fac86d790ab2a7e756f3e17a0b12e5e089561c81af02ddbc0ce470",
+      "size": 420
+    },
+    {
+      "path": "json-schema/pix-payment.schema.json",
+      "sha256": "c4d3bae325d9e773a9bea02dffd7927872f8a73b0d3af18d85a31184619e107f",
+      "size": 1106
+    },
+    {
+      "path": "json-schema/transaction.schema.json",
+      "sha256": "b05f2a7122444e10cb2fa21571f238b6827ea268c99378d84bd715e509fe0ad0",
+      "size": 1229
+    },
+    {
+      "path": "openapi/accounts-v1.yaml",
+      "sha256": "57e2ce35a225acdd97c818f5705ed560ef0f68a82069a94295c2a60c19163804",
+      "size": 5085
+    },
+    {
+      "path": "openapi/identity-v1.yaml",
+      "sha256": "0772a2a0c5ed7ebb6b2fdfe9deb6a4d6a08e9ee90af0efd9f504e55285a48a2b",
+      "size": 4767
+    },
+    {
+      "path": "openapi/payments-v1.yaml",
+      "sha256": "3d9a6d41ed04ffba6bf66bf599d840400474f5ebac140b2150cff59f3e32c217",
+      "size": 5598
+    },
+    {
+      "path": "openapi/pix-v1.yaml",
+      "sha256": "1616a43392857203102d355e8f7c843dcb721e00f26a74b4240c1cdd94154cd5",
+      "size": 5523
+    }
+  ]
+}

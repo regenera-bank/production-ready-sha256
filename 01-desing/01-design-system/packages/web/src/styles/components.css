@@ -1,0 +1,56 @@
+:root {
+  color-scheme: dark;
+  font-family: var(--rb-typography-font-family-sans);
+  background: var(--rb-color-background-canvas);
+  color: var(--rb-color-text-primary);
+}
+
+.rb-button,
+.rb-input {
+  min-height: calc(var(--rb-accessibility-minimum-touch-target) * 1px);
+  border-radius: calc(var(--rb-radius-md) * 1px);
+  font: inherit;
+}
+
+.rb-button {
+  border: 1px solid transparent;
+  padding: 0 calc(var(--rb-spacing-4) * 1px);
+  font-weight: var(--rb-typography-font-weight-semibold);
+  cursor: pointer;
+}
+
+.rb-button:focus-visible,
+.rb-input:focus-visible {
+  outline: calc(var(--rb-accessibility-focus-ring-width) * 1px) solid var(--rb-color-brand-focus);
+  outline-offset: 2px;
+}
+
+.rb-button--primary { background: var(--rb-color-brand-primary-strong); color: var(--rb-color-text-primary); }
+.rb-button--secondary { background: var(--rb-color-background-raised); color: var(--rb-color-text-primary); border-color: var(--rb-color-border-strong); }
+.rb-button--danger { background: var(--rb-color-state-danger); color: var(--rb-color-background-canvas); }
+.rb-button--ghost { background: transparent; color: var(--rb-color-text-primary); border-color: var(--rb-color-border-subtle); }
+.rb-button[disabled] { cursor: not-allowed; opacity: .64; }
+
+.rb-field { display: grid; gap: calc(var(--rb-spacing-2) * 1px); }
+.rb-field__label { font-weight: var(--rb-typography-font-weight-semibold); }
+.rb-field__help { color: var(--rb-color-text-secondary); font-size: calc(var(--rb-typography-font-size-caption) * 1px); }
+.rb-input { background: var(--rb-color-background-surface); color: var(--rb-color-text-primary); border: 1px solid var(--rb-color-border-strong); padding: 0 calc(var(--rb-spacing-3) * 1px); }
+.rb-input[aria-invalid="true"] { border-color: var(--rb-color-state-danger); }
+
+.rb-status { display: inline-flex; align-items: center; min-height: 28px; border-radius: 999px; padding: 0 10px; font-size: 12px; font-weight: 700; }
+.rb-status--settled, .rb-status--reconciled { background: color-mix(in srgb, var(--rb-color-state-success) 20%, transparent); color: var(--rb-color-state-success); }
+.rb-status--processing { background: color-mix(in srgb, var(--rb-color-state-info) 20%, transparent); color: var(--rb-color-state-info); }
+.rb-status--reversed, .rb-status--failed { background: color-mix(in srgb, var(--rb-color-state-danger) 20%, transparent); color: var(--rb-color-state-danger); }
+.rb-status--unknown, .rb-status--manual-review { background: color-mix(in srgb, var(--rb-color-state-unknown) 20%, transparent); color: var(--rb-color-state-unknown); }
+
+.rb-state, .rb-receipt, .rb-consent { background: var(--rb-color-background-surface); border: 1px solid var(--rb-color-border-subtle); border-radius: calc(var(--rb-radius-lg) * 1px); padding: calc(var(--rb-spacing-6) * 1px); box-shadow: var(--rb-elevation-card); }
+.rb-state__warning { color: var(--rb-color-state-warning); font-weight: 600; }
+.rb-correlation { color: var(--rb-color-text-muted); }
+.rb-receipt dl { display: grid; grid-template-columns: minmax(120px, 1fr) 2fr; gap: 8px 16px; }
+.rb-receipt dt { color: var(--rb-color-text-secondary); }
+.rb-receipt dd { margin: 0; text-align: right; overflow-wrap: anywhere; }
+.rb-receipt__amount { font-size: calc(var(--rb-typography-font-size-display) * 1px); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}

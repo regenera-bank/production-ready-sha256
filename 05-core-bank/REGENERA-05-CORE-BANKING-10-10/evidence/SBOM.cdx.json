@@ -1,0 +1,39 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "name": "Kotlin Standard Library",
+      "scope": "required",
+      "type": "framework"
+    },
+    {
+      "name": "Java Runtime",
+      "scope": "required",
+      "type": "platform"
+    },
+    {
+      "name": "PostgreSQL",
+      "scope": "optional",
+      "type": "database"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "name": "regenera-core-banking",
+      "type": "application",
+      "version": "1.0.0"
+    }
+  },
+  "properties": [
+    {
+      "name": "regenera:external-runtime-dependencies",
+      "value": "0"
+    },
+    {
+      "name": "regenera:source-files",
+      "value": "36"
+    }
+  ],
+  "specVersion": "1.5",
+  "version": 1
+}

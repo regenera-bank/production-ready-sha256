@@ -1,0 +1,7 @@
+activity,responsible,accountable,consulted,informed,segregation_rule
+Policy authoring,technical-author,governance-corporate,security-governance;legal,operations,author cannot approve
+Control execution,control-owner,domain-accountable,security-governance,governance-corporate,executor cannot attest own exception
+Release approval,release-engineering,change-authority,security-governance;operations,governance-corporate,author cannot be sole approver
+Emergency change,incident-commander,change-authority,security-governance;domain-owner,executive-management,retrospective within 24h
+Exception approval,control-owner,risk-acceptance-authority,security-governance;legal,audit,requester cannot approve
+DR declaration,incident-commander,operations-accountable,security-governance;domain-owners,executive-management,recovery lead differs from business acceptance

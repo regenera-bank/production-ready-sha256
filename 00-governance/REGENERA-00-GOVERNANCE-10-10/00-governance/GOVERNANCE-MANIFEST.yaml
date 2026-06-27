@@ -1,0 +1,27 @@
+schema_version: "2.0"
+document_id: GOV-MANIFEST-001
+state: controlled
+classification: internal-restricted
+author:
+  name: Don Paulo Ricardo
+  role: technical-author
+  declaration_reference: AUTHORSHIP-001
+author_review:
+  reviewer: Don Paulo Ricardo
+  review_reference: AUTHOR-REVIEW-001
+independent_approval:
+  required: true
+  status: pending-external-signature
+  rule: author-cannot-approve-own-release
+release_status: technically-verified-pending-independent-approval
+source_repository:
+  signed_commits_required: true
+  signature_verification_command: git log --show-signature --format=fuller
+validation:
+  offline: true
+  network_required: false
+  external_dependencies: false
+  python_minimum: "3.10"
+retention:
+  governance_evidence_years: 5
+  release_evidence_years: 5

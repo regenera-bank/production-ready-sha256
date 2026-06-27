@@ -1,0 +1,292 @@
+TAP version 13
+# Subtest: ativação produtiva permanece bloqueada sem aprovação externa
+ok 1 - ativação produtiva permanece bloqueada sem aprovação externa
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: controles possuem owner, teste e evidência
+ok 2 - controles possuem owner, teste e evidência
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: exceção proíbe autoaprovação e exige retrospectiva
+ok 3 - exceção proíbe autoaprovação e exige retrospectiva
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: código dos BFFs não contém SQL nem cliente de banco
+ok 4 - código dos BFFs não contém SQL nem cliente de banco
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: políticas possuem escopo, controles, evidência e exceção
+ok 5 - políticas possuem escopo, controles, evidência e exceção
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: mobile recusa attestation inválida
+ok 6 - mobile recusa attestation inválida
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: mobile recusa dispositivo diferente
+ok 7 - mobile recusa dispositivo diferente
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: mobile bloqueia replay de nonce
+ok 8 - mobile bloqueia replay de nonce
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: mobile exige confirmação biométrica
+ok 9 - mobile exige confirmação biométrica
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: mobile bloqueia resultado desconhecido
+ok 10 - mobile bloqueia resultado desconhecido
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: open finance exige mTLS
+ok 11 - open finance exige mTLS
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: open finance exige audience correta
+ok 12 - open finance exige audience correta
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: consentimento revogado é bloqueado
+ok 13 - consentimento revogado é bloqueado
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: consentimento expirado é bloqueado
+ok 14 - consentimento expirado é bloqueado
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: consentimento exige permissão exata
+ok 15 - consentimento exige permissão exata
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: resposta remove campos internos
+ok 16 - resposta remove campos internos
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: paginação limita cem itens
+ok 17 - paginação limita cem itens
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: operations exige identidade corporativa
+ok 18 - operations exige identidade corporativa
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: operations exige mfa
+ok 19 - operations exige mfa
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: privilégio vencido é bloqueado
+ok 20 - privilégio vencido é bloqueado
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: autoaprovação é bloqueada
+ok 21 - autoaprovação é bloqueada
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: aprovação exige evidência
+ok 22 - aprovação exige evidência
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: aprovação entra em trilha verificável
+ok 23 - aprovação entra em trilha verificável
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: parceiro exige mTLS
+ok 24 - parceiro exige mTLS
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: parceiro exige fingerprint aprovado
+ok 25 - parceiro exige fingerprint aprovado
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: parceiro exige escopo
+ok 26 - parceiro exige escopo
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: quota bloqueia excesso
+ok 27 - quota bloqueia excesso
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: requisição pix não transporta chave crua
+ok 28 - requisição pix não transporta chave crua
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: webhook válido passa
+ok 29 - webhook válido passa
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: webhook adulterado falha
+ok 30 - webhook adulterado falha
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: webhook vencido falha
+ok 31 - webhook vencido falha
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: dinheiro aceita centavos inteiros
+ok 32 - dinheiro aceita centavos inteiros
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: dinheiro recusa float
+ok 33 - dinheiro recusa float
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: valor financeiro precisa ser positivo
+ok 34 - valor financeiro precisa ser positivo
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: idempotência devolve o resultado original
+ok 35 - idempotência devolve o resultado original
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: idempotência recusa payload diferente
+ok 36 - idempotência recusa payload diferente
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: estado desconhecido bloqueia repetição
+ok 37 - estado desconhecido bloqueia repetição
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: reconciliação fecha estado desconhecido
+ok 38 - reconciliação fecha estado desconhecido
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: circuit breaker abre após falhas
+ok 39 - circuit breaker abre após falhas
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: trilha encadeada detecta adulteração
+ok 40 - trilha encadeada detecta adulteração
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: telemetria remove campos sensíveis
+ok 41 - telemetria remove campos sensíveis
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: web exige origem permitida
+ok 42 - web exige origem permitida
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: web exige csrf casado
+ok 43 - web exige csrf casado
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: home aceita somente saldo da fonte autoritativa
+ok 44 - home aceita somente saldo da fonte autoritativa
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: home preserva saldo sem recalcular
+ok 45 - home preserva saldo sem recalcular
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: pix web devolve replay idempotente
+ok 46 - pix web devolve replay idempotente
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+# Subtest: pix web bloqueia unknown
+ok 47 - pix web bloqueia unknown
+  ---
+  duration_ms: NORMALIZED
+  type: 'test'
+  ...
+1..47
+# tests 47
+# suites 0
+# pass 47
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms NORMALIZED

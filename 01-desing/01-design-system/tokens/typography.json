@@ -1,0 +1,28 @@
+{
+  "fontFamily": {
+    "sans": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif",
+    "mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+  },
+  "fontSize": {
+    "caption": 12,
+    "bodySm": 14,
+    "body": 16,
+    "titleSm": 20,
+    "title": 24,
+    "display": 32
+  },
+  "lineHeight": {
+    "caption": 16,
+    "bodySm": 20,
+    "body": 24,
+    "titleSm": 28,
+    "title": 32,
+    "display": 40
+  },
+  "fontWeight": {
+    "regular": 400,
+    "medium": 500,
+    "semibold": 600,
+    "bold": 700
+  }
+}

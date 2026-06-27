@@ -1,0 +1,13 @@
+{
+  "control": "Mudan\u00e7a regulat\u00f3ria",
+  "control_id": "REG-018",
+  "evidence_type": "LOCAL_TECHNICAL_VERIFICATION",
+  "institutional_approval": "PENDING",
+  "owner": "Regulatory Affairs",
+  "state": "VERIFIED_LOCAL_CONTROL",
+  "verification_references": [
+    "tests/",
+    "evidence/test/TEST-RESULTS.json",
+    "evidence/security/SECURITY-REPORT.json"
+  ]
+}

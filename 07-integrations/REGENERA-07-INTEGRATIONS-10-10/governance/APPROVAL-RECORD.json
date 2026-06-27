@@ -1,0 +1,10 @@
+{
+  "author": "Don Paulo Ricardo",
+  "independent_approver": null,
+  "reason": "Aprovação independente e assinatura GPG real ainda não foram anexadas.",
+  "release": "REGENERA-07-INTEGRATIONS-10-10",
+  "release_authorized": false,
+  "schema": "regenera.approval-record.v1",
+  "signature_reference": null,
+  "technical_reviewer": "Don Paulo Ricardo"
+}

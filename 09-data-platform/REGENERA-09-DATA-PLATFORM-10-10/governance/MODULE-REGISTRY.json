@@ -1,0 +1,88 @@
+{
+  "modules": [
+    {
+      "id": "ingestion",
+      "status": "IMPLEMENTED_LOCAL",
+      "external_blockers": [
+        "mensageria",
+        "object-storage"
+      ]
+    },
+    {
+      "id": "lineage",
+      "status": "IMPLEMENTED_LOCAL",
+      "external_blockers": [
+        "catalogo-institucional"
+      ]
+    },
+    {
+      "id": "finance-reporting",
+      "status": "IMPLEMENTED_LOCAL",
+      "external_blockers": [
+        "fonte-contabil-oficial"
+      ]
+    },
+    {
+      "id": "governance",
+      "status": "IMPLEMENTED_LOCAL",
+      "external_blockers": [
+        "owners-corporativos"
+      ]
+    },
+    {
+      "id": "privacy",
+      "status": "IMPLEMENTED_LOCAL",
+      "external_blockers": [
+        "revisao-juridica",
+        "iam"
+      ]
+    },
+    {
+      "id": "risk-models",
+      "status": "IMPLEMENTED_LOCAL",
+      "external_blockers": [
+        "model-serving",
+        "monitoramento-drift"
+      ]
+    },
+    {
+      "id": "lake",
+      "status": "SPECIFIED",
+      "external_blockers": [
+        "storage",
+        "kms",
+        "backup"
+      ]
+    },
+    {
+      "id": "quality",
+      "status": "IMPLEMENTED_LOCAL",
+      "external_blockers": [
+        "orquestrador"
+      ]
+    },
+    {
+      "id": "streaming",
+      "status": "IMPLEMENTED_LOCAL",
+      "external_blockers": [
+        "broker",
+        "schema-registry"
+      ]
+    },
+    {
+      "id": "warehouse",
+      "status": "IMPLEMENTED_LOCAL",
+      "external_blockers": [
+        "warehouse-engine"
+      ]
+    },
+    {
+      "id": "analytics",
+      "status": "SPECIFIED",
+      "external_blockers": [
+        "bi",
+        "semantic-layer"
+      ]
+    }
+  ]
+}

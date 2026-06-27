@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "approved": {
+      "type": "boolean"
+    },
+    "argv": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "dry_run": {
+      "type": "boolean"
+    },
+    "timeout_seconds": {
+      "maximum": 300,
+      "minimum": 1,
+      "type": "integer"
+    }
+  },
+  "required": [
+    "argv",
+    "timeout_seconds",
+    "dry_run"
+  ],
+  "type": "object"
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:regenera:schema:error:1",
+  "title": "Problem",
+  "type": "object",
+  "required": [
+    "code",
+    "message",
+    "correlationId",
+    "retryable"
+  ],
+  "properties": {
+    "code": {
+      "type": "string",
+      "pattern": "^RG-[A-Z0-9-]{3,64}$"
+    },
+    "message": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 300
+    },
+    "correlationId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "retryable": {
+      "type": "boolean"
+    },
+    "details": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

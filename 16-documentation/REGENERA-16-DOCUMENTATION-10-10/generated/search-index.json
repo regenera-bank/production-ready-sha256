@@ -1,0 +1,184 @@
+[
+  {
+    "classification": "INTERNAL",
+    "id": "ADR-0001",
+    "path": "decision-records/ADR-0001-document-authority.html",
+    "status": "ACTIVE",
+    "title": "ADR-0001 — Autoridade Documental Única"
+  },
+  {
+    "classification": "INTERNAL",
+    "id": "ADR-0002",
+    "path": "decision-records/ADR-0002-domain-delegation.html",
+    "status": "ACTIVE",
+    "title": "ADR-0002 — Delegação de Domínios Lógicos"
+  },
+  {
+    "classification": "INTERNAL",
+    "id": "ARCH-CHANNEL-MAP-001",
+    "path": "architecture/channel-map.html",
+    "status": "ACTIVE",
+    "title": "Mapa dos Canais"
+  },
+  {
+    "classification": "INTERNAL",
+    "id": "ARCH-DEPENDENCY-MAP-001",
+    "path": "architecture/dependency-map.html",
+    "status": "ACTIVE",
+    "title": "Mapa de Dependências"
+  },
+  {
+    "classification": "INTERNAL",
+    "id": "ARCH-DEPLOYMENT-MAP-001",
+    "path": "architecture/deployment-map.html",
+    "status": "ACTIVE",
+    "title": "Mapa de Implantação"
+  },
+  {
+    "classification": "INTERNAL",
+    "id": "ARCH-DOMAIN-MAP-001",
+    "path": "architecture/domain-map.html",
+    "status": "ACTIVE",
+    "title": "Mapa de Domínios"
+  },
+  {
+    "classification": "INTERNAL",
+    "id": "ARCH-ENVIRONMENT-MAP-001",
+    "path": "architecture/environment-map.html",
+    "status": "ACTIVE",
+    "title": "Mapa de Ambientes"
+  },
+  {
+    "classification": "CONFIDENTIAL",
+    "id": "ARCH-SECURITY-001",
+    "path": "architecture/security-architecture.html",
+    "status": "ACTIVE",
+    "title": "Arquitetura de Segurança"
+  },
+  {
+    "classification": "INTERNAL",
+    "id": "ARCH-SYSTEM-CONTEXT-001",
+    "path": "architecture/system-context.html",
+    "status": "ACTIVE",
+    "title": "Contexto do Sistema"
+  },
+  {
+    "classification": "INTERNAL",
+    "id": "CAT-API-001",
+    "path": "catalogs/api-catalog.html",
+    "status": "ACTIVE",
+    "title": "Catálogo de APIs"
+  },
+  {
+    "classification": "INTERNAL",
+    "id": "CAT-DOCUMENT-REGISTER-001",
+    "path": "catalogs/document-register.html",
+    "status": "ACTIVE",
+    "title": "Registro Documental"
+  },
+  {
+    "classification": "INTERNAL",
+    "id": "CAT-ERROR-001",
+    "path": "catalogs/error-catalog.html",
+    "status": "ACTIVE",
+    "title": "Catálogo de Erros"
+  },
+  {
+    "classification": "INTERNAL",
+    "id": "CAT-EVENT-001",
+    "path": "catalogs/event-catalog.html",
+    "status": "ACTIVE",
+    "title": "Catálogo de Eventos"
+  },
+  {
+    "classification": "INTERNAL",
+    "id": "CAT-SERVICE-001",
+    "path": "catalogs/service-catalog.html",
+    "status": "ACTIVE",
+    "title": "Catálogo de Serviços"
+  },
+  {
+    "classification": "CONFIDENTIAL",
+    "id": "DATA-CLASSIFICATION-001",
+    "path": "data/data-classification.html",
+    "status": "ACTIVE",
+    "title": "Classificação de Dados"
+  },
+  {
+    "classification": "INTERNAL",
+    "id": "DOC-INDEX-001",
+    "path": "index.html",
+    "status": "ACTIVE",
+    "title": "Índice da Documentação Canônica"
+  },
+  {
+    "classification": "INTERNAL",
+    "id": "ONB-ENGINEERING-001",
+    "path": "onboarding/engineering-onboarding.html",
+    "status": "ACTIVE",
+    "title": "Onboarding de Engenharia"
+  },
+  {
+    "classification": "INTERNAL",
+    "id": "OPS-DOC-APPROVAL-001",
+    "path": "operations/review-and-approval.html",
+    "status": "ACTIVE",
+    "title": "Revisão e Aprovação Documental"
+  },
+  {
+    "classification": "INTERNAL",
+    "id": "OPS-DOC-LIFECYCLE-001",
+    "path": "operations/document-lifecycle.html",
+    "status": "ACTIVE",
+    "title": "Ciclo de Vida Documental"
+  },
+  {
+    "classification": "INTERNAL",
+    "id": "POL-DOC-GOV-001",
+    "path": "policies/document-governance.html",
+    "status": "ACTIVE",
+    "title": "Política de Governança Documental"
+  },
+  {
+    "classification": "INTERNAL",
+    "id": "POL-DOC-VERSION-001",
+    "path": "policies/versioning.html",
+    "status": "ACTIVE",
+    "title": "Política de Versionamento"
+  },
+  {
+    "classification": "INTERNAL",
+    "id": "POL-EVIDENCE-001",
+    "path": "policies/evidence.html",
+    "status": "ACTIVE",
+    "title": "Política de Evidências"
+  },
+  {
+    "classification": "INTERNAL",
+    "id": "RB-DOC-EMERGENCY-001",
+    "path": "runbooks/emergency-document-change.html",
+    "status": "ACTIVE",
+    "title": "Runbook — Mudança Documental Emergencial"
+  },
+  {
+    "classification": "INTERNAL",
+    "id": "RB-DOC-LINK-001",
+    "path": "runbooks/broken-link.html",
+    "status": "ACTIVE",
+    "title": "Runbook — Link Quebrado"
+  },
+  {
+    "classification": "INTERNAL",
+    "id": "RB-DOC-STALE-001",
+    "path": "runbooks/stale-document.html",
+    "status": "ACTIVE",
+    "title": "Runbook — Documento Vencido"
+  },
+  {
+    "classification": "CONFIDENTIAL",
+    "id": "REG-DOC-MATRIX-001",
+    "path": "regulatory/regulatory-matrix.html",
+    "status": "EXTERNAL_PENDING",
+    "title": "Matriz Regulatória Documental"
+  }
+]

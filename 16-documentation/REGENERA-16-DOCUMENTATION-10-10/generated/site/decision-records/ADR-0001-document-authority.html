@@ -1,0 +1,17 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ADR-0001 — Autoridade Documental Única</title><link rel="stylesheet" href="../assets/site.css"></head><body><main>
+<h1>ADR-0001 — Autoridade Documental Única</h1>
+
+<h2>Contexto</h2>
+
+<p>A origem continha documentos de três linhas, cópias, PDFs grandes e material de referência com afirmações incompatíveis entre si.</p>
+
+<h2>Decisão</h2>
+
+<p>Markdown versionado é a fonte de verdade. Binários podem existir apenas como evidência externa com procedência e hash. O registro documental é derivado dos metadados e deve cobrir todos os documentos canônicos.</p>
+
+<h2>Consequências</h2>
+
+<p class="item">• revisão por diff;</p>
+<p class="item">• links e metadados testáveis;</p>
+<p class="item">• menor risco de documento órfão;</p>
+<p class="item">• binários não verificáveis deixam de ser autoridade.</p></main></body></html>

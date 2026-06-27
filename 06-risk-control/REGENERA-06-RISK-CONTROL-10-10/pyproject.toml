@@ -1,0 +1,11 @@
+[project]
+name = "regenera-risk-control"
+version = "1.0.0"
+description = "Regras determinísticas de risco e controle do Regenera Bank"
+requires-python = ">=3.11"
+authors = [{ name = "Don Paulo Ricardo" }]
+dependencies = []
+
+[tool.regenera]
+source_date_epoch = 1782432000
+signature_status = "PENDING_EXTERNAL_GPG"

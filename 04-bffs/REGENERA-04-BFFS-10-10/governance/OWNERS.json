@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "nominal_responsible": "Don Paulo Ricardo",
+  "technical_owner_role": "BFF Platform Engineering",
+  "security_reviewer_role": "Security Engineering",
+  "independent_approver_role": "Change Authority",
+  "segregation_required": true,
+  "directory_binding": "PENDING_CORPORATE_DIRECTORY_BINDING",
+  "signature_status": "PENDING_EXTERNAL_SIGNATURE"
+}

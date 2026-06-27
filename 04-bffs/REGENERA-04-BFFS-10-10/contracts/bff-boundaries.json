@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "rules": [
+    {"id": "BFF-001", "statement": "BFF não persiste lançamento financeiro", "blocking": true},
+    {"id": "BFF-002", "statement": "BFF não calcula saldo autoritativo", "blocking": true},
+    {"id": "BFF-003", "statement": "Comando financeiro exige idempotency key", "blocking": true},
+    {"id": "BFF-004", "statement": "Estado UNKNOWN bloqueia repetição automática", "blocking": true},
+    {"id": "BFF-005", "statement": "Toda chamada preserva correlation id", "blocking": true},
+    {"id": "BFF-006", "statement": "Segredo não entra em log nem resposta", "blocking": true}
+  ]
+}

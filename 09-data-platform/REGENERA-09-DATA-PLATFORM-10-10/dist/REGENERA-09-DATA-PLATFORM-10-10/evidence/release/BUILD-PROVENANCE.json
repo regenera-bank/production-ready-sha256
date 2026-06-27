@@ -1,0 +1,8 @@
+{
+  "builder": "scripts/build_release.py",
+  "external_approval": "PENDING_EXTERNAL_SIGNATURE",
+  "generated_at": "2026-06-26T00:00:00Z",
+  "release": "REGENERA-09-DATA-PLATFORM-10-10",
+  "source_inventory_sha256": "3b22dffabf96f40f95c51c3d51428af330e86595ecff0b1e1c8e04f3ee9b460a",
+  "tests": 77
+}

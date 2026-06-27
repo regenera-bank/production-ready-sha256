@@ -1,0 +1,32 @@
+{
+  "clean_entries": 1082,
+  "decision": "A origem foi inventariada. Material histórico, arquivos de presença, duplicações e metadados não foram promovidos silenciosamente.",
+  "ds_store": 4,
+  "entries_macos_metadata": 1084,
+  "entries_total": 2168,
+  "gitkeep": 133,
+  "shell_scripts": 75,
+  "source_archive": "10-platform.zip",
+  "source_material_entries": 137,
+  "source_sha256": "70ccaec0597d297e9e4e3ad9847f746933d810c22a2d84458762b8d67c68d3fa",
+  "terraform_files": 29,
+  "top_level_modules": [
+    "regenera-platform-backups",
+    "regenera-platform-cache",
+    "regenera-platform-ci-cd",
+    "regenera-platform-cloud-foundation",
+    "regenera-platform-databases",
+    "regenera-platform-developer-portal",
+    "regenera-platform-disaster-recovery",
+    "regenera-platform-event-bus",
+    "regenera-platform-kms-hsm",
+    "regenera-platform-kubernetes",
+    "regenera-platform-object-storage",
+    "regenera-platform-observability",
+    "regenera-platform-secrets",
+    "regenera-platform-siem",
+    "regenera-platform-terraform"
+  ],
+  "typescript_files": 33,
+  "yaml_files": 147
+}

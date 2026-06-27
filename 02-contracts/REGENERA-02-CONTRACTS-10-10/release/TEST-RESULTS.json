@@ -1,0 +1,13 @@
+{
+  "command": "make all",
+  "exitCode": 0,
+  "result": "PASS",
+  "testsExecuted": 33,
+  "testsPassed": 33,
+  "testsSkipped": 0,
+  "validate": "PASS",
+  "security": "PASS",
+  "build": "PASS",
+  "verifyRelease": "PASS",
+  "source": "release/logs/final-make-all.log"
+}

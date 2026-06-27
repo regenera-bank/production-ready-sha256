@@ -1,0 +1,42 @@
+{
+  "document_id": "RELEASE-ATTESTATION-001",
+  "release": "REGENERA-00-GOVERNANCE-10-10",
+  "author_declared": "Don Paulo Ricardo",
+  "technical_verification": "PASS",
+  "tests": 24,
+  "commands": [
+    {
+      "name": "clean",
+      "exit_code": 0
+    },
+    {
+      "name": "validate",
+      "exit_code": 0
+    },
+    {
+      "name": "test",
+      "exit_code": 0
+    },
+    {
+      "name": "security",
+      "exit_code": 0
+    },
+    {
+      "name": "continuity",
+      "exit_code": 0
+    },
+    {
+      "name": "build",
+      "exit_code": 0
+    },
+    {
+      "name": "verify-release",
+      "exit_code": 0
+    }
+  ],
+  "content_scan": "PASS",
+  "continuity_exercise_scope": "local-synthetic-dataset",
+  "independent_approval": "PENDING",
+  "cryptographic_signature": "REQUIRED_EXTERNALLY",
+  "claim_boundary": "technical package verified; institutional approval not fabricated"
+}

@@ -1,0 +1,19 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "name": "python-stdlib",
+      "type": "library",
+      "version": "3.13.5"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "name": "regenera-risk-control",
+      "type": "application",
+      "version": "1.0.0"
+    }
+  },
+  "specVersion": "1.5",
+  "version": 1
+}

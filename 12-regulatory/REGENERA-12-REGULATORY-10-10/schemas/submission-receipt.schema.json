@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:regenera:regulatory:submission-receipt:10.10",
+  "title": "External Submission Receipt",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["state", "request_digest"],
+  "properties": {
+    "state": {"enum": ["SUBMITTED", "REJECTED", "UNKNOWN"]},
+    "protocol": {"type": ["string", "null"]},
+    "reason": {"type": ["string", "null"]},
+    "request_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  }
+}

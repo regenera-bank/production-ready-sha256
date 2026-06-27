@@ -1,0 +1,12 @@
+{
+  "decision": "RECONSTRUCT_ACTIVE_RELEASE_PRESERVE_LINEAGE_ONLY",
+  "files_after_macos_artifact_filter": 303,
+  "gitkeep_files": 80,
+  "implementation_files": 0,
+  "macos_artifacts_present": true,
+  "source_archive": "08-iso20022.zip",
+  "source_sha256": "c468cfe282831a37178bfbe02ed67d1e4821486f9abeb169d148e33a6ba299a9",
+  "xml_message_files": 0,
+  "xsd_files": 0,
+  "zip_entries": 868
+}

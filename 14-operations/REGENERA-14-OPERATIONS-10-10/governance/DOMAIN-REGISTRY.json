@@ -1,0 +1,74 @@
+{
+  "domains": [
+    {
+      "external_dependency": "ambiente alternativo e exercício real",
+      "name": "business-continuity",
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "external_dependency": "telemetria e paging externos",
+      "name": "noc",
+      "status": "CONTROL_PLANE_VERIFIED"
+    },
+    {
+      "external_dependency": "ITSM e diretório corporativo",
+      "name": "change-management",
+      "status": "CONTROL_PLANE_VERIFIED"
+    },
+    {
+      "external_dependency": "fontes financeiras externas",
+      "name": "reconciliation",
+      "status": "CONTROL_PLANE_VERIFIED"
+    },
+    {
+      "external_dependency": "SPI, DICT e homologação",
+      "name": "pix",
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "external_dependency": "motor AML e listas oficiais",
+      "name": "aml",
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "external_dependency": "processador e bandeiras",
+      "name": "cards",
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "external_dependency": "motor antifraude e sinais externos",
+      "name": "fraud",
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "external_dependency": "SIEM, ITSM e paging",
+      "name": "incident-management",
+      "status": "CONTROL_PLANE_VERIFIED"
+    },
+    {
+      "external_dependency": "livro contábil e fechamento institucional",
+      "name": "accounting",
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "external_dependency": "SIEM, EDR e operação SOC",
+      "name": "soc",
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "external_dependency": "custódia, liquidez e autorização institucional",
+      "name": "treasury",
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "external_dependency": "arranjos e processadores",
+      "name": "payment",
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "external_dependency": "CRM e identidade de cliente",
+      "name": "customer-support",
+      "status": "CONTROL_PLANE_VERIFIED"
+    }
+  ]
+}

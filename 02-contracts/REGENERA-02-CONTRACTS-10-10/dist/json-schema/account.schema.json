@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:regenera:schema:account:1",
+  "title": "Account",
+  "type": "object",
+  "required": [
+    "accountId",
+    "status",
+    "currency",
+    "availableBalance",
+    "ledgerBalance",
+    "version"
+  ],
+  "properties": {
+    "accountId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "status": {
+      "enum": [
+        "PENDING",
+        "ACTIVE",
+        "BLOCKED",
+        "CLOSED"
+      ]
+    },
+    "currency": {
+      "const": "BRL"
+    },
+    "availableBalance": {
+      "$ref": "money.schema.json"
+    },
+    "ledgerBalance": {
+      "$ref": "money.schema.json"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "additionalProperties": false
+}

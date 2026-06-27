@@ -1,0 +1,26 @@
+control_id,control_name,owner,type,frequency,evidence,enforcement
+KYC-001,Documento vigente,KYC,preventivo,por decisão,document_hash,blocking
+KYC-002,Biometria verificada,KYC,preventivo,por onboarding,biometric_result,blocking
+SAN-001,Lista versionada,Compliance Risk,preventivo,por screening,list_version,blocking
+SAN-002,Hit abre caso,Compliance Risk,preventivo,por hit,case_id,blocking
+AML-001,Score com motivos,AML,detectivo,por transação,assessment,blocking
+AML-002,Estruturação 24h,AML,detectivo,contínuo,rule_result,blocking
+FRD-001,Sinais disponíveis,Fraud Risk,preventivo,por transação,signal_status,blocking
+FRD-002,Unknown não aprova,Fraud Risk,preventivo,por transação,decision,blocking
+CRD-001,DTI dentro da política,Credit Risk,preventivo,por proposta,decision,blocking
+CRD-002,Override silencioso proibido,Credit Risk,preventivo,por proposta,approval,blocking
+REC-001,Tolerância financeira zero,Financial Control,detectivo,intradiário,reconciliation_result,blocking
+REC-002,Referência única,Financial Control,preventivo,por lote,batch_validation,blocking
+ACC-001,Débito igual crédito,Accounting,preventivo,por lançamento,journal_entry,blocking
+ACC-002,Período fechado protegido,Accounting,preventivo,por lançamento,period_status,blocking
+ACC-003,Estorno compensatório,Accounting,preventivo,por correção,reversal_entry,blocking
+CAS-001,Caso exige evidência,Case Management,preventivo,por encerramento,evidence_hash,blocking
+CAS-002,Maker-checker,Case Management,preventivo,por aprovação,approval_record,blocking
+AUD-001,Cadeia SHA-256 íntegra,Audit,detectivo,contínuo,chain_verification,blocking
+REG-001,Relatório exige evidência,Regulatory Reporting,preventivo,por relatório,evidence_refs,blocking
+REG-002,Preparador não aprova,Regulatory Reporting,preventivo,por relatório,approval_record,blocking
+GOV-001,Owner obrigatório,Governance,preventivo,por controle,owner_record,blocking
+GOV-002,Exceção tem prazo,Governance,preventivo,por exceção,exception_record,blocking
+GOV-003,Evidência possui hash,Governance,preventivo,por evidência,sha256,blocking
+REL-001,Manifesto cobre payload,Release Engineering,preventivo,por release,manifest,blocking
+REL-002,Assinatura externa real,Release Engineering,preventivo,por release,gpg_signature,blocking

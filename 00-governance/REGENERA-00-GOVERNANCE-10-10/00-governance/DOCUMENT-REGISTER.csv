@@ -1,0 +1,28 @@
+document_id,title,path,state
+GOV-INDEX-001,Regenera Bank — governança técnica,README.md,controlled
+ADR-EVIDENCE-001,ADR — evidência fora do runtime,architecture/decisions/ADR-EVIDENCE-001.md,controlled
+ADR-IDEMP-001,ADR — idempotência durável,architecture/decisions/ADR-IDEMP-001.md,controlled
+ADR-LEDGER-001,ADR — ledger relacional append-only,architecture/decisions/ADR-LEDGER-001.md,controlled
+ADR-UNKNOWN-001,ADR — estado UNKNOWN,architecture/decisions/ADR-UNKNOWN-001.md,controlled
+MEETING-2026-06-26,Ata — fechamento da baseline de governança,authorship/ATA-2026-06-26.md,controlled
+AUTHORSHIP-001,Registro de autoria e procedência,authorship/AUTORIA-E-PROCEDENCIA.md,controlled
+SIGNING-001,Procedimento de commits e release assinados,authorship/COMMIT-SIGNING.md,controlled
+PROVENANCE-001,Declaração de procedência,authorship/DECLARACAO-DE-PROCEDENCIA.md,controlled
+AUTHOR-HISTORY-001,Histórico incremental de elaboração,authorship/HISTORICO-INCREMENTAL.md,controlled
+AUTHOR-REVIEW-001,Revisão nominal do autor,authorship/REVISAO-DO-AUTOR.md,controlled
+POL-ACCESS-001,Política de acesso privilegiado,policies/POL-ACCESS-001.md,controlled
+POL-CHANGE-001,Política de gestão de mudança,policies/POL-CHANGE-001.md,controlled
+POL-EXC-001,Política de exceções e risco aceito,policies/POL-EXC-001.md,controlled
+POL-GOV-001,Política de governança documental,policies/POL-GOV-001.md,controlled
+POL-PRIV-001,Política de privacidade e rastreabilidade de dados,policies/POL-PRIV-001.md,controlled
+POL-REL-001,Política de release e promoção,policies/POL-REL-001.md,controlled
+POL-SEC-001,Política de segurança cibernética e segredo,policies/POL-SEC-001.md,controlled
+RUN-ACCESS-001,Runbook — revogação de acesso,runbooks/ACCESS-REVOCATION.md,controlled
+RUN-DR-001,Runbook — recuperação de desastre,runbooks/DISASTER-RECOVERY.md,controlled
+RUN-EVID-001,Runbook — coleta de evidência,runbooks/EVIDENCE-COLLECTION.md,controlled
+RUN-INC-001,Runbook — resposta a incidente,runbooks/INCIDENT-RESPONSE.md,controlled
+RUN-ROLLBACK-001,Runbook — rollback de release,runbooks/RELEASE-ROLLBACK.md,controlled
+RUN-VENDOR-001,Runbook — indisponibilidade de fornecedor,runbooks/VENDOR-OUTAGE.md,controlled
+STD-EVID-001,Padrão de evidência técnica,standards/STD-EVID-001.md,controlled
+STD-METRICS-001,Padrão de métricas e limites operacionais,standards/STD-METRICS-001.md,controlled
+STD-REL-001,Padrão de integridade de release,standards/STD-REL-001.md,controlled

@@ -1,0 +1,21 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "name": "python-standard-library",
+      "scope": "required",
+      "type": "library",
+      "version": "3.13.5"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "name": "REGENERA-09-DATA-PLATFORM-10-10",
+      "type": "application",
+      "version": "1.0.0"
+    },
+    "timestamp": "2026-06-26T00:00:00Z"
+  },
+  "specVersion": "1.5",
+  "version": 1
+}

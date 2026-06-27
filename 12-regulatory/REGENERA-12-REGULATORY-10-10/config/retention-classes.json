@@ -1,0 +1,11 @@
+{
+  "document_id": "RETENTION-CLASS-REGISTRY-001",
+  "version": "10.10",
+  "state": "PENDING_LEGAL_CONFIGURATION",
+  "classes": [
+    {"classification": "PUBLIC", "retention_days": null, "legal_hold_supported": true},
+    {"classification": "INTERNAL", "retention_days": null, "legal_hold_supported": true},
+    {"classification": "CONFIDENTIAL", "retention_days": null, "legal_hold_supported": true},
+    {"classification": "RESTRICTED", "retention_days": null, "legal_hold_supported": true}
+  ]
+}

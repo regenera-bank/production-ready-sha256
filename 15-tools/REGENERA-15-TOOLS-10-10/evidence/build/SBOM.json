@@ -1,0 +1,12 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "name": "python-standard-library",
+      "type": "library",
+      "version": "3.11+"
+    }
+  ],
+  "external_dependencies": [],
+  "specVersion": "1.5"
+}

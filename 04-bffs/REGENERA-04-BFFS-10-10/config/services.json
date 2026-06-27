@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "services": [
+    {
+      "id": "web-bff",
+      "channel": "WEB",
+      "tier": 0,
+      "authoritative_financial_source": false,
+      "required_controls": ["SESSION", "CSRF", "CORRELATION", "IDEMPOTENCY", "UNKNOWN_BLOCK"]
+    },
+    {
+      "id": "mobile-bff",
+      "channel": "MOBILE",
+      "tier": 0,
+      "authoritative_financial_source": false,
+      "required_controls": ["ATTESTATION", "DEVICE_BINDING", "NONCE", "CORRELATION", "UNKNOWN_BLOCK"]
+    },
+    {
+      "id": "operations-bff",
+      "channel": "OPERATIONS",
+      "tier": 0,
+      "authoritative_financial_source": false,
+      "required_controls": ["CORPORATE_IDENTITY", "MAKER_CHECKER", "TEMPORARY_GRANT", "AUDIT_CHAIN"]
+    },
+    {
+      "id": "partner-api",
+      "channel": "PARTNER",
+      "tier": 0,
+      "authoritative_financial_source": false,
+      "required_controls": ["MTLS", "OAUTH_SCOPE", "QUOTA", "IDEMPOTENCY", "WEBHOOK_HMAC"]
+    },
+    {
+      "id": "open-finance-api",
+      "channel": "OPEN_FINANCE",
+      "tier": 0,
+      "authoritative_financial_source": false,
+      "required_controls": ["MTLS", "CONSENT", "PERMISSION", "INTERACTION_ID", "DATA_MINIMIZATION"]
+    }
+  ]
+}

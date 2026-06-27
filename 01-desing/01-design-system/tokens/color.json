@@ -1,0 +1,34 @@
+{
+  "background": {
+    "canvas": "#020617",
+    "surface": "#0F172A",
+    "raised": "#172033",
+    "inverse": "#F8FAFC"
+  },
+  "brand": {
+    "primary": "#22D3EE",
+    "primaryStrong": "#0891B2",
+    "focus": "#67E8F9"
+  },
+  "text": {
+    "primary": "#F8FAFC",
+    "secondary": "#CBD5E1",
+    "muted": "#94A3B8",
+    "inverse": "#020617"
+  },
+  "border": {
+    "subtle": "#263449",
+    "strong": "#4A607A"
+  },
+  "state": {
+    "success": "#4ADE80",
+    "warning": "#FBBF24",
+    "danger": "#FB7185",
+    "info": "#38BDF8",
+    "unknown": "#C084FC",
+    "disabled": "#64748B"
+  },
+  "overlay": {
+    "scrim": "rgba(2,6,23,0.78)"
+  }
+}

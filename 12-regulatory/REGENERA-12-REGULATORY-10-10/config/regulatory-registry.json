@@ -1,0 +1,119 @@
+{
+  "document_id": "REGULATORY-DOMAIN-REGISTRY-001",
+  "domains": [
+    {
+      "code": "SISBACEN",
+      "evidence_required": true,
+      "legal_mapping": "PENDING_INDEPENDENT_LEGAL_REVIEW",
+      "name": "Sistema de informações e comunicações",
+      "official_channel": "PENDING_EXTERNAL_CONFIGURATION",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "code": "CYBERSECURITY",
+      "evidence_required": true,
+      "legal_mapping": "PENDING_INDEPENDENT_LEGAL_REVIEW",
+      "name": "Segurança cibernética",
+      "official_channel": "PENDING_EXTERNAL_CONFIGURATION",
+      "state": "LOCAL_CONTROLS_VERIFIED"
+    },
+    {
+      "code": "CARD_PCI",
+      "evidence_required": true,
+      "legal_mapping": "PENDING_INDEPENDENT_LEGAL_REVIEW",
+      "name": "Cartões e PCI",
+      "official_channel": "PENDING_EXTERNAL_CONFIGURATION",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "code": "PIX",
+      "evidence_required": true,
+      "legal_mapping": "PENDING_INDEPENDENT_LEGAL_REVIEW",
+      "name": "Arranjo Pix",
+      "official_channel": "PENDING_EXTERNAL_CONFIGURATION",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "code": "AML",
+      "evidence_required": true,
+      "legal_mapping": "PENDING_INDEPENDENT_LEGAL_REVIEW",
+      "name": "Prevenção à lavagem de dinheiro",
+      "official_channel": "PENDING_EXTERNAL_CONFIGURATION",
+      "state": "LOCAL_CONTROLS_VERIFIED"
+    },
+    {
+      "code": "SISORF",
+      "evidence_required": true,
+      "legal_mapping": "PENDING_INDEPENDENT_LEGAL_REVIEW",
+      "name": "Organização do sistema financeiro",
+      "official_channel": "PENDING_EXTERNAL_CONFIGURATION",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "code": "CLOUD_OUTSOURCING",
+      "evidence_required": true,
+      "legal_mapping": "PENDING_INDEPENDENT_LEGAL_REVIEW",
+      "name": "Nuvem e terceirização",
+      "official_channel": "PENDING_EXTERNAL_CONFIGURATION",
+      "state": "LOCAL_CONTROLS_VERIFIED"
+    },
+    {
+      "code": "UNICAD",
+      "evidence_required": true,
+      "legal_mapping": "PENDING_INDEPENDENT_LEGAL_REVIEW",
+      "name": "Cadastro institucional",
+      "official_channel": "PENDING_EXTERNAL_CONFIGURATION",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "code": "COSIF",
+      "evidence_required": true,
+      "legal_mapping": "PENDING_INDEPENDENT_LEGAL_REVIEW",
+      "name": "Contabilidade regulatória",
+      "official_channel": "PENDING_EXTERNAL_CONFIGURATION",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "code": "REGULATORY_REPORTING",
+      "evidence_required": true,
+      "legal_mapping": "PENDING_INDEPENDENT_LEGAL_REVIEW",
+      "name": "Reporte regulatório",
+      "official_channel": "PENDING_EXTERNAL_CONFIGURATION",
+      "state": "LOCAL_CONTROLS_VERIFIED"
+    },
+    {
+      "code": "CVM",
+      "evidence_required": true,
+      "legal_mapping": "PENDING_INDEPENDENT_LEGAL_REVIEW",
+      "name": "Mercado de capitais",
+      "official_channel": "PENDING_EXTERNAL_CONFIGURATION",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "code": "SUSEP",
+      "evidence_required": true,
+      "legal_mapping": "PENDING_INDEPENDENT_LEGAL_REVIEW",
+      "name": "Seguros",
+      "official_channel": "PENDING_EXTERNAL_CONFIGURATION",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "code": "OPEN_FINANCE",
+      "evidence_required": true,
+      "legal_mapping": "PENDING_INDEPENDENT_LEGAL_REVIEW",
+      "name": "Open Finance",
+      "official_channel": "PENDING_EXTERNAL_CONFIGURATION",
+      "state": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    {
+      "code": "LGPD",
+      "evidence_required": true,
+      "legal_mapping": "PENDING_INDEPENDENT_LEGAL_REVIEW",
+      "name": "Privacidade e proteção de dados",
+      "official_channel": "PENDING_EXTERNAL_CONFIGURATION",
+      "state": "LOCAL_CONTROLS_VERIFIED"
+    }
+  ],
+  "institutional_approval": "PENDING",
+  "version": "10.10"
+}

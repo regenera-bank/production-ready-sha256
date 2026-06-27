@@ -1,0 +1,8 @@
+{
+  "builder": "scripts/governance.py",
+  "offline": true,
+  "deterministic_timestamp": "2026-06-26T12:00:00-03:00",
+  "archive": "regenera-governance-payload.zip",
+  "files": 46,
+  "sha256": "5e23686168a0102c115cb36af7aa401d814a6ce88c84920603d509e29d97ab4a"
+}

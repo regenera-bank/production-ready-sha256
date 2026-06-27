@@ -1,0 +1,8 @@
+[project]
+name = "regenera-quality"
+version = "10.10.0"
+requires-python = ">=3.11"
+
+[tool.regenera]
+source = "src"
+tests = "tests"

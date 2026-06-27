@@ -1,0 +1,8 @@
+{
+  "excluded": [
+    "tools/security_scan.py"
+  ],
+  "files_scanned": 76,
+  "findings": [],
+  "status": "PASSED"
+}

@@ -1,0 +1,214 @@
+{
+  "controls": [
+    {
+      "evidence": "evidence/controls/OPS-001.json",
+      "id": "OPS-001",
+      "name": "Segregação de aprovação",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-002.json",
+      "id": "OPS-002",
+      "name": "MFA privilegiado",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-003.json",
+      "id": "OPS-003",
+      "name": "Incidente com máquina de estados",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-004.json",
+      "id": "OPS-004",
+      "name": "P1 com postmortem",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-005.json",
+      "id": "OPS-005",
+      "name": "Reconciliação antes de resolução",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-006.json",
+      "id": "OPS-006",
+      "name": "Mudança por digest",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-007.json",
+      "id": "OPS-007",
+      "name": "Rollback obrigatório",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-008.json",
+      "id": "OPS-008",
+      "name": "Janela de bloqueio",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-009.json",
+      "id": "OPS-009",
+      "name": "Mudança emergencial com retrospectiva",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-010.json",
+      "id": "OPS-010",
+      "name": "Fila idempotente",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-011.json",
+      "id": "OPS-011",
+      "name": "Lease com expiração",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-012.json",
+      "id": "OPS-012",
+      "name": "Dead letter",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-013.json",
+      "id": "OPS-013",
+      "name": "Repetição bloqueada em UNKNOWN",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-014.json",
+      "id": "OPS-014",
+      "name": "Reconciliação de valor",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-015.json",
+      "id": "OPS-015",
+      "name": "Reconciliação de moeda",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-016.json",
+      "id": "OPS-016",
+      "name": "Referência única",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-017.json",
+      "id": "OPS-017",
+      "name": "RTO medido",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-018.json",
+      "id": "OPS-018",
+      "name": "RPO medido",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-019.json",
+      "id": "OPS-019",
+      "name": "Continuidade com revisão independente",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-020.json",
+      "id": "OPS-020",
+      "name": "Handover reconhecido",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-021.json",
+      "id": "OPS-021",
+      "name": "Runbook versionado",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-022.json",
+      "id": "OPS-022",
+      "name": "Runbook imutável",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-023.json",
+      "id": "OPS-023",
+      "name": "Dados de suporte por allowlist",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-024.json",
+      "id": "OPS-024",
+      "name": "Reembolso por alçada",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-025.json",
+      "id": "OPS-025",
+      "name": "Cadeia de auditoria",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-026.json",
+      "id": "OPS-026",
+      "name": "Controle com evidência",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-027.json",
+      "id": "OPS-027",
+      "name": "Exceção com validade",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-028.json",
+      "id": "OPS-028",
+      "name": "Release por digest",
+      "owner": "operations-platform",
+      "status": "VERIFIED_LOCAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-029.json",
+      "id": "OPS-029",
+      "name": "Assinatura externa",
+      "owner": "operations-platform",
+      "status": "PENDING_EXTERNAL"
+    },
+    {
+      "evidence": "evidence/controls/OPS-030.json",
+      "id": "OPS-030",
+      "name": "Integração externa bloqueada sem prova",
+      "owner": "operations-platform",
+      "status": "PENDING_EXTERNAL"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mapa de Implantação</title><link rel="stylesheet" href="../assets/site.css"></head><body><main>
+<h1>Mapa de Implantação</h1>
+
+<p>A documentação define zonas lógicas, não comprova recursos provisionados.</p>
+
+<pre data-language="mermaid"><code>flowchart LR
+  Internet --&gt; Edge
+  Edge --&gt; Channels
+  Channels --&gt; BFFs
+  BFFs --&gt; Services
+  Services --&gt; LedgerDB[(Ledger DB)]
+  Services --&gt; Bus[(Event Bus)]
+  Services --&gt; External[External Networks]
+  Services --&gt; Evidence[(Evidence Store)]</code></pre>
+
+<h2>Bloqueios externos</h2>
+
+<p class="item">• contas cloud;</p>
+<p class="item">• cluster e rede;</p>
+<p class="item">• IAM e HSM/KMS;</p>
+<p class="item">• certificados e DNS;</p>
+<p class="item">• banco, mensageria e storage;</p>
+<p class="item">• ambiente de continuidade;</p>
+<p class="item">• homologação de redes externas.</p></main></body></html>

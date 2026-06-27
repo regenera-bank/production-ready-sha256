@@ -1,0 +1,7 @@
+{
+  "artifact": "REGENERA-13-QUALITY-10-10",
+  "decision": "APPROVED_FOR_LOCAL_TECHNICAL_SCOPE",
+  "external_dependencies": "BLOCKED_UNTIL_REAL_EVIDENCE",
+  "test_count": 106,
+  "version": "10.10.0"
+}

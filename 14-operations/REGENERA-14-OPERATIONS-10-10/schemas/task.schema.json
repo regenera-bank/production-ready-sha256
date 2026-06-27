@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "attempts": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "key": {
+      "type": "string"
+    },
+    "payload_digest": {
+      "type": "string"
+    },
+    "priority": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "key",
+    "payload_digest",
+    "priority",
+    "state",
+    "attempts"
+  ],
+  "title": "task",
+  "type": "object"
+}

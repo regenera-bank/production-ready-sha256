@@ -1,0 +1,8 @@
+[project]
+name = "regenera-integrations"
+version = "1.0.0"
+description = "Kernel de integrações externas do Regenera Bank"
+requires-python = ">=3.11"
+
+[tool.regenera]
+release = "REGENERA-07-INTEGRATIONS-10-10"

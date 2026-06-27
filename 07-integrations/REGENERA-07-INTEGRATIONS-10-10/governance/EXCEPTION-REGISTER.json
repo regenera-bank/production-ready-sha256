@@ -1,0 +1,5 @@
+{
+  "exceptions": [],
+  "rule": "Exceção vencida ou sem aprovador independente bloqueia ativação.",
+  "schema": "regenera.exception-register.v1"
+}

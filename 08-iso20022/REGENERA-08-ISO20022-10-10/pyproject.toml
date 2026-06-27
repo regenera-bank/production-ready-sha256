@@ -1,0 +1,10 @@
+[project]
+name = "regenera-iso20022"
+version = "1.0.0"
+description = "Validação e governança de mensagens ISO 20022"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.regenera]
+network = false
+external_xsd = "required-before-external-activation"

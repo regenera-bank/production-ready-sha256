@@ -1,0 +1,21 @@
+control_id,control,type,owner,approver,frequency,evidence,failure_action
+PLAT-001,Workload identity sem segredo estático,PREVENTIVE,Platform Engineering,Security Architecture,POR_RELEASE,"oidc-claim,token-ttl",BLOCK
+PLAT-002,Artefato por digest,PREVENTIVE,Release Engineering,Change Authority,POR_RELEASE,"manifest,sha256",BLOCK
+PLAT-003,Aprovação segregada e assinada,PREVENTIVE,Release Engineering,Change Authority,POR_RELEASE,"signature,approval-record",BLOCK
+PLAT-004,SBOM e proveniência,DETECTIVE,Release Engineering,Security Engineering,POR_RELEASE,"sbom,provenance",BLOCK
+PLAT-005,Secret temporário e rotacionado,PREVENTIVE,Platform Security,CISO delegate,CONTINUOUS,"lease,rotation-evidence",BLOCK
+PLAT-006,Rede default deny e mTLS,PREVENTIVE,Network Engineering,Security Architecture,CONTINUOUS,"network-policy,flow-log",BLOCK
+PLAT-007,Kubernetes hardened baseline,PREVENTIVE,Container Platform,Security Engineering,POR_DEPLOY,admission-result,BLOCK
+PLAT-008,Backup imutável e criptografado,PREVENTIVE,Data Platform,Operations Authority,DAILY,backup-manifest,BLOCK
+PLAT-009,Restauração periódica,DETECTIVE,Operations,Business Continuity,30_DAYS,restore-report,BLOCK
+PLAT-010,RTO e RPO medidos,DETECTIVE,Operations,Business Continuity,POR_EXERCISE,dr-metrics,BLOCK
+PLAT-011,Failover exige reconciliação,PREVENTIVE,Database Platform,Financial Control,POR_FAILOVER,reconciliation-report,BLOCK
+PLAT-012,SLO e error budget,DETECTIVE,SRE,Service Owner,CONTINUOUS,slo-window,ESCALATE
+PLAT-013,Patch crítico em 72h,CORRECTIVE,Platform Engineering,Security Engineering,CONTINUOUS,vulnerability-ticket,BLOCK
+PLAT-014,Exceção com prazo,PREVENTIVE,Control Owner,Independent Approver,POR_EXCEPTION,exception-record,BLOCK
+PLAT-015,Trilha de auditoria encadeada,DETECTIVE,Platform Engineering,Internal Controls,CONTINUOUS,audit-chain,BLOCK
+PLAT-016,Banco com PITR,PREVENTIVE,Database Platform,Operations Authority,CONTINUOUS,"pitr-config,restore-test",BLOCK
+PLAT-017,Mensageria idempotente,PREVENTIVE,Messaging Platform,Domain Owner,CONTINUOUS,"message-id,replay-test",BLOCK
+PLAT-018,SIEM com retenção,DETECTIVE,Security Operations,CISO delegate,CONTINUOUS,ingestion-report,BLOCK
+PLAT-019,Object storage com retenção,PREVENTIVE,Storage Platform,Data Governance,CONTINUOUS,retention-policy,BLOCK
+PLAT-020,Cloud account segregada,PREVENTIVE,Cloud Foundation,Risk Authority,CONTINUOUS,account-inventory,BLOCK

@@ -1,0 +1,18 @@
+{
+  "clean_directories": 183,
+  "clean_entries": 660,
+  "clean_files": 477,
+  "decision": "estrutura original preservada apenas como invent\u00e1rio",
+  "declared_tools": 13,
+  "empty_files": 90,
+  "macos_entries": 662,
+  "markdown_files": 143,
+  "nonempty_files": 387,
+  "python_files": 4,
+  "shell_scripts": 60,
+  "source_archive": "15-tools(1).zip",
+  "source_sha256": "82ded0390b852a0a4e3ade6d0a1c80f087a5596a20a77a1f06ff2233b7964fed",
+  "yaml_files": 30,
+  "yml_files": 60,
+  "zip_entries": 1322
+}

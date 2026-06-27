@@ -1,0 +1,218 @@
+{
+  "configuration_state": "PENDING_INSTITUTIONAL_CONFIGURATION",
+  "document_id": "OBLIGATION-CATALOG-001",
+  "obligations": [
+    {
+      "activation_state": "BLOCKED_EXTERNAL_EVIDENCE",
+      "domain": "SISBACEN",
+      "due_rule": "PENDING_CONFIGURATION",
+      "frequency": "PENDING_CONFIGURATION",
+      "legal_source": "PENDING_APPROVED_SOURCE",
+      "obligation_id": "SISBACEN-BASELINE",
+      "owner": "Regulatory Affairs",
+      "required_evidence": [
+        "SOURCE_APPROVAL",
+        "DATA_RECONCILIATION",
+        "INDEPENDENT_APPROVAL",
+        "SUBMISSION_RECEIPT"
+      ]
+    },
+    {
+      "activation_state": "BLOCKED_EXTERNAL_EVIDENCE",
+      "domain": "CYBERSECURITY",
+      "due_rule": "PENDING_CONFIGURATION",
+      "frequency": "PENDING_CONFIGURATION",
+      "legal_source": "PENDING_APPROVED_SOURCE",
+      "obligation_id": "CYBERSECURITY-BASELINE",
+      "owner": "Regulatory Affairs",
+      "required_evidence": [
+        "SOURCE_APPROVAL",
+        "DATA_RECONCILIATION",
+        "INDEPENDENT_APPROVAL",
+        "SUBMISSION_RECEIPT"
+      ]
+    },
+    {
+      "activation_state": "BLOCKED_EXTERNAL_EVIDENCE",
+      "domain": "CARD_PCI",
+      "due_rule": "PENDING_CONFIGURATION",
+      "frequency": "PENDING_CONFIGURATION",
+      "legal_source": "PENDING_APPROVED_SOURCE",
+      "obligation_id": "CARD_PCI-BASELINE",
+      "owner": "Regulatory Affairs",
+      "required_evidence": [
+        "SOURCE_APPROVAL",
+        "DATA_RECONCILIATION",
+        "INDEPENDENT_APPROVAL",
+        "SUBMISSION_RECEIPT"
+      ]
+    },
+    {
+      "activation_state": "BLOCKED_EXTERNAL_EVIDENCE",
+      "domain": "PIX",
+      "due_rule": "PENDING_CONFIGURATION",
+      "frequency": "PENDING_CONFIGURATION",
+      "legal_source": "PENDING_APPROVED_SOURCE",
+      "obligation_id": "PIX-BASELINE",
+      "owner": "Regulatory Affairs",
+      "required_evidence": [
+        "SOURCE_APPROVAL",
+        "DATA_RECONCILIATION",
+        "INDEPENDENT_APPROVAL",
+        "SUBMISSION_RECEIPT"
+      ]
+    },
+    {
+      "activation_state": "BLOCKED_EXTERNAL_EVIDENCE",
+      "domain": "AML",
+      "due_rule": "PENDING_CONFIGURATION",
+      "frequency": "PENDING_CONFIGURATION",
+      "legal_source": "PENDING_APPROVED_SOURCE",
+      "obligation_id": "AML-BASELINE",
+      "owner": "Regulatory Affairs",
+      "required_evidence": [
+        "SOURCE_APPROVAL",
+        "DATA_RECONCILIATION",
+        "INDEPENDENT_APPROVAL",
+        "SUBMISSION_RECEIPT"
+      ]
+    },
+    {
+      "activation_state": "BLOCKED_EXTERNAL_EVIDENCE",
+      "domain": "SISORF",
+      "due_rule": "PENDING_CONFIGURATION",
+      "frequency": "PENDING_CONFIGURATION",
+      "legal_source": "PENDING_APPROVED_SOURCE",
+      "obligation_id": "SISORF-BASELINE",
+      "owner": "Regulatory Affairs",
+      "required_evidence": [
+        "SOURCE_APPROVAL",
+        "DATA_RECONCILIATION",
+        "INDEPENDENT_APPROVAL",
+        "SUBMISSION_RECEIPT"
+      ]
+    },
+    {
+      "activation_state": "BLOCKED_EXTERNAL_EVIDENCE",
+      "domain": "CLOUD_OUTSOURCING",
+      "due_rule": "PENDING_CONFIGURATION",
+      "frequency": "PENDING_CONFIGURATION",
+      "legal_source": "PENDING_APPROVED_SOURCE",
+      "obligation_id": "CLOUD_OUTSOURCING-BASELINE",
+      "owner": "Regulatory Affairs",
+      "required_evidence": [
+        "SOURCE_APPROVAL",
+        "DATA_RECONCILIATION",
+        "INDEPENDENT_APPROVAL",
+        "SUBMISSION_RECEIPT"
+      ]
+    },
+    {
+      "activation_state": "BLOCKED_EXTERNAL_EVIDENCE",
+      "domain": "UNICAD",
+      "due_rule": "PENDING_CONFIGURATION",
+      "frequency": "PENDING_CONFIGURATION",
+      "legal_source": "PENDING_APPROVED_SOURCE",
+      "obligation_id": "UNICAD-BASELINE",
+      "owner": "Regulatory Affairs",
+      "required_evidence": [
+        "SOURCE_APPROVAL",
+        "DATA_RECONCILIATION",
+        "INDEPENDENT_APPROVAL",
+        "SUBMISSION_RECEIPT"
+      ]
+    },
+    {
+      "activation_state": "BLOCKED_EXTERNAL_EVIDENCE",
+      "domain": "COSIF",
+      "due_rule": "PENDING_CONFIGURATION",
+      "frequency": "PENDING_CONFIGURATION",
+      "legal_source": "PENDING_APPROVED_SOURCE",
+      "obligation_id": "COSIF-BASELINE",
+      "owner": "Regulatory Affairs",
+      "required_evidence": [
+        "SOURCE_APPROVAL",
+        "DATA_RECONCILIATION",
+        "INDEPENDENT_APPROVAL",
+        "SUBMISSION_RECEIPT"
+      ]
+    },
+    {
+      "activation_state": "BLOCKED_EXTERNAL_EVIDENCE",
+      "domain": "REGULATORY_REPORTING",
+      "due_rule": "PENDING_CONFIGURATION",
+      "frequency": "PENDING_CONFIGURATION",
+      "legal_source": "PENDING_APPROVED_SOURCE",
+      "obligation_id": "REGULATORY_REPORTING-BASELINE",
+      "owner": "Regulatory Affairs",
+      "required_evidence": [
+        "SOURCE_APPROVAL",
+        "DATA_RECONCILIATION",
+        "INDEPENDENT_APPROVAL",
+        "SUBMISSION_RECEIPT"
+      ]
+    },
+    {
+      "activation_state": "BLOCKED_EXTERNAL_EVIDENCE",
+      "domain": "CVM",
+      "due_rule": "PENDING_CONFIGURATION",
+      "frequency": "PENDING_CONFIGURATION",
+      "legal_source": "PENDING_APPROVED_SOURCE",
+      "obligation_id": "CVM-BASELINE",
+      "owner": "Regulatory Affairs",
+      "required_evidence": [
+        "SOURCE_APPROVAL",
+        "DATA_RECONCILIATION",
+        "INDEPENDENT_APPROVAL",
+        "SUBMISSION_RECEIPT"
+      ]
+    },
+    {
+      "activation_state": "BLOCKED_EXTERNAL_EVIDENCE",
+      "domain": "SUSEP",
+      "due_rule": "PENDING_CONFIGURATION",
+      "frequency": "PENDING_CONFIGURATION",
+      "legal_source": "PENDING_APPROVED_SOURCE",
+      "obligation_id": "SUSEP-BASELINE",
+      "owner": "Regulatory Affairs",
+      "required_evidence": [
+        "SOURCE_APPROVAL",
+        "DATA_RECONCILIATION",
+        "INDEPENDENT_APPROVAL",
+        "SUBMISSION_RECEIPT"
+      ]
+    },
+    {
+      "activation_state": "BLOCKED_EXTERNAL_EVIDENCE",
+      "domain": "OPEN_FINANCE",
+      "due_rule": "PENDING_CONFIGURATION",
+      "frequency": "PENDING_CONFIGURATION",
+      "legal_source": "PENDING_APPROVED_SOURCE",
+      "obligation_id": "OPEN_FINANCE-BASELINE",
+      "owner": "Regulatory Affairs",
+      "required_evidence": [
+        "SOURCE_APPROVAL",
+        "DATA_RECONCILIATION",
+        "INDEPENDENT_APPROVAL",
+        "SUBMISSION_RECEIPT"
+      ]
+    },
+    {
+      "activation_state": "BLOCKED_EXTERNAL_EVIDENCE",
+      "domain": "LGPD",
+      "due_rule": "PENDING_CONFIGURATION",
+      "frequency": "PENDING_CONFIGURATION",
+      "legal_source": "PENDING_APPROVED_SOURCE",
+      "obligation_id": "LGPD-BASELINE",
+      "owner": "Regulatory Affairs",
+      "required_evidence": [
+        "SOURCE_APPROVAL",
+        "DATA_RECONCILIATION",
+        "INDEPENDENT_APPROVAL",
+        "SUBMISSION_RECEIPT"
+      ]
+    }
+  ],
+  "rule": "No due date, layout, channel or legal citation becomes active without independent review.",
+  "version": "10.10"
+}

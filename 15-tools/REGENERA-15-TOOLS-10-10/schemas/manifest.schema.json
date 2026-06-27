@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "algorithm": {
+      "enum": [
+        "SHA-256"
+      ],
+      "type": "string"
+    },
+    "file_count": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "files": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "algorithm",
+    "file_count",
+    "files"
+  ],
+  "type": "object"
+}

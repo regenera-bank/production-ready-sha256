@@ -1,0 +1,13 @@
+{
+  "document_id": "REGULATORY-BASELINE-001",
+  "external_protocol_required": true,
+  "fail_closed": true,
+  "independent_review": "PENDING",
+  "maker_checker_required": true,
+  "money_unit": "MINOR_UNIT_INTEGER",
+  "signature": "PENDING_EXTERNAL_KEY",
+  "status": "PENDING_INSTITUTIONAL_APPROVAL",
+  "timezone": "America/Sao_Paulo",
+  "unknown_state_required": true,
+  "version": "10.10"
+}

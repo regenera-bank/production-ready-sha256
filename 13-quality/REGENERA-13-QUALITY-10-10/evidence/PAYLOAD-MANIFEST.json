@@ -1,0 +1,339 @@
+{
+  "files": [
+    {
+      "path": ".github/workflows/quality.yml",
+      "sha256": "d8c9271d935cbdd3c633f05d575bdd73ffa81c4e03f005f2d1e718b86050e386",
+      "size": 363
+    },
+    {
+      "path": "ASSINATURA-EXTERNA-REQUERIDA.md",
+      "sha256": "b7f9fd58c0393fda242fab162ca66330f589a55b1a64fbfbeaf6f4f988a01fb9",
+      "size": 285
+    },
+    {
+      "path": "ATA-REVISAO-TECNICA.md",
+      "sha256": "a5f37e0789efc7a1edacbfea7a79ff9393061e2ba1e4ea4ffc60c7d3977af8ea",
+      "size": 457
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "bc64c69b9cd66a4de2ea8d197b4181b53f5b0612d874bccd890caea221920a85",
+      "size": 388
+    },
+    {
+      "path": "DECLARACAO-PROCEDENCIA.md",
+      "sha256": "0828d36bb2149371feeb96411a7f3f459e57b73e9ad63244ce0b82452aee41f9",
+      "size": 320
+    },
+    {
+      "path": "HISTORICO-INCREMENTAL.md",
+      "sha256": "246df98fe20fd59ebd800ded3d314961b5984722d431013c8ed89c0766106aae",
+      "size": 329
+    },
+    {
+      "path": "INTEGRITY-SCOPE.md",
+      "sha256": "7cc5ba910f7091f41cbfe0bab5a57c916ce8020d894b9dba019405a12e52acf4",
+      "size": 238
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "98de0508e83f12d797db1540475d6c9a7199df798555d52f73362b6825a982d1",
+      "size": 179
+    },
+    {
+      "path": "Makefile",
+      "sha256": "459800995233016894780740c8ecaff1fd6eac5514a5fb3d47d13c3e686cdd26",
+      "size": 532
+    },
+    {
+      "path": "README-APLICACAO.md",
+      "sha256": "85f1ad6ae5513ec4d7549d853f934c11a85fd49c00cac7d97fabe06566092a72",
+      "size": 490
+    },
+    {
+      "path": "README.md",
+      "sha256": "c73a4cccd0f36942e671ea0bbee86977d0c65435cc937813dc956785039f16a3",
+      "size": 1021
+    },
+    {
+      "path": "config/control-matrix.json",
+      "sha256": "818ff3dbb663d95f7aa2dd18bd1c4f3c9ea56994913e1ff56934519b85785e65",
+      "size": 1043
+    },
+    {
+      "path": "config/quality-policy.json",
+      "sha256": "08087126b216e33f4d86450bfc9c1eef154b59a8743cb6ef73e921f0db998bfb",
+      "size": 504
+    },
+    {
+      "path": "contracts/quality-result.schema.json",
+      "sha256": "01a4a0060495aef56692bd56be776bc1ab58eb553ccc87c78ae11f15feac393e",
+      "size": 484
+    },
+    {
+      "path": "contracts/release-gate.schema.json",
+      "sha256": "7035784587ab6d28b1a6bb6838b4330ccc228b6aa1b571c5712a9b03949d472a",
+      "size": 414
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "79e89edbb60470f080fa736884a96528f2e2930729c795e4d86f530dfae7870b",
+      "size": 388
+    },
+    {
+      "path": "docs/EXTERNAL-BLOCKERS.md",
+      "sha256": "0403ffffdd167fcc172e4e6b778cc47b8484b07e2c099fed76876b1a0a3b89a5",
+      "size": 322
+    },
+    {
+      "path": "docs/THREAT-MODEL.md",
+      "sha256": "7f8875d8aac1d2e5d3d49cc80518b06fe3c1515b146e76cb6c3358e8a063add9",
+      "size": 640
+    },
+    {
+      "path": "docs/adr/0001-single-quality-boundary.md",
+      "sha256": "f7613b9d626fb8111a6959f3ce078e2e05daa9cc2d01b251142f57d4c3f8d445",
+      "size": 292
+    },
+    {
+      "path": "docs/adr/0002-no-self-referential-checksum.md",
+      "sha256": "433157b82db9503a6e844bb8e0ff0bc714621fd2c3a941823340c838a7c5976f",
+      "size": 168
+    },
+    {
+      "path": "docs/adr/0003-fail-closed-gates.md",
+      "sha256": "ee1c2df43f245638eae4459256c878b376ff37d170352ebfefa268357aaf688e",
+      "size": 174
+    },
+    {
+      "path": "evidence/SBOM.cdx.json",
+      "sha256": "0b74505a876315d4887e4e98cc1833d7a8d59dea2376065475fa28578e0e8abc",
+      "size": 333
+    },
+    {
+      "path": "evidence/results/BUILD-SUMMARY.json",
+      "sha256": "451de21b52f618e02ee7a04397177313afbebdb10c8f68289d92b49f6c37854d",
+      "size": 201
+    },
+    {
+      "path": "evidence/results/RELEASE-GATE.json",
+      "sha256": "61d8327ae57a6f61bdcecdc4fa30861ceb000952650a213902514ea54a6cdbc8",
+      "size": 1276
+    },
+    {
+      "path": "evidence/results/SECURITY-REPORT.json",
+      "sha256": "a43b626bb8997eac0b9767eabaf836d17585c4d9e977c9cf7bf9545bc2265d85",
+      "size": 274
+    },
+    {
+      "path": "evidence/results/TEST-RESULTS.json",
+      "sha256": "ad06b4ac094d45c5e6e3153f2ff4641ae5452ab8862353d7470681870d0935c4",
+      "size": 101
+    },
+    {
+      "path": "evidence/source/SOURCE-INVENTORY.json",
+      "sha256": "d2a0bb969935b8766d6a0046e4a20830bbb79241b1b6d79460959ba9042565a1",
+      "size": 534
+    },
+    {
+      "path": "governance/EXCEPTIONS.md",
+      "sha256": "08ea0a03fc38c850c200c5e008ebc53229b6f669fb830be7bca1065f2fd76850",
+      "size": 247
+    },
+    {
+      "path": "governance/QUALITY-GOVERNANCE.md",
+      "sha256": "2f65ce220f64c31b257eb549cf5e99ab18a0ba27f37b3126b89d2fa721629c8e",
+      "size": 575
+    },
+    {
+      "path": "governance/RELEASE-APPROVAL.md",
+      "sha256": "577582291003c14c985498ff7cf79625ba7bccbfa1331fe6844e3dc76a5a86d7",
+      "size": 206
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "1b97b9be770b3a1e572e40a5ac0f4444ec65fa9bcf49626d78463271e8705842",
+      "size": 131
+    },
+    {
+      "path": "release.json",
+      "sha256": "608212f589a92e8414bdb93751b40dfa8a5b9b8dbcded3ddf23b27d83a460490",
+      "size": 259
+    },
+    {
+      "path": "runbooks/FAILED-RELEASE-GATE.md",
+      "sha256": "f31e02a5624007e4d69497af0dccdc71848c8d0f455c600619e79873085637de",
+      "size": 257
+    },
+    {
+      "path": "runbooks/FINANCIAL-INVARIANT-FAILURE.md",
+      "sha256": "27e23cbfa68d72837aaf11f4436651e02a17c04045cbb7110d8319f5aab80981",
+      "size": 295
+    },
+    {
+      "path": "runbooks/PERFORMANCE-REGRESSION.md",
+      "sha256": "b440df8df95e880c57654b11c5ea059f2cab6fe0ef9801ba13c6c9978527cb36",
+      "size": 243
+    },
+    {
+      "path": "runbooks/SECURITY-FINDING.md",
+      "sha256": "55c0f78c0a927118d9d038eaf537ab709296b37b05e5c271941b492221ef2d48",
+      "size": 250
+    },
+    {
+      "path": "src/regenera_quality/__init__.py",
+      "sha256": "4465f5fb229c2c99e0402aa8ca9d52454f997e632a3583220549f70c9228fa03",
+      "size": 47
+    },
+    {
+      "path": "src/regenera_quality/accessibility.py",
+      "sha256": "6aa1ff5bea5b7de218af74f3dd14254ea7b7c4620a3de65d1ab80ba05bef47fc",
+      "size": 1554
+    },
+    {
+      "path": "src/regenera_quality/contracts.py",
+      "sha256": "11f0e606327fb82773b6a769cbdefed56a8f3c539ad449878827a727f3410f5f",
+      "size": 1473
+    },
+    {
+      "path": "src/regenera_quality/evidence.py",
+      "sha256": "1dfb613a429ab4007c441433d8a34f99cc93449b59e11621ff116ea4549c2d28",
+      "size": 1436
+    },
+    {
+      "path": "src/regenera_quality/financial.py",
+      "sha256": "d3b67e7dab0db96eee9ac7249bb96f01cbed0d619f4391f02de89c16cad91b4f",
+      "size": 1896
+    },
+    {
+      "path": "src/regenera_quality/gates.py",
+      "sha256": "7a88e9719bb2d06a4403fbeb74cad9cf9eee441c1933eeb647370fa22f346a3f",
+      "size": 2220
+    },
+    {
+      "path": "src/regenera_quality/money.py",
+      "sha256": "731affee279f8fa2d9d15de6398b35204d4e2b169ebc84b09849cf072a1e3ace",
+      "size": 1148
+    },
+    {
+      "path": "src/regenera_quality/mutation.py",
+      "sha256": "bb92ad02ad79e8241863443a51d43219897f30e952f10284b5217953707ffd9d",
+      "size": 736
+    },
+    {
+      "path": "src/regenera_quality/performance.py",
+      "sha256": "12c62154a2b5c5577e4e68930d0447bf6c3a0cf7fd9d459bcd350a7d57a176f1",
+      "size": 896
+    },
+    {
+      "path": "src/regenera_quality/resilience.py",
+      "sha256": "3fc8133c308c725f59c86cb5be9d56072d6f240ae5b5da776fe969b13ce18a62",
+      "size": 1526
+    },
+    {
+      "path": "src/regenera_quality/security.py",
+      "sha256": "86d32e1b90b8db381c646119d4e3fc295a96d62197ba4222d889ab9b5fe8fc86",
+      "size": 1137
+    },
+    {
+      "path": "src/regenera_quality/test_data.py",
+      "sha256": "9c502975cf793c74d952fc953aa380f4b72fc79968acb2b3b8a64800a924dacf",
+      "size": 730
+    },
+    {
+      "path": "tests/test_accessibility.py",
+      "sha256": "c4d1265e86d3992026420995724d7891e91d0dc9ee19dea72381fa4a3b75ceab",
+      "size": 989
+    },
+    {
+      "path": "tests/test_contracts.py",
+      "sha256": "c69aa022e23457ffa45864564c0cca71a1fc4a35063bc44b864d471ab1d5c54a",
+      "size": 1551
+    },
+    {
+      "path": "tests/test_evidence.py",
+      "sha256": "0b14a7d73ce2ad0b7a6c80fb8d2ad0f0be1160f3a951ade4eb2e2fb5a3bbc3f9",
+      "size": 1259
+    },
+    {
+      "path": "tests/test_financial.py",
+      "sha256": "119002aa8baffeda021cfbf8e4cb991e39fc4b74ec7153d60329375860443a81",
+      "size": 1816
+    },
+    {
+      "path": "tests/test_gates.py",
+      "sha256": "336aa45913757f0afe385829262fd5807ea21419fcd9c0f7cd41fdb2e128234e",
+      "size": 2604
+    },
+    {
+      "path": "tests/test_money.py",
+      "sha256": "f6f6b473b9e751a734b0031e3b1b8a8e02441f732d34d50f1576cd1ac2771f04",
+      "size": 970
+    },
+    {
+      "path": "tests/test_mutation.py",
+      "sha256": "013589cc6128a62621f0fae1596fd4981ece54bcc0748ecd5d21a97a506d3bad",
+      "size": 728
+    },
+    {
+      "path": "tests/test_performance.py",
+      "sha256": "feea1b89adebde6e7d93c5ed245b62caaabf95cd183c55a8da6f9a770bee3748",
+      "size": 870
+    },
+    {
+      "path": "tests/test_resilience.py",
+      "sha256": "f23d8a898cb0b983ea8dd75cc936ba60b36702a9884338222fab794cb7182c20",
+      "size": 1412
+    },
+    {
+      "path": "tests/test_security.py",
+      "sha256": "236aec0d3e6e8087fdf1437f7f1c132986be2a952a2da8f6f78d41ebef953ede",
+      "size": 1109
+    },
+    {
+      "path": "tests/test_test_data.py",
+      "sha256": "4c5f134d74b8cd36a37f205df5a465e94144d7cf50b9a74de377661fa42cc5b0",
+      "size": 910
+    },
+    {
+      "path": "tools/build.py",
+      "sha256": "d6ae76b39557943f3d1faa19f36718c03d9ffc80f86db2b08f0b51f7134d23ee",
+      "size": 1804
+    },
+    {
+      "path": "tools/clean.py",
+      "sha256": "22d89b5f305299f382941fe3078e2df661a0ac7f419d3c21328605da8a410191",
+      "size": 541
+    },
+    {
+      "path": "tools/clean_runtime.py",
+      "sha256": "871e99abb41d755e62cff2e66c8b9a1ddf20805f47d929ddb321bbcb2d719baa",
+      "size": 229
+    },
+    {
+      "path": "tools/evidence.py",
+      "sha256": "d649f3c0d51e6ace8fae203655f1751bcc79295809079a95b553691bc01e5b09",
+      "size": 1093
+    },
+    {
+      "path": "tools/run_tests.py",
+      "sha256": "ed88c48faa95570dce396af976f6cdaf0da73e5b81928bef79903f6017f671bd",
+      "size": 702
+    },
+    {
+      "path": "tools/security_scan.py",
+      "sha256": "ea61cc8bf0d57511c15c88f7cfcf2172662cac5913a946fc5551c06f40fc4387",
+      "size": 1136
+    },
+    {
+      "path": "tools/validate.py",
+      "sha256": "b97a310192f0d670eeb5ae83cfcf788e5ac64a965bbf169c23ec09355b58f61c",
+      "size": 679
+    },
+    {
+      "path": "tools/verify_release.py",
+      "sha256": "949e7bedbea49665a7644e107ef00ccccb27e7ef3b53bb34c1c2d69631f9f029",
+      "size": 910
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "exceptions": [],
+  "maximum_validity_hours": 24,
+  "retrospective_required": true,
+  "self_approval_forbidden": true
+}
