@@ -1,0 +1,40 @@
+name: DevSecOps Baseline
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  secret-scanning:
+    name: Gitleaks (Secret Detection)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Necessário para o Gitleaks ler todo o histórico do PR
+          
+      - name: Varrer credenciais vazadas
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITLEAKS_ENABLE_UPLOAD: true
+
+  vulnerability-scanning:
+    name: Trivy (SCA & IaC Scanner)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Varrer vulnerabilidades High/Critical no código e Dockerfiles
+        uses: aquasecurity/trivy-action@master
+        with:
+          scan-type: 'fs'
+          scan-ref: '.'
+          severity: 'HIGH,CRITICAL'
+          format: 'table'
+          exit-code: '1' # O '1' é a trava: quebra o build se achar falha grave
+          ignore-unfixed: true
